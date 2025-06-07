@@ -168,7 +168,7 @@ export default function HomePage() {
                 trusted source for premium spices and blends.
               </p>
               <p className="text-lg text-body mb-6">
-                Our founders grew up surrounded by the vibrant spice markets of Bangladesh, where they learned to
+                Our founders grew up surrounded by the vibrant spice markets of India, where they learned to
                 appreciate the finest quality products. They noticed that many people struggled to find authentic,
                 premium spices at fair prices, which inspired them to bridge this gap.
               </p>

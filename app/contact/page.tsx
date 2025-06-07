@@ -62,7 +62,7 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: "Address",
-      details: "123 Spice Street, Dhaka, Bangladesh",
+      details: "123 Indore, Madhya Pradesh, India",
       subtitle: "Visit our showroom",
     },
     {
@@ -233,7 +233,7 @@ export default function ContactPage() {
                 <div className="text-center">
                   <MapPin className="h-12 w-12 text-warm-brown mx-auto mb-2" />
                   <p className="text-heading font-medium">Interactive Map</p>
-                  <p className="text-sm text-body">123 Spice Street, Dhaka, Bangladesh</p>
+                  <p className="text-sm text-body">123 Indore, Madhya Pradesh, India</p>
                 </div>
               </div>
             </CardContent>
