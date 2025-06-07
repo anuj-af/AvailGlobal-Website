@@ -184,7 +184,7 @@ export default function AboutPage() {
                   height={200}
                   className="rounded-full mx-auto mb-6"
                 />
-                <h3 className="text-2xl font-semibold mb-2 text-heading">Ahmed Rahman</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-heading">Avani Tongia</h3>
                 <p className="text-warm-brown font-medium mb-4">Co-Founder & CEO</p>
                 <p className="text-body italic">
                   "Quality is not an act, it's a habit. We ensure every spice meets our highest standards."
@@ -201,7 +201,7 @@ export default function AboutPage() {
                   height={200}
                   className="rounded-full mx-auto mb-6"
                 />
-                <h3 className="text-2xl font-semibold mb-2 text-heading">Fatima Khan</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-heading">Vishnu Patni</h3>
                 <p className="text-warm-brown font-medium mb-4">Co-Founder & COO</p>
                 <p className="text-body italic">
                   "Our customers are family. We treat every order with the care we'd give our own loved ones."
