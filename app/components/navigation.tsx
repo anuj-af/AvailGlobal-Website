@@ -34,13 +34,10 @@ export default function Navigation() {
       }`}
     >
       <div className="container-max">
-        <div className="flex justify-between items-center h-16">
+        <div className="p-6 flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-warm-brown">
-              AvailGlobal
-              <div className="text-sm font-normal text-gray-600">Spices</div>
-            </div>
+            <img src="/logo.png" alt="AvailGlobal Logo" className="h-12 md:h-16"/>
           </Link>
 
           {/* Desktop Navigation */}

@@ -9,10 +9,12 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" })
 
 export const metadata: Metadata = {
-  title: "Spice & Weave - Premium Textiles, Spices & Pulses",
+  title: "AvailGlobal - Premium Textiles, Spices & Pulses",
   description: "Tradition Meets Taste – Your One-Stop Shop for Authentic Textiles, Spices, and Pulses",
   keywords: "textiles, spices, pulses, authentic, premium, Indian, wholesale",
-    generator: 'v0.dev'
+  icons:{
+    icon: "/icon.png",
+  }
 }
 
 export default function RootLayout({
