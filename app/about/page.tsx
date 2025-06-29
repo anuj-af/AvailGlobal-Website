@@ -98,7 +98,7 @@ export default function AboutPage() {
             </div>
             <div className="animate-slide-in-right">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/images/banner4.png"
                 alt="Our spice collection"
                 width={600}
                 height={500}

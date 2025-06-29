@@ -10,37 +10,37 @@ export default function HomePage() {
   const bestSellingProducts = [
     {
       id: "1",
-      name: "Turmeric Powder",
-      price: "₹95.00",
-      originalPrice: "₹120.00 INR",
-      image: "/placeholder.svg?height=200&width=200",
+      name: "Paisley Elegance Bedsheet",
+      price: "₹999.00",
+      originalPrice: "₹1,299.00",
+      image: "/images/bedsheets/1.jpeg",
       rating: 5,
     },
     {
       id: "2",
-      name: "Chili Powder",
-      price: "₹85.00 INR",
-      originalPrice: "₹100.00 INR",
-      image: "/placeholder.svg?height=200&width=200",
+      name: "Royal Blue Delight Bedsheet",
+      price: "₹899.00",
+      originalPrice: "₹1,199.00",
+      image: "/images/bedsheets/2.jpeg",
       rating: 5,
     },
     {
       id: "3",
-      name: "Garam Masala",
-      price: "₹65.00 INR",
-      originalPrice: "₹80.00 INR",
-      image: "/placeholder.svg?height=200&width=200",
+      name: "Sunset Bloom Bedsheet",
+      price: "₹950.00",
+      originalPrice: "₹1,150.00",
+      image: "/images/bedsheets/3.jpeg",
       rating: 5,
     },
     {
       id: "4",
-      name: "Chili Powder",
-      price: "₹85.00 INR",
-      originalPrice: "₹100.00 INR",
-      image: "/placeholder.svg?height=200&width=200",
+      name: "Ethnic Mandala Bedsheet",
+      price: "₹1,099.00",
+      originalPrice: "₹1,399.00",
+      image: "/images/bedsheets/4.jpeg",
       rating: 5,
     },
-  ]
+  ];
 
   const categories = [
     {
@@ -119,7 +119,7 @@ export default function HomePage() {
             <div className="animate-slide-in-right">
               <div className="relative">
                 <Image
-                  src="/banner3.png"
+                  src="/images/banner3.jpg"
                   alt="Fresh Spices Collection"
                   width={600}
                   height={500}
@@ -179,7 +179,7 @@ export default function HomePage() {
             </div>
             <div className="animate-slide-in-right">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/images/banner2.png"
                 alt="Our spice collection"
                 width={600}
                 height={500}

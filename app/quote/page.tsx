@@ -190,7 +190,7 @@ export default function QuotePage() {
                         className="mt-1 border-gray-200 focus:border-warm-brown"
                       />
                     </div>
-                    <div>
+                    {/* <div>
                       <Label htmlFor="urgency" className="text-heading">
                         Urgency
                       </Label>
@@ -208,7 +208,7 @@ export default function QuotePage() {
                           <SelectItem value="flexible">Flexible timeline</SelectItem>
                         </SelectContent>
                       </Select>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div>
