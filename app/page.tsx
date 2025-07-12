@@ -2,12 +2,13 @@
 
 import type React from "react"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Navigation from "./components/navigation"
-import Footer from "./components/footer"
+// import Footer from "./components/footer"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Star, Heart, ShoppingCart, Package, Leaf, Award, Users, Globe, Send } from "lucide-react"
+import { Card, CardContent } from "@/components/ui/card"
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
+import { Star, Heart, Award, Users, Globe, Send,  ChevronLeft, ChevronRight } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
@@ -15,60 +16,66 @@ import Image from "next/image"
 import { useToast } from "@/hooks/use-toast"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-
+import Autoplay from "embla-carousel-autoplay"
+import Footer from "./components/footer"
 
 
 export default function HomePage() {
-  const bestSellingProducts = [
-    {
-      id: "1",
-      name: "Paisley Elegance Bedsheet",
-      price: "₹999.00",
-      originalPrice: "₹1,299.00",
-      image: "/images/bedsheets/1.jpeg",
-      rating: 5,
-    },
-    {
-      id: "2",
-      name: "Royal Blue Delight Bedsheet",
-      price: "₹899.00",
-      originalPrice: "₹1,199.00",
-      image: "/images/bedsheets/2.jpeg",
-      rating: 5,
-    },
-    {
-      id: "3",
-      name: "Sunset Bloom Bedsheet",
-      price: "₹950.00",
-      originalPrice: "₹1,150.00",
-      image: "/images/bedsheets/3.jpeg",
-      rating: 5,
-    },
-    {
-      id: "4",
-      name: "Ethnic Mandala Bedsheet",
-      price: "₹1,099.00",
-      originalPrice: "₹1,399.00",
-      image: "/images/bedsheets/4.jpeg",
-      rating: 5,
-    },
-  ];
+  // const bestSellingProducts = [
+  //   {
+  //     id: "1",
+  //     name: "Paisley Elegance Bedsheet",
+  //     price: "₹999.00",
+  //     originalPrice: "₹1,299.00",
+  //     image: "/images/bedsheets/1.jpeg",
+  //     rating: 5,
+  //   },
+  //   {
+  //     id: "2",
+  //     name: "Royal Blue Delight Bedsheet",
+  //     price: "₹899.00",
+  //     originalPrice: "₹1,199.00",
+  //     image: "/images/bedsheets/2.jpeg",
+  //     rating: 5,
+  //   },
+  //   {
+  //     id: "3",
+  //     name: "Sunset Bloom Bedsheet",
+  //     price: "₹950.00",
+  //     originalPrice: "₹1,150.00",
+  //     image: "/images/bedsheets/3.jpeg",
+  //     rating: 5,
+  //   },
+  //   {
+  //     id: "4",
+  //     name: "Ethnic Mandala Bedsheet",
+  //     price: "₹1,099.00",
+  //     originalPrice: "₹1,399.00",
+  //     image: "/images/bedsheets/4.jpeg",
+  //     rating: 5,
+  //   },
+  // ];
 
-  const categories = [
+  const heroSlides = [
     {
-      icon: Package,
-      title: "Essential Spices",
-      description: "Premium Quailty - Indian Spices",
+      id: 1,
+      image: "/placeholder.svg?height=800&width=1400",
+      alt: "Premium Spices Collection",
     },
     {
-      icon: Leaf,
-      title: "Exotic Blends",
-      description: "Exceptional & Unique Textiles",
+      id: 2,
+      image: "/placeholder.svg?height=800&width=1400",
+      alt: "Quality Textiles",
     },
     {
-      icon: Award,
-      title: "Organic Pulses",
-      description: "Premium Quality - Indian Pulses",
+      id: 3,
+      image: "/placeholder.svg?height=800&width=1400",
+      alt: "Fresh Pulses",
+    },
+    {
+      id: 4,
+      image: "/placeholder.svg?height=800&width=1400",
+      alt: "Organic Products",
     },
   ]
 
@@ -131,7 +138,58 @@ export default function HomePage() {
     },
   ]
 
-    const brandLogos = [
+  const blogItems = [
+    {
+      id: 1,
+      title: "The Art of Spice Blending: Creating Perfect Flavor Combinations",
+      image: "/placeholder.svg?height=300&width=400",
+      date: "December 15, 2024",
+      slug: "art-of-spice-blending",
+      excerpt: "Discover the secrets behind creating harmonious spice blends that elevate your culinary creations.",
+    },
+    {
+      id: 2,
+      title: "Sustainable Sourcing: Our Journey to Ethical Spice Trading",
+      image: "/placeholder.svg?height=300&width=400",
+      date: "December 10, 2024",
+      slug: "sustainable-sourcing-journey",
+      excerpt: "Learn about our commitment to fair trade and sustainable farming practices.",
+    },
+    {
+      id: 3,
+      title: "Traditional Textile Weaving: Preserving Ancient Craftsmanship",
+      image: "/placeholder.svg?height=300&width=400",
+      date: "December 5, 2024",
+      slug: "traditional-textile-weaving",
+      excerpt: "Explore the rich heritage of traditional weaving techniques and their modern applications.",
+    },
+    {
+      id: 4,
+      title: "Health Benefits of Organic Pulses: Nutrition Meets Taste",
+      image: "/placeholder.svg?height=300&width=400",
+      date: "November 28, 2024",
+      slug: "health-benefits-organic-pulses",
+      excerpt: "Discover how organic pulses can boost your health while adding flavor to your meals.",
+    },
+    {
+      id: 5,
+      title: "From Farm to Table: The Journey of Premium Spices",
+      image: "/placeholder.svg?height=300&width=400",
+      date: "November 20, 2024",
+      slug: "farm-to-table-journey",
+      excerpt: "Follow the complete journey of our spices from cultivation to your kitchen.",
+    },
+    {
+      id: 6,
+      title: "Seasonal Cooking: Best Spices for Winter Warmth",
+      image: "/placeholder.svg?height=300&width=400",
+      date: "November 15, 2024",
+      slug: "seasonal-cooking-winter",
+      excerpt: "Warm up your winter meals with these essential spices and seasonal recipes.",
+    },
+  ]
+
+  const brandLogos = [
     { name: "Brand 1", logo: "/placeholder.svg?height=60&width=120" },
     { name: "Brand 2", logo: "/placeholder.svg?height=60&width=120" },
     { name: "Brand 3", logo: "/placeholder.svg?height=60&width=120" },
@@ -140,6 +198,7 @@ export default function HomePage() {
     { name: "Brand 6", logo: "/placeholder.svg?height=60&width=120" },
   ]
 
+  
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -151,7 +210,28 @@ export default function HomePage() {
     urgency: "",
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [currentSlide, setCurrentSlide] = useState(0)
   const { toast } = useToast()
+  
+  // Auto-advance carousel
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % heroSlides.length)
+    }, 5000)
+    return () => clearInterval(timer)
+  }, [heroSlides.length])
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % heroSlides.length)
+  }
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length)
+  }
+
+  const goToSlide = (index: number) => {
+    setCurrentSlide(index)
+  }
 
   const handleCategoryChange = (category: string, checked: boolean) => {
     setFormData((prev) => ({
@@ -194,7 +274,7 @@ export default function HomePage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="section-padding hero-pattern">
+      {/* <section className="section-padding hero-pattern">
         <div className="container-max">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
@@ -218,6 +298,78 @@ export default function HomePage() {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </section> */}
+      <section className="relative h-[70vh] overflow-hidden">
+        {/* Background Images */}
+        <div className="absolute inset-0">
+          {heroSlides.map((slide, index) => (
+            <div
+              key={slide.id}
+              className={`absolute inset-0 transition-opacity duration-5000 ${
+                index === currentSlide ? "opacity-100" : "opacity-0"
+              }`}
+            >
+              <Image
+                src={slide.image || "/placeholder.svg"}
+                alt={slide.alt}
+                fill
+                className="object-cover"
+                priority={index === 0}
+              />
+              <div className="absolute inset-0 bg-black/20"></div>
+            </div>
+          ))}
+        </div>
+
+        {/* Carousel Controls */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
+          <div className="flex items-center space-x-6">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={prevSlide}
+              className="w-8 h-8 rounded-full border-white/30 text-white hover:bg-white hover:text-gray-900 backdrop-blur-sm bg-white/10"
+            >
+              <ChevronLeft className="h-2 w-2" />
+            </Button>
+
+            <div className="flex space-x-3">
+              {heroSlides.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => goToSlide(index)}
+                  className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                    index === currentSlide ? "bg-white scale-125" : "bg-white/50 hover:bg-white/80"
+                  }`}
+                />
+              ))}
+            </div>
+
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={nextSlide}
+              className="w-8 h-8 rounded-full border-white/30 text-white hover:bg-white hover:text-gray-900 backdrop-blur-sm bg-white/10"
+            >
+              <ChevronRight className="h-5 w-5" />
+            </Button>
+          </div>
+        </div>
+
+        {/* Optional overlay content */}
+        <div className="absolute inset-0 flex items-center justify-center z-10">
+          <div className="text-center text-white max-w-4xl px-4">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 animate-fade-in">
+              Discover the Essence of Fresh
+            </h1>
+            <p className="text-xl md:text-xl mb-12 animate-slide-up">
+              Crafted with passion and tradition, bringing authentic flavors to your kitchen
+            </p>
+            <Button className="bg-warm-brown hover:bg-dark-brown text-white px-8 py-6 text-lg rounded-lg shadow-xl animate-slide-up">
+              View Products
+            </Button>
           </div>
         </div>
       </section>
@@ -365,8 +517,74 @@ export default function HomePage() {
         </div>
       </section> */}
 
+      {/* AvailGlobal Blogs Section */}
+      <section className="section-padding relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0 bg-[url('/placeholder.svg?height=100&width=100')] bg-repeat opacity-20"></div>
+        </div>
+
+        <div className="container-max relative z-10">
+          <div className="flex flex-col lg:flex-row items-start gap-8">
+            {/* Left side - Title */}
+            <div className="lg:w-1/4 mb-8 lg:mb-0">
+              <div className="animate-slide-in-left">
+                <h2 className="text-3xl lg:text-4xl font-bold mb-4">Blogs</h2>
+                <p className="text-xl lg:text-2xl font-bold">By AvailGlobal</p>
+                <div className="w-16 h-1 bg-dark-brown mt-4"></div>
+              </div>
+            </div>
+
+            {/* Right side - Blog Cards Carousel */}
+            <div className="w-full relative">
+              <Carousel className="w-full" opts={{ loop: true }} plugins={[Autoplay({ delay: 4000 })]}>
+                <CarouselContent className="-ml-4 mt-2 mb-2">
+                  {blogItems.map((item, index) => (
+                    <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3 mt-4 md:mt-0">
+                      <div className="bg-white rounded-xl overflow-hidden shadow-lg h-full hover-lift transition-all duration-300">
+                        <div className="h-48  relative overflow-hidden flex items-center justify-center">
+                          <Image
+                            src={item.image || "/placeholder.svg"}
+                            alt={item.title}
+                            fill
+                            className="object-cover"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                        </div>
+                        <div className="p-6">
+                          <div className="flex items-center justify-between mb-3">
+                            <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
+                              {item.date}
+                            </span>
+                          </div>
+                          <h3 className="font-semibold text-lg line-clamp-2 text-heading mb-3">{item.title}</h3>
+                          <p className="text-sm text-body line-clamp-2 mb-4">{item.excerpt}</p>
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            className="text-warm-brown hover:text-dark-brown p-0 h-auto font-medium"
+                          >
+                            Read More →
+                          </Button>
+                        </div>
+                      </div>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                {/* Mobile arrows */}
+                <CarouselPrevious className="left-2 sm:hidden bg-white/90 hover:bg-white" />
+                <CarouselNext className="right-2 sm:hidden bg-white/90 hover:bg-white" />
+                {/* Desktop arrows */}
+                <CarouselPrevious className="-left-12 bg-white/90 hover:bg-white" />
+                <CarouselNext className="-right-12 bg-white/90 hover:bg-white" />
+              </Carousel>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Customer Testimonials */}
-      <section className="section-padding">
+      <section className="section-padding bg-light-beige">
         <div className="container-max">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-heading mb-4">What Our Customers Say</h2>
@@ -399,7 +617,7 @@ export default function HomePage() {
       </section>
 
       {/* Brand Partners Slider */}
-      <section className="section-padding bg-light-beige">
+      <section className="section-padding">
         <div className="container-max">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-heading mb-4">Trusted by Leading Brands</h2>
@@ -550,7 +768,7 @@ export default function HomePage() {
       </section> */}
 
       {/* Get Quote Form */}
-      <section className="section-padding">
+      <section className="section-padding bg-light-beige">
         <div className="container-max">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
@@ -708,6 +926,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   )
 }

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X, ShoppingCart, Search, User, Heart } from "lucide-react"
+import { Menu, X, Facebook, Linkedin, Instagram, ShoppingCart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useCart } from "../context/cart-context"
 
@@ -21,9 +21,9 @@ export default function Navigation() {
 
   const navItems = [
     { href: "/", label: "Home" },
-    { href: "/products", label: "All products" },
     { href: "/about", label: "About Us" },
-    { href: "/contact", label: "Contact Us" },
+    { href: "/products", label: "All products" },
+    // { href: "/contact", label: "Contact Us" },
     { href: "/quote", label: "Get Quote" },
   ]
 
@@ -56,12 +56,12 @@ export default function Navigation() {
           {/* Right Side Icons */}
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost" size="sm">
-              <Search className="h-5 w-5 text-gray-600" />
+              <Instagram className="h-5 w-5 text-gray-600" />
             </Button>
             <Button variant="ghost" size="sm">
-              <Heart className="h-5 w-5 text-gray-600" />
+              <Facebook className="h-5 w-5 text-gray-600" />
             </Button>
-            <Link href="/cart">
+            {/* <Link href="/cart">
               <Button variant="ghost" size="sm" className="relative">
                 <ShoppingCart className="h-5 w-5 text-gray-600" />
                 {state.items.length > 0 && (
@@ -70,15 +70,15 @@ export default function Navigation() {
                   </span>
                 )}
               </Button>
-            </Link>
+            </Link> */}
             <Button variant="ghost" size="sm">
-              <User className="h-5 w-5 text-gray-600" />
+              <Linkedin className="h-5 w-5 text-gray-600" />
             </Button>
           </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-2">
-            <Link href="/cart" className="relative">
+            {/* <Link href="/cart" className="relative">
               <Button variant="ghost" size="sm">
                 <ShoppingCart className="h-5 w-5" />
                 {state.items.length > 0 && (
@@ -87,7 +87,7 @@ export default function Navigation() {
                   </span>
                 )}
               </Button>
-            </Link>
+            </Link> */}
             <button onClick={() => setIsOpen(!isOpen)} className="text-gray-700">
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
