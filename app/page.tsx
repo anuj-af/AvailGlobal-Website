@@ -81,60 +81,60 @@ export default function HomePage() {
 
   const testimonials = [
     {
-      name: "Vishnu",
+      name: "Anuj",
       rating: 5,
       comment: "The Spices were Soo Good!",
-      details: "AvailGlobal spices transformed my cooking! The quality is exceptional and the flavors are authentic.",
+      details: "AvailGlobal textiles transformed my business! The quality is exceptional and authentic.",
     },
     {
-      name: "Avani",
+      name: "Renam",
       rating: 5,
       comment: "Excellent Quality!",
-      details: "Best spices I've ever used. Fresh, aromatic, and perfectly ground.",
+      details: "Best gifting products I've ever used. Fresh, aromatic, and perfectly ground.",
     },
   ]
 
   const values = [
     {
       icon: Award,
-      title: "Premium Quality",
-      description: "We source only the finest spices from trusted farms and suppliers worldwide.",
+      title: "Uncompromised Quality",
+      description: "We source and deliver the finest quality materials - be it textiles, garments, or gifting products.",
     },
     {
       icon: Users,
-      title: "Customer First",
-      description: "Your satisfaction is our priority. We're committed to exceptional service.",
+      title: "Wide Product Range",
+      description: "From premium bed linens and ready-to-wear fashion to customizable corporate gifts.",
     },
     {
       icon: Globe,
-      title: "Sustainable Sourcing",
-      description: "We support sustainable farming practices and fair trade partnerships.",
+      title: "Competitive Pricing",
+      description: "We offer the perfect balance of price and quality, ensuring you get the maximum value.",
     },
     {
       icon: Heart,
-      title: "Passion for Flavor",
-      description: "Our love for authentic flavors drives everything we do.",
+      title: "One-Stop Solution",
+      description: "With expertise across multiple categories, we’re your single point of contact for all needs.",
     },
   ]
 
   const industries = [
     {
-      title: "Spices Industry",
-      description: "Premium spices and seasonings for restaurants, food manufacturers, and culinary professionals",
+      title: "Textile",
+      description: "Our collection features high-quality bedsheets, cozy comforters, supportive pillows, and elegant quilts—crafted from breathable fabrics like cotton and linen.",
       image: "/placeholder.svg?height=300&width=400",
-      stats: "500+ Products",
+      stats: "50+ Products",
     },
     {
-      title: "Textile Industry",
-      description: "High-quality fabrics and textiles for fashion designers, manufacturers, and retailers",
+      title: "Readymade Garments",
+      description: "AvailGlobal delivers high-quality ready-made garments tailored for fashion retailers, designers, and private labels seeking comfort, durability, and trend-forward style.",
       image: "/placeholder.svg?height=300&width=400",
-      stats: "200+ Varieties",
+      stats: "20+ Variants",
     },
     {
-      title: "Pulses Industry",
-      description: "Nutritious pulses and legumes for food processors, wholesalers, and health-conscious consumers",
+      title: "Corporate Giftings",
+      description: "Explore our versatile collection featuring branded office accessories, luxury gift hampers, sustainable corporate gifts, festive gifting kits, and innovative tech gadgets.",
       image: "/placeholder.svg?height=300&width=400",
-      stats: "100+ Types",
+      stats: "40+ Types",
     },
   ]
 
@@ -367,9 +367,9 @@ export default function HomePage() {
             <p className="text-xl md:text-xl mb-12 animate-slide-up">
               Crafted with passion and tradition, bringing authentic flavors to your kitchen
             </p>
-            <Button className="bg-warm-brown hover:bg-dark-brown text-white px-8 py-6 text-lg rounded-lg shadow-xl animate-slide-up">
+            {/* <Button className="bg-warm-brown hover:bg-dark-brown text-white px-8 py-6 text-lg rounded-lg shadow-xl animate-slide-up">
               View Products
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>
@@ -409,23 +409,23 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Story Section */}
+      {/* About Us Section */}
       <section className="section-padding">
         <div className="container-max">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
               <h2 className="text-3xl md:text-4xl font-bold text-heading mb-6">About AvailGlobal</h2>
               <p className="text-lg text-body mb-6">
-                Founded with a vision to bridge the gap between traditional quality and modern convenience, 
-                AvailGlobal has grown to become India's trusted partner for premium spices, textiles, and pulses.
+                A journey rooted in quality, creativity, and trust—bringing premium textiles, stylish garments, and 
+                thoughtful corporate gifts that elevate every experience.
+              </p>
+              <p className="text-lg font-bold text-body mb-6">
+                From Tradition to Innovation
               </p>
               <p className="text-lg text-body mb-6">
-                Our commitment to excellence drives us to source only the finest products from trusted suppliers
-                 worldwide, ensuring that every item meets our rigorous quality standards.
-              </p>
-              <p className="text-lg text-body mb-6">
-                Today, we work directly with farmers and suppliers to bring you spices that are not just of exceptional
-                quality, but also support sustainable livelihoods and preserve traditional cultivation methods.
+                AvailGlobal was founded with a clear mission: to make premium textiles, ready-to-wear fashion, and customized 
+                corporate gifts easily accessible to businesses and consumers alike. What began as a small venture has now grown 
+                into a trusted brand known for quality, reliability, and thoughtful design.
               </p>
               <Button className="btn-secondary bg-cream hover:bg-warm-brown">Learn More About Us</Button>
             </div>

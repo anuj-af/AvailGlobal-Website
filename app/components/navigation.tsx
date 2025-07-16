@@ -88,6 +88,16 @@ export default function Navigation() {
                 )}
               </Button>
             </Link> */}
+
+            {/* Social Media Icons for Mobile */}
+            <Button variant="ghost">
+              <Instagram className="h-12 w-12 text-gray-600" />
+            </Button>
+            <Button variant="ghost">
+              <Linkedin className="h-12 w-12 text-gray-600" />
+            </Button>
+
+            {/* Hamburger Menu Button */}
             <button onClick={() => setIsOpen(!isOpen)} className="text-gray-700">
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>

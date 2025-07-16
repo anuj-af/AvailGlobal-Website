@@ -320,10 +320,10 @@ export default function ProductsPage() {
                     <span className="text-sm text-gray-500 ml-1">per {product.unit}</span>
                   </div>
                 </div>
-                <Button onClick={() => handleAddToCart(product)} className="btn-primary w-full">
+                {/* <Button onClick={() => handleAddToCart(product)} className="btn-primary w-full">
                   <ShoppingCart className="h-4 w-4 mr-2" />
                   Add to Cart
-                </Button>
+                </Button> */}
               </div>
             </Card>
           ))}

@@ -8,23 +8,23 @@ export default function AboutPage() {
   const values = [
     {
       icon: Award,
-      title: "Premium Quality",
-      description: "We source only the finest spices from trusted farms and suppliers worldwide.",
+      title: "Quality Without Compromise",
+      description: "We deliver premium textiles, stylish garments, and high quality corporate gifts.",
     },
     {
       icon: Users,
-      title: "Customer First",
-      description: "Your satisfaction is our priority. We're committed to exceptional service.",
+      title: "⁠Customer Centric Solutions",
+      description: "Every product is tailored to your needs - whether it’s bulk orders, personalized gifts or apparel.",
     },
     {
       icon: Globe,
-      title: "Sustainable Sourcing",
-      description: "We support sustainable farming practices and fair trade partnerships.",
+      title: "Ethical & Sustainable Practices",
+      description: "We source responsibly, supporting eco-friendly production and fair labor.",
     },
     {
       icon: Heart,
-      title: "Passion for Flavor",
-      description: "Our love for authentic flavors drives everything we do.",
+      title: "⁠Innovation Meets Tradition",
+      description: "We fuse modern design with timeless craftsmanship to offer unique, impactful products.",
     },
   ]
 
@@ -70,7 +70,7 @@ export default function AboutPage() {
         <div className="container-max text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-heading mb-6">About AvailGlobal</h1>
           <p className="text-xl text-body max-w-3xl mx-auto">
-            A journey of passion, quality, and authentic flavors that bring the world's finest spices to your kitchen
+            A journey rooted in quality, creativity, and trust—bringing premium textiles, stylish garments, and thoughtful corporate gifts that elevate every experience.
           </p>
         </div>
       </section>
@@ -82,18 +82,19 @@ export default function AboutPage() {
             <div className="animate-slide-in-left">
               <h2 className="text-3xl md:text-4xl font-bold text-heading mb-6">From Tradition to Your Table</h2>
               <p className="text-lg text-body mb-6">
-                AvailGlobal was born from a simple belief: everyone deserves access to authentic, high-quality spices
-                that connect them to rich culinary traditions. What started as a small family business has grown into a
-                trusted source for premium spices and blends.
+                AvailGlobal was founded with a clear mission: to make premium textiles, ready-to-wear fashion, 
+                and customized corporate gifts easily accessible to businesses and consumers alike. What began 
+                as a small venture has now grown into a trusted brand known for quality, reliability, and thoughtful design.
               </p>
               <p className="text-lg text-body mb-6">
-                Our founders grew up surrounded by the vibrant spice markets of India, where they learned to
-                appreciate the finest quality products. They noticed that many people struggled to find authentic,
-                premium spices at fair prices, which inspired them to bridge this gap.
+                Our roots lie in India’s rich heritage of textile craftsmanship and garment production. Inspired 
+                by timeless traditions and evolving market needs, our founders saw a growing demand for authentic, 
+                high-quality products—delivered with professionalism and a modern touch.
               </p>
               <p className="text-lg text-body">
-                Today, we work directly with farmers and suppliers to bring you spices that are not just of exceptional
-                quality, but also support sustainable livelihoods and preserve traditional cultivation methods.
+                Today, AvailGlobal collaborates with skilled manufacturers, local artisans, and trusted suppliers to offer 
+                a diverse range of products, including cotton bed sheets, stylish apparel, and corporate gift sets. We focus 
+                on quality, customization, and timely delivery—helping brands make a lasting impression.
               </p>
             </div>
             <div className="animate-slide-in-right">
@@ -201,7 +202,7 @@ export default function AboutPage() {
                   height={200}
                   className="rounded-full mx-auto mb-6"
                 />
-                <h3 className="text-2xl font-semibold mb-2 text-heading">Vishnu Patni</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-heading">Vishu Patni</h3>
                 <p className="text-warm-brown font-medium mb-4">Co-Founder & COO</p>
                 <p className="text-body italic">
                   "Our customers are family. We treat every order with the care we'd give our own loved ones."
