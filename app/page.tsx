@@ -18,6 +18,7 @@ import { Checkbox } from "@/components/ui/checkbox"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Autoplay from "embla-carousel-autoplay"
 import Footer from "./components/footer"
+import Link from "next/link";
 
 
 export default function HomePage() {
@@ -83,13 +84,13 @@ export default function HomePage() {
     {
       name: "Anuj",
       rating: 5,
-      comment: "The Spices were Soo Good!",
+      comment: "The Quality Was Soo Good!",
       details: "AvailGlobal textiles transformed my business! The quality is exceptional and authentic.",
     },
     {
       name: "Renam",
       rating: 5,
-      comment: "Excellent Quality!",
+      comment: "Premium Products!",
       details: "Best gifting products I've ever used. Fresh, aromatic, and perfectly ground.",
     },
   ]
@@ -427,7 +428,9 @@ export default function HomePage() {
                 corporate gifts easily accessible to businesses and consumers alike. What began as a small venture has now grown 
                 into a trusted brand known for quality, reliability, and thoughtful design.
               </p>
-              <Button className="btn-secondary bg-cream hover:bg-warm-brown">Learn More About Us</Button>
+              <Button asChild className="btn-secondary bg-cream hover:bg-warm-brown">
+                <Link href="/about">Learn More About Us</Link>
+              </Button>
             </div>
             <div className="animate-slide-in-right">
               <Image

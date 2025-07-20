@@ -8,7 +8,8 @@ export interface Product {
   name: string
   price: number
   image: string
-  category: "textiles" | "spices" | "pulses"
+  category: "textiles" | "garments" | "giftings"
+  subcategory: "quilts" | ""
   unit: string
   description: string
 }

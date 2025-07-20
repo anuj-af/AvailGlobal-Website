@@ -28,39 +28,6 @@ export default function AboutPage() {
     },
   ]
 
-  const timeline = [
-    {
-      year: "2018",
-      title: "The Beginning",
-      description: "Started as a small family business with a vision to bring authentic spices to every kitchen.",
-    },
-    {
-      year: "2019",
-      title: "First Milestone",
-      description: "Reached 1000+ satisfied customers and expanded our spice collection.",
-    },
-    {
-      year: "2020",
-      title: "Digital Growth",
-      description: "Launched our online platform to serve customers across India.",
-    },
-    {
-      year: "2021",
-      title: "Product Expansion",
-      description: "Added exotic blends and chef's selection to our product range.",
-    },
-    {
-      year: "2022",
-      title: "Quality Certification",
-      description: "Received quality certifications and established partnerships with premium farms.",
-    },
-    {
-      year: "2023",
-      title: "Growing Strong",
-      description: "Serving 10,000+ customers with 100+ premium spice products.",
-    },
-  ]
-
   return (
     <div className="min-h-screen bg-cream">
       <Navigation />
@@ -130,39 +97,6 @@ export default function AboutPage() {
                 </CardContent>
               </Card>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Timeline Section */}
-      <section className="section-padding">
-        <div className="container-max">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-heading mb-4">Our Journey</h2>
-            <p className="text-lg text-body">Milestones that shaped our story</p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="relative">
-              <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-warm-brown/20"></div>
-              {timeline.map((item, index) => (
-                <div
-                  key={index}
-                  className={`relative flex items-center mb-12 ${index % 2 === 0 ? "justify-start" : "justify-end"}`}
-                >
-                  <div className={`w-1/2 ${index % 2 === 0 ? "pr-8 text-right" : "pl-8 text-left"}`}>
-                    <Card className="p-6 shadow-lg bg-white hover-lift">
-                      <CardContent className="p-0">
-                        <div className="text-2xl font-bold text-warm-brown mb-2">{item.year}</div>
-                        <h3 className="text-xl font-semibold mb-2 text-heading">{item.title}</h3>
-                        <p className="text-body">{item.description}</p>
-                      </CardContent>
-                    </Card>
-                  </div>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-warm-brown rounded-full border-4 border-white shadow-lg"></div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>

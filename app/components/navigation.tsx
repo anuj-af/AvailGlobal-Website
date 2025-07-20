@@ -55,12 +55,16 @@ export default function Navigation() {
 
           {/* Right Side Icons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" size="sm">
-              <Instagram className="h-5 w-5 text-gray-600" />
-            </Button>
-            <Button variant="ghost" size="sm">
-              <Facebook className="h-5 w-5 text-gray-600" />
-            </Button>
+            <Link href="https://www.instagram.com/availglobal/" target="_blank">
+              <Button variant="ghost" size="sm">
+                <Instagram className="h-5 w-5 text-gray-600" />
+              </Button>
+            </Link>
+            <Link href="/" target="_blank">
+              <Button variant="ghost" size="sm">
+                <Facebook className="h-5 w-5 text-gray-600" />
+              </Button>
+            </Link>
             {/* <Link href="/cart">
               <Button variant="ghost" size="sm" className="relative">
                 <ShoppingCart className="h-5 w-5 text-gray-600" />
@@ -71,9 +75,11 @@ export default function Navigation() {
                 )}
               </Button>
             </Link> */}
-            <Button variant="ghost" size="sm">
-              <Linkedin className="h-5 w-5 text-gray-600" />
-            </Button>
+            <Link href="/" target="_blank">
+              <Button variant="ghost" size="sm">
+                <Linkedin className="h-5 w-5 text-gray-600" />
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -90,12 +96,16 @@ export default function Navigation() {
             </Link> */}
 
             {/* Social Media Icons for Mobile */}
-            <Button variant="ghost">
-              <Instagram className="h-12 w-12 text-gray-600" />
-            </Button>
-            <Button variant="ghost">
-              <Linkedin className="h-12 w-12 text-gray-600" />
-            </Button>
+            <Link href="https://www.instagram.com/availglobal/" target="_blank">
+              <Button variant="ghost">
+                <Instagram className="h-12 w-12 text-gray-600" />
+              </Button>
+            </Link>
+            <Link href="/" target="_blank">
+              <Button variant="ghost">
+                <Linkedin className="h-12 w-12 text-gray-600" />
+              </Button>
+            </Link>
 
             {/* Hamburger Menu Button */}
             <button onClick={() => setIsOpen(!isOpen)} className="text-gray-700">
