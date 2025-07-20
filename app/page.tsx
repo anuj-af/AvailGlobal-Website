@@ -840,7 +840,7 @@ export default function HomePage() {
                   <div>
                     <Label className="text-heading font-medium">Industries of Interest *</Label>
                     <div className="mt-3 grid grid-cols-1 md:grid-cols-3 gap-4">
-                      {["Spices", "Textiles", "Pulses"].map((category) => (
+                      {["Textiles", "Readymade Garments", "Corporate Giftings"].map((category) => (
                         <div
                           key={category}
                           className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:border-warm-brown transition-colors"

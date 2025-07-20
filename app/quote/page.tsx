@@ -162,7 +162,7 @@ export default function QuotePage() {
                   <div>
                     <Label className="text-heading">Product Categories of Interest *</Label>
                     <div className="mt-2 space-y-2">
-                      {["Essential Spices", "Exotic Textile", "Premium Pulses"].map((category) => (
+                      {["Textiles", "Readymade Garments", "Corporate Giftings"].map((category) => (
                         <div key={category} className="flex items-center space-x-2">
                           <Checkbox
                             id={category}
