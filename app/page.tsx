@@ -61,22 +61,20 @@ export default function HomePage() {
     {
       id: 1,
       image: "/placeholder.svg?height=800&width=1400",
+      video:"/vid1.mp4",
       alt: "Premium Spices Collection",
     },
     {
       id: 2,
       image: "/placeholder.svg?height=800&width=1400",
+      video:"/vid2.mp4",
       alt: "Quality Textiles",
     },
     {
       id: 3,
       image: "/placeholder.svg?height=800&width=1400",
+      video:"/vid3.mp4",
       alt: "Fresh Pulses",
-    },
-    {
-      id: 4,
-      image: "/placeholder.svg?height=800&width=1400",
-      alt: "Organic Products",
     },
   ]
 
@@ -122,19 +120,19 @@ export default function HomePage() {
     {
       title: "Textile",
       description: "Our collection features high-quality bedsheets, cozy comforters, supportive pillows, and elegant quilts—crafted from breathable fabrics like cotton and linen.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/textile.png",
       stats: "50+ Products",
     },
     {
       title: "Readymade Garments",
       description: "AvailGlobal delivers high-quality ready-made garments tailored for fashion retailers, designers, and private labels seeking comfort, durability, and trend-forward style.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/garments.png",
       stats: "20+ Variants",
     },
     {
       title: "Corporate Giftings",
       description: "Explore our versatile collection featuring branded office accessories, luxury gift hampers, sustainable corporate gifts, festive gifting kits, and innovative tech gadgets.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/gifting.png",
       stats: "40+ Types",
     },
   ]
@@ -142,53 +140,37 @@ export default function HomePage() {
   const blogItems = [
     {
       id: 1,
-      title: "The Art of Spice Blending: Creating Perfect Flavor Combinations",
-      image: "/placeholder.svg?height=300&width=400",
-      date: "December 15, 2024",
-      slug: "art-of-spice-blending",
-      excerpt: "Discover the secrets behind creating harmonious spice blends that elevate your culinary creations.",
+      title: "Top Textile Trends for 2025: Innovations in Fabric & Design",
+      image: "/images/blogs/blog1.png",
+      date: "June 18, 2025",
+      slug: "top-textile-trends-2025",
+      excerpt: "Explore the latest innovations shaping the textile industry, including sustainable materials, digital printing, and smart fabrics.",
     },
     {
       id: 2,
-      title: "Sustainable Sourcing: Our Journey to Ethical Spice Trading",
-      image: "/placeholder.svg?height=300&width=400",
-      date: "December 10, 2024",
-      slug: "sustainable-sourcing-journey",
-      excerpt: "Learn about our commitment to fair trade and sustainable farming practices.",
+      title: "Corporate Gifting: How to Make Lasting Impressions",
+      image: "/images/blogs/blog2.png",
+      date: "May 27, 2025",
+      slug: "corporate-gifting-tips",
+      excerpt: "Discover creative and impactful corporate gifting ideas that strengthen client relationships and boost brand loyalty.",
     },
     {
       id: 3,
-      title: "Traditional Textile Weaving: Preserving Ancient Craftsmanship",
-      image: "/placeholder.svg?height=300&width=400",
-      date: "December 5, 2024",
-      slug: "traditional-textile-weaving",
-      excerpt: "Explore the rich heritage of traditional weaving techniques and their modern applications.",
+      title: "Choosing the Right Readymade Garments for Every Season",
+      image: "/images/blogs/blog3.png",
+      date: "May 14, 2025",
+      slug: "readymade-garments-guide",
+      excerpt: "A practical guide to selecting high-quality readymade garments that fit every season and occasion.",
     },
     {
       id: 4,
-      title: "Health Benefits of Organic Pulses: Nutrition Meets Taste",
-      image: "/placeholder.svg?height=300&width=400",
-      date: "November 28, 2024",
-      slug: "health-benefits-organic-pulses",
-      excerpt: "Discover how organic pulses can boost your health while adding flavor to your meals.",
+      title: "Sustainability in Textiles: AvailGlobal’s Commitment to a Greener Future",
+      image: "/images/blogs/blog4.png",
+      date: "April 28, 2025",
+      slug: "sustainable-textiles",
+      excerpt: "Learn how AvailGlobal integrates eco-friendly practices into textile manufacturing while maintaining product excellence.",
     },
-    {
-      id: 5,
-      title: "From Farm to Table: The Journey of Premium Spices",
-      image: "/placeholder.svg?height=300&width=400",
-      date: "November 20, 2024",
-      slug: "farm-to-table-journey",
-      excerpt: "Follow the complete journey of our spices from cultivation to your kitchen.",
-    },
-    {
-      id: 6,
-      title: "Seasonal Cooking: Best Spices for Winter Warmth",
-      image: "/placeholder.svg?height=300&width=400",
-      date: "November 15, 2024",
-      slug: "seasonal-cooking-winter",
-      excerpt: "Warm up your winter meals with these essential spices and seasonal recipes.",
-    },
-  ]
+  ];
 
   const brandLogos = [
     { name: "Brand 1", logo: "/placeholder.svg?height=60&width=120" },
@@ -312,12 +294,29 @@ export default function HomePage() {
                 index === currentSlide ? "opacity-100" : "opacity-0"
               }`}
             >
-              <Image
+              {/* <Image
                 src={slide.image || "/placeholder.svg"}
                 alt={slide.alt}
                 fill
                 className="object-cover"
                 priority={index === 0}
+              /> */}
+              <video
+                ref={(el) => {
+                  if (el) {
+                    if (index === currentSlide) {
+                      el.play()
+                    } else {
+                      el.pause()
+                    }
+                  }
+                }}
+                src={slide.video}
+                // poster={slide.image}
+                muted
+                loop
+                playsInline
+                className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black/20"></div>
             </div>
@@ -363,10 +362,10 @@ export default function HomePage() {
         <div className="absolute inset-0 flex items-center justify-center z-10">
           <div className="text-center text-white max-w-4xl px-4">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 animate-fade-in">
-              Discover the Essence of Fresh
+              Discover the Essence of Tradition
             </h1>
             <p className="text-xl md:text-xl mb-12 animate-slide-up">
-              Crafted with passion and tradition, bringing authentic flavors to your kitchen
+              Crafted with passion and tradition, bringing authentic products to you
             </p>
             {/* <Button className="bg-warm-brown hover:bg-dark-brown text-white px-8 py-6 text-lg rounded-lg shadow-xl animate-slide-up">
               View Products
