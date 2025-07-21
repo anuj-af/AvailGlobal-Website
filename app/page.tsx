@@ -173,12 +173,11 @@ export default function HomePage() {
   ];
 
   const brandLogos = [
-    { name: "Brand 1", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Brand 2", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Brand 3", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Brand 4", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Brand 5", logo: "/placeholder.svg?height=60&width=120" },
-    { name: "Brand 6", logo: "/placeholder.svg?height=60&width=120" },
+    { name: "C21", logo: "/images/brands/c21.png" },
+    { name: "Adven Tyre", logo: "/images/brands/adven.png" },
+    { name: "BJP", logo: "/images/brands/bjp.png" },
+    { name: "Tata Power Lux", logo: "/images/brands/tata.png" },
+    { name: "Eicher", logo: "/images/brands/eicher.png" },
   ]
 
   
@@ -627,18 +626,18 @@ export default function HomePage() {
           </div>
 
           <div className="relative overflow-hidden">
-            <div className="flex animate-slide space-x-12 items-center">
+            <div className="flex animate-slide space-x-16 items-center">
               {[...brandLogos, ...brandLogos].map((brand, index) => (
                 <div
                   key={index}
-                  className="flex-shrink-0 w-32 h-16 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300"
+                  className="flex-shrink-0 w-32 h-16 flex items-center justify-center transition-all duration-300"
                 >
                   <Image
                     src={brand.logo || "/placeholder.svg"}
                     alt={brand.name}
                     width={120}
                     height={60}
-                    className="max-w-full max-h-full object-contain opacity-60 hover:opacity-100 transition-opacity duration-300"
+                    className="max-w-full max-h-full object-contain hover:opacity-100 transition-opacity duration-300"
                   />
                 </div>
               ))}
