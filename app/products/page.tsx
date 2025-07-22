@@ -49,226 +49,226 @@ const products: Product[] = [
   // Exotic Blends
   {
     id: "1",
-    name: "Paisley Elegance",
+    name: "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
     price: 999,
-    image: "/images/bedsheets/1.jpeg",
+    image: "/images/product1/1.jpg",
     category: "textiles",
-    subcategory: "quilts",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Elegant paisley print bedsheet in cool tones for a refreshing bedroom look.",
+    subcategory: "KING SIZE QUILTED & COORDINATE COLLECTION ⭐",
+    specification: ["1 KING SIZE JOINTLESS PREMIUM BEDSHEET { 108x108INCHES }", "2 QUILTED KING SIZE PREMIUM PILLOW COVERS WITH BORDERS"],
+    features: ["FABRIC - VERY HEAVY GSM AND SOFT COTTON FEEL GLACE"],
   },
   {
     id: "2",
-    name: "Royal Blue Delight",
-    price: 899,
-    image: "/images/bedsheets/2.jpeg",
+    name: "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
+    price: 999,
+    image: "/images/product1/2.jpg",
     category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Luxurious deep blue bedsheet with intricate floral patterns.",
+    subcategory: "KING SIZE QUILTED & COORDINATE COLLECTION ⭐",
+    specification: ["1 KING SIZE JOINTLESS PREMIUM BEDSHEET { 108x108INCHES }", "2 QUILTED KING SIZE PREMIUM PILLOW COVERS WITH BORDERS"],
+    features: ["FABRIC - VERY HEAVY GSM AND SOFT COTTON FEEL GLACE"],
   },
   {
     id: "3",
-    name: "Sunset Bloom",
-    price: 950,
-    image: "/images/bedsheets/3.jpeg",
+    name: "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
+    price: 999,
+    image: "/images/product1/3.jpg",
     category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Warm floral design in orange hues inspired by a sunset garden.",
+    subcategory: "KING SIZE QUILTED & COORDINATE COLLECTION ⭐",
+    specification: ["1 KING SIZE JOINTLESS PREMIUM BEDSHEET { 108x108INCHES }", "2 QUILTED KING SIZE PREMIUM PILLOW COVERS WITH BORDERS"],
+    features: ["FABRIC - VERY HEAVY GSM AND SOFT COTTON FEEL GLACE"],
   },
   {
     id: "4",
-    name: "Modern Stripes",
-    price: 850,
-    image: "/images/bedsheets/4.jpeg",
+    name: "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
+    price: 999,
+    image: "/images/product1/4.jpg",
     category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Contemporary striped pattern perfect for urban interiors.",
+    subcategory: "KING SIZE QUILTED & COORDINATE COLLECTION ⭐",
+    specification: ["1 KING SIZE JOINTLESS PREMIUM BEDSHEET { 108x108INCHES }", "2 QUILTED KING SIZE PREMIUM PILLOW COVERS WITH BORDERS"],
+    features: ["FABRIC - VERY HEAVY GSM AND SOFT COTTON FEEL GLACE"],
   },
-  {
-    id: "5",
-    name: "Vintage Rose",
-    price: 925,
-    image: "/images/bedsheets/5.jpeg",
-    category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Soft pink bedsheet with delicate vintage rose print.",
-  },
-  {
-    id: "6",
-    name: "Forest Fern",
-    price: 975,
-    image: "/images/bedsheets/6.jpeg",
-    category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Nature-inspired design with fern leaves in a green palette.",
-  },
-  {
-    id: "7",
-    name: "Minimalist Grey",
-    price: 799,
-    image: "/images/bedsheets/7.jpeg",
-    category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Sleek grey bedsheet with minimalist appeal for modern spaces.",
-  },
-  {
-    id: "8",
-    name: "Ethnic Mandala",
-    price: 1099,
-    image: "/images/bedsheets/8.jpeg",
-    category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Vibrant ethnic print with mandala artwork to energize your decor.",
-  },
-  {
-    id: "9",
-    name: "Ocean Waves",
-    price: 899,
-    image: "/images/bedsheets/9.jpeg",
-    category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Cool ocean-themed print for a calming sleep experience.",
-  },
-  {
-    id: "10",
-    name: "Golden Heritage",
-    price: 1199,
-    image: "/images/bedsheets/10.jpeg",
-    category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Traditional gold-toned patterns for a royal touch.",
-  },
-  {
-    id: "11",
-    name: "Floral Symphony",
-    price: 949,
-    image: "/images/bedsheets/11.jpeg",
-    category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Multi-colored floral explosion to brighten your room.",
-  },
-  {
-    id: "12",
-    name: "Abstract Dreams",
-    price: 870,
-    image: "/images/bedsheets/12.jpeg",
-    category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Abstract geometric pattern for a stylish bedroom look.",
-  },
-  {
-    id: "13",
-    name: "Classic Checks",
-    price: 820,
-    image: "/images/bedsheets/13.jpeg",
-    category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Timeless checkered pattern in neutral shades.",
-  },
-  {
-    id: "14",
-    name: "Lavender Mist",
-    price: 980,
-    image: "/images/bedsheets/14.jpeg",
-    category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Soothing lavender hue for a serene bedroom ambiance.",
-  },
-  {
-    id: "15",
-    name: "Festive Gold",
-    price: 1100,
-    image: "/images/bedsheets/15.jpeg",
-    category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Celebrate with rich golden patterns perfect for festive occasions.",
-  },
-  {
-    id: "16",
-    name: "Boho Spirit",
-    price: 1050,
-    image: "/images/bedsheets/16.jpeg",
-    category: "textiles",
-    subcategory: "",
-    unit: "1 bedsheet with 2 pillow covers",
-    description: "Eclectic boho print with a burst of colors and charm.",
-  },
-  // Essential Spices
-  {
-    id: "17",
-    name: "Turmeric Powder",
-    price: 95,
-    image: "/placeholder.svg?height=300&width=300",
-    category: "textiles",
-    subcategory: "",
-    unit: "500g",
-    description: "Pure organic turmeric powder for daily cooking",
-  },
-  {
-    id: "18",
-    name: "Chili Powder",
-    price: 85,
-    image: "/placeholder.svg?height=300&width=300",
-    category: "textiles",
-    subcategory: "",
-    unit: "250g",
-    description: "Premium red chili powder with perfect heat",
-  },
-  {
-    id: "19",
-    name: "Garam Masala",
-    price: 65,
-    image: "/placeholder.svg?height=300&width=300",
-    category: "textiles",
-    subcategory: "",
-    unit: "200g",
-    description: "Traditional garam masala blend",
-  },
-  {
-    id: "20",
-    name: "Cumin Powder",
-    price: 75,
-    image: "/placeholder.svg?height=300&width=300",
-    category: "textiles",
-    subcategory: "",
-    unit: "250g",
-    description: "Fresh ground cumin powder",
-  },
-  // Chef's Selection
-  {
-    id: "21",
-    name: "Premium Saffron",
-    price: 800,
-    image: "/placeholder.svg?height=300&width=300",
-    category: "textiles",
-    subcategory: "",
-    unit: "5g",
-    description: "Pure Kashmiri saffron threads",
-  },
-  {
-    id: "22",
-    name: "Black Cardamom",
-    price: 180,
-    image: "/placeholder.svg?height=300&width=300",
-    category: "textiles",
-    subcategory: "",
-    unit: "100g",
-    description: "Whole black cardamom pods",
-  },
+  // {
+  //   id: "5",
+  //   name: "Vintage Rose",
+  //   price: 925,
+  //   image: "/images/bedsheets/5.jpeg",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   specification: ["1 bedsheet with 2 pillow covers"],
+  //   description: "Soft pink bedsheet with delicate vintage rose print.",
+  // },
+  // {
+  //   id: "6",
+  //   name: "Forest Fern",
+  //   price: 975,
+  //   image: "/images/bedsheets/6.jpeg",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   specification: ["1 bedsheet with 2 pillow covers"],
+  //   description: "Nature-inspired design with fern leaves in a green palette.",
+  // },
+  // {
+  //   id: "7",
+  //   name: "Minimalist Grey",
+  //   price: 799,
+  //   image: "/images/bedsheets/7.jpeg",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   specification: ["1 bedsheet with 2 pillow covers"],
+  //   description: "Sleek grey bedsheet with minimalist appeal for modern spaces.",
+  // },
+  // {
+  //   id: "8",
+  //   name: "Ethnic Mandala",
+  //   price: 1099,
+  //   image: "/images/bedsheets/8.jpeg",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   specification: ["1 bedsheet with 2 pillow covers"],
+  //   description: "Vibrant ethnic print with mandala artwork to energize your decor.",
+  // },
+  // {
+  //   id: "9",
+  //   name: "Ocean Waves",
+  //   price: 899,
+  //   image: "/images/bedsheets/9.jpeg",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   specification: ["1 bedsheet with 2 pillow covers"],
+  //   description: "Cool ocean-themed print for a calming sleep experience.",
+  // },
+  // {
+  //   id: "10",
+  //   name: "Golden Heritage",
+  //   price: 1199,
+  //   image: "/images/bedsheets/10.jpeg",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   specification: ["1 bedsheet with 2 pillow covers"],
+  //   description: "Traditional gold-toned patterns for a royal touch.",
+  // },
+  // {
+  //   id: "11",
+  //   name: "Floral Symphony",
+  //   price: 949,
+  //   image: "/images/bedsheets/11.jpeg",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   specification: ["1 bedsheet with 2 pillow covers"],
+  //   description: "Multi-colored floral explosion to brighten your room.",
+  // },
+  // {
+  //   id: "12",
+  //   name: "Abstract Dreams",
+  //   price: 870,
+  //   image: "/images/bedsheets/12.jpeg",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   specification: ["1 bedsheet with 2 pillow covers"],
+  //   description: "Abstract geometric pattern for a stylish bedroom look.",
+  // },
+  // {
+  //   id: "13",
+  //   name: "Classic Checks",
+  //   price: 820,
+  //   image: "/images/bedsheets/13.jpeg",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   specification: ["1 bedsheet with 2 pillow covers"],
+  //   description: "Timeless checkered pattern in neutral shades.",
+  // },
+  // {
+  //   id: "14",
+  //   name: "Lavender Mist",
+  //   price: 980,
+  //   image: "/images/bedsheets/14.jpeg",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   specification: ["1 bedsheet with 2 pillow covers"],
+  //   description: "Soothing lavender hue for a serene bedroom ambiance.",
+  // },
+  // {
+  //   id: "15",
+  //   name: "Festive Gold",
+  //   price: 1100,
+  //   image: "/images/bedsheets/15.jpeg",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   specification: ["1 bedsheet with 2 pillow covers"],
+  //   description: "Celebrate with rich golden patterns perfect for festive occasions.",
+  // },
+  // {
+  //   id: "16",
+  //   name: "Boho Spirit",
+  //   price: 1050,
+  //   image: "/images/bedsheets/16.jpeg",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   specification: ["1 bedsheet with 2 pillow covers"],
+  //   description: "Eclectic boho print with a burst of colors and charm.",
+  // },
+  // // Essential Spices
+  // {
+  //   id: "17",
+  //   name: "Turmeric Powder",
+  //   price: 95,
+  //   image: "/placeholder.svg?height=300&width=300",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   unit: "500g",
+  //   description: "Pure organic turmeric powder for daily cooking",
+  // },
+  // {
+  //   id: "18",
+  //   name: "Chili Powder",
+  //   price: 85,
+  //   image: "/placeholder.svg?height=300&width=300",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   unit: "250g",
+  //   description: "Premium red chili powder with perfect heat",
+  // },
+  // {
+  //   id: "19",
+  //   name: "Garam Masala",
+  //   price: 65,
+  //   image: "/placeholder.svg?height=300&width=300",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   unit: "200g",
+  //   description: "Traditional garam masala blend",
+  // },
+  // {
+  //   id: "20",
+  //   name: "Cumin Powder",
+  //   price: 75,
+  //   image: "/placeholder.svg?height=300&width=300",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   unit: "250g",
+  //   description: "Fresh ground cumin powder",
+  // },
+  // // Chef's Selection
+  // {
+  //   id: "21",
+  //   name: "Premium Saffron",
+  //   price: 800,
+  //   image: "/placeholder.svg?height=300&width=300",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   unit: "5g",
+  //   description: "Pure Kashmiri saffron threads",
+  // },
+  // {
+  //   id: "22",
+  //   name: "Black Cardamom",
+  //   price: 180,
+  //   image: "/placeholder.svg?height=300&width=300",
+  //   category: "textiles",
+  //   subcategory: "",
+  //   unit: "100g",
+  //   description: "Whole black cardamom pods",
+  // },
 ]
 
 // Product Detail Modal Component
@@ -305,7 +305,7 @@ function ProductDetailModal({
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto bg-white">
+      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto bg-white p-8">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold text-heading">{product.name}</DialogTitle>
         </DialogHeader>
@@ -326,9 +326,9 @@ function ProductDetailModal({
           <div className="space-y-6">
             {/* Price and Rating */}
             <div className="space-y-2">
-                {/* <Badge variant="outline" className="border-warm-brown/30 text-warm-brown">
+                <Badge variant="outline" className="border-warm-brown/30 text-warm-brown">
                   {product.subcategory}
-                </Badge> */}
+                </Badge>
 
             {/* Product Review and Ratings */}
               {/* <div className="flex items-center gap-4">
@@ -344,19 +344,26 @@ function ProductDetailModal({
               </div> */}
 
               <div className="flex items-center gap-3">
-                <span className="text-3xl font-bold text-heading">₹{product.price}.00 INR</span>
+                <span className="text-2xl font-bold text-heading">Price: ₹{product.price}.00 INR</span>
               </div>
-              <p className="text-sm text-gray-600">per {product.unit}</p>
+              {/* <p className="text-sm text-gray-600">per {product.unit}</p> */}
             </div>
 
-            {/* Description */}
-            <div>
-              <h3 className="font-semibold text-heading mb-2">Description</h3>
-              <p className="text-body">{product.description}</p>
+            {/* Specification */}
+              <div>
+              <h3 className="font-semibold text-heading mb-2">Specifications</h3>
+              <ul className="space-y-1">
+                {product.specification.map((specification, index) => (
+                  <li key={index} className="flex items-center text-sm text-body">
+                    <div className="w-2 h-2 bg-warm-brown rounded-full mr-2"></div>
+                    {specification}
+                  </li>
+                ))}
+              </ul>
             </div>
 
             {/* Features */}
-            {/* <div>
+            <div>
               <h3 className="font-semibold text-heading mb-2">Key Features</h3>
               <ul className="space-y-1">
                 {product.features.map((feature, index) => (
@@ -366,7 +373,7 @@ function ProductDetailModal({
                   </li>
                 ))}
               </ul>
-            </div> */}
+            </div>
 
             {/* Quantity and Add to Cart */}
             {/* <div className="space-y-4">
@@ -469,9 +476,7 @@ export default function ProductsPage() {
 
   const filteredProducts = useMemo(() => {
     const filtered = products.filter((product) => {
-      const matchesSearch =
-        product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        product.description.toLowerCase().includes(searchTerm.toLowerCase())
+      const matchesSearch = product.name.toLowerCase().includes(searchTerm.toLowerCase())
       const matchesCategory = selectedCategory === "all" || product.category === selectedCategory
       const matchesSubcategory = selectedSubcategory === "all" || product.subcategory === selectedSubcategory
       return matchesSearch && matchesCategory && matchesSubcategory
@@ -700,7 +705,7 @@ export default function ProductsPage() {
           {filteredProducts.map((product, index) => (
             <Card
               key={product.id}
-              className="product-card animate-slide-up bg-white relative cursor-pointer hover:shadow-xl transition-all duration-300"
+              className="product-card animate-slide-up bg-white relative cursor-pointer hover:shadow-xl transition-transform duration-300 transform hover:scale-105"
               style={{ animationDelay: `${index * 0.1}s` }}
               onClick={() => setSelectedProduct(product)}
             >
@@ -715,17 +720,18 @@ export default function ProductsPage() {
                   height={200}
                   className="w-full h-48 object-cover rounded-lg mb-4"
                 />
-                <h3 className="font-semibold text-heading mb-2">{product.name}</h3>
-                <p className="text-sm text-body mb-3">{product.description}</p>
-                <div className="flex items-center mb-2">
+                <h3 className="font-semibold text-heading mb-2">{product.subcategory}</h3>
+                <p className="text-sm text-body mb-3">{product.name}</p>
+                {/* Rating & Reviews */}
+                {/* <div className="flex items-center mb-2">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
                   ))}
-                </div>
+                </div> */}
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <span className="text-lg font-bold text-heading">₹{product.price}.00 INR</span>
-                    <span className="text-sm text-gray-500 ml-1">per {product.unit}</span>
+                    {/* <span className="text-sm text-gray-500 ml-1">per {product.unit}</span> */}
                   </div>
                 </div>
                 {/* <Button onClick={() => handleAddToCart(product)} className="btn-primary w-full">

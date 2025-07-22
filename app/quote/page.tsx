@@ -90,9 +90,9 @@ export default function QuotePage() {
       <div className="container-max section-padding">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-heading mb-4">Get Custom Quote</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-heading mb-4">Ready To Collaborate</h1>
           <p className="text-lg text-body max-w-2xl mx-auto">
-            Looking for bulk orders or wholesale pricing? Get a personalized quote tailored to your business needs.
+            We're listening or Start your next chapter with us.
           </p>
         </div>
 

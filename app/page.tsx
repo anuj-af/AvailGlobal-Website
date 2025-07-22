@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState, useEffect } from "react"
 import Navigation from "./components/navigation"
 // import Footer from "./components/footer"
@@ -19,7 +18,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Autoplay from "embla-carousel-autoplay"
 import Footer from "./components/footer"
 import Link from "next/link";
-
 
 export default function HomePage() {
   // const bestSellingProducts = [
@@ -96,44 +94,44 @@ export default function HomePage() {
   const values = [
     {
       icon: Award,
-      title: "Uncompromised Quality",
-      description: "We source and deliver the finest quality materials - be it textiles, garments, or gifting products.",
+      title: "End-to-End Expertise",
+      description: "Delivering sleep, style, and gifting solutions for top brands with precision and care.",
     },
     {
       icon: Users,
-      title: "Wide Product Range",
-      description: "From premium bed linens and ready-to-wear fashion to customizable corporate gifts.",
+      title: "Exceptional Quality",
+      description: "Every product is made using premium materials for durability, feel, and finish.",
     },
     {
       icon: Globe,
-      title: "Competitive Pricing",
-      description: "We offer the perfect balance of price and quality, ensuring you get the maximum value.",
+      title: "Tailored Solutions",
+      description: "From custom sizes to exclusive designs, we shape every order to your needs.",
     },
     {
       icon: Heart,
-      title: "One-Stop Solution",
-      description: "With expertise across multiple categories, we’re your single point of contact for all needs.",
+      title: "Trusted Worldwide",
+      description: "Serving both local and international markets with reliable shipping.",
     },
   ]
 
   const industries = [
     {
-      title: "Textile",
-      description: "Our collection features high-quality bedsheets, cozy comforters, supportive pillows, and elegant quilts—crafted from breathable fabrics like cotton and linen.",
-      image: "/textile.png",
+      title: "Bedsheets and Hospitality",
+      description: "Our collection showcases premium bedsheets, plush comforters, supportive pillows, and elegant quilts—expertly crafted from breathable fabrics like cotton and linen.",
+      image: "/bedsheet.png",
       stats: "50+ Products",
-    },
-    {
-      title: "Readymade Garments",
-      description: "AvailGlobal delivers high-quality ready-made garments tailored for fashion retailers, designers, and private labels seeking comfort, durability, and trend-forward style.",
-      image: "/garments.png",
-      stats: "20+ Variants",
     },
     {
       title: "Corporate Giftings",
       description: "Explore our versatile collection featuring branded office accessories, luxury gift hampers, sustainable corporate gifts, festive gifting kits, and innovative tech gadgets.",
       image: "/gifting.png",
       stats: "40+ Types",
+    },
+    {
+      title: "Readymade Garments",
+      description: "AvailGlobal specializes in delivering premium ready-made garments designed for fashion retailers, designers, and private labels. Our collections combine trendy style & comfort",
+      image: "/garments.png",
+      stats: "20+ Variants",
     },
   ]
 
@@ -413,18 +411,20 @@ export default function HomePage() {
         <div className="container-max">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
-              <h2 className="text-3xl md:text-4xl font-bold text-heading mb-6">About AvailGlobal</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-heading mb-6">The AvailGlobal Journey</h2>
               <p className="text-lg text-body mb-6">
-                A journey rooted in quality, creativity, and trust—bringing premium textiles, stylish garments, and 
-                thoughtful corporate gifts that elevate every experience.
+                Founded with a clear mission to make premium bedding, fashion apparel, and customized corporate 
+                gifts accessible to businesses and consumers alike, AvailGlobal has evolved from a humble venture 
+                into a globally recognized brand known for quality, reliability, and thoughtful design.
               </p>
               <p className="text-lg font-bold text-body mb-6">
-                From Tradition to Innovation
+                Tradition Meets Modern Excellence
               </p>
               <p className="text-lg text-body mb-6">
-                AvailGlobal was founded with a clear mission: to make premium textiles, ready-to-wear fashion, and customized 
-                corporate gifts easily accessible to businesses and consumers alike. What began as a small venture has now grown 
-                into a trusted brand known for quality, reliability, and thoughtful design.
+                We proudly serve domestic and international markets, exporting authentic products that blend comfort, 
+                craftsmanship, and innovation-bringing timeless style to homes, retailers, and institutions worldwide.
+                Rooted in India’s rich heritage of textile artistry, our story draws inspiration from centuries of craftsmanship 
+                while responding to modern-day demands for quality and personalization.
               </p>
               <Button asChild className="btn-secondary bg-cream hover:bg-warm-brown">
                 <Link href="/about">Learn More About Us</Link>
@@ -432,7 +432,7 @@ export default function HomePage() {
             </div>
             <div className="animate-slide-in-right">
               <Image
-                src="/images/banner2.png"
+                src="/about.png"
                 alt="Our spice collection"
                 width={600}
                 height={500}
@@ -773,9 +773,9 @@ export default function HomePage() {
         <div className="container-max">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-heading mb-6">Get Custom Quote</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-heading mb-6">Ready To Collaborate</h2>
               <p className="text-lg text-body">
-                Ready to partner with us? Get a personalized quote tailored to your business needs.
+                We're listening or Start your next chapter with us.
               </p>
             </div>
 

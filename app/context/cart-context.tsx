@@ -9,9 +9,9 @@ export interface Product {
   price: number
   image: string
   category: "textiles" | "garments" | "giftings"
-  subcategory: "quilts" | ""
-  unit: string
-  description: string
+  subcategory: "KING SIZE QUILTED & COORDINATE COLLECTION ⭐" | ""
+  specification: string[]
+  features: string[]
 }
 
 export interface CartItem extends Product {

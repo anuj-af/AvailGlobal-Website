@@ -42,21 +42,22 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Story Section */}
+      {/* About us Section */}
       <section className="section-padding">
         <div className="container-max">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
-              <h2 className="text-3xl md:text-4xl font-bold text-heading mb-6">From Tradition to Your Table</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-heading mb-6">Tradition Meets Modern Excellence</h2>
               <p className="text-lg text-body mb-6">
-                AvailGlobal was founded with a clear mission: to make premium textiles, ready-to-wear fashion, 
-                and customized corporate gifts easily accessible to businesses and consumers alike. What began 
-                as a small venture has now grown into a trusted brand known for quality, reliability, and thoughtful design.
+                Founded with a clear mission to make premium bedding, fashion apparel, and customized corporate gifts 
+                accessible to businesses and consumers alike, AvailGlobal has evolved from a humble venture into a globally 
+                recognized brand known for quality, reliability, and thoughtful design.
               </p>
               <p className="text-lg text-body mb-6">
-                Our roots lie in India’s rich heritage of textile craftsmanship and garment production. Inspired 
-                by timeless traditions and evolving market needs, our founders saw a growing demand for authentic, 
-                high-quality products—delivered with professionalism and a modern touch.
+                We proudly serve domestic and international markets, exporting authentic products that blend comfort, craftsmanship, 
+                and innovation-bringing timeless style to homes, retailers, and institutions worldwide. 
+                Rooted in India’s rich heritage of textile artistry, our story draws inspiration from centuries of 
+                craftsmanship while responding to modern-day demands for quality and personalization.
               </p>
               <p className="text-lg text-body">
                 Today, AvailGlobal collaborates with skilled manufacturers, local artisans, and trusted suppliers to offer 
@@ -66,7 +67,7 @@ export default function AboutPage() {
             </div>
             <div className="animate-slide-in-right">
               <Image
-                src="/images/banner4.png"
+                src="/about.png"
                 alt="Our spice collection"
                 width={600}
                 height={500}
@@ -113,11 +114,11 @@ export default function AboutPage() {
             <Card className="text-center p-8 border-0 shadow-lg bg-white hover-lift">
               <CardContent className="p-0">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="/images/founders/avani.png"
                   alt="Founder 1"
                   width={200}
                   height={200}
-                  className="rounded-full mx-auto mb-6"
+                  className="rounded-full mx-auto mb-6 bg-light-beige"
                 />
                 <h3 className="text-2xl font-semibold mb-2 text-heading">Avani Tongia</h3>
                 <p className="text-warm-brown font-medium mb-4">Co-Founder & CEO</p>
@@ -130,13 +131,13 @@ export default function AboutPage() {
             <Card className="text-center p-8 border-0 shadow-lg bg-white hover-lift">
               <CardContent className="p-0">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="/images/founders/vishesh.png"
                   alt="Founder 2"
                   width={200}
                   height={200}
-                  className="rounded-full mx-auto mb-6"
+                  className="rounded-full mx-auto mb-6 bg-light-beige"
                 />
-                <h3 className="text-2xl font-semibold mb-2 text-heading">Vishu Patni</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-heading">Vishesh Patni</h3>
                 <p className="text-warm-brown font-medium mb-4">Co-Founder & COO</p>
                 <p className="text-body italic">
                   "Our customers are family. We treat every order with the care we'd give our own loved ones."
