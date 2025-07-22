@@ -50,7 +50,7 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: "Phone",
-      details: "+880 1234 567890",
+      details: "+91 8989548626",
       subtitle: "Mon-Sat, 9 AM - 7 PM",
     },
     {
@@ -68,7 +68,7 @@ export default function ContactPage() {
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      details: "+880 1234 567890",
+      details: "+91 8989548626",
       subtitle: "Quick support available",
     },
   ]
@@ -215,7 +215,7 @@ export default function ContactPage() {
                 <h3 className="text-xl font-semibold mb-3">Quick Response</h3>
                 <p className="mb-4 text-white/90">Need immediate assistance? Call us directly for faster support.</p>
                 <Button variant="secondary" className="w-full bg-white text-warm-brown hover:bg-gray-100">
-                  Call Now: +880 1234 567890
+                  Call Now: +91 8989548626
                 </Button>
               </CardContent>
             </Card>

@@ -16,44 +16,36 @@ import { useToast } from "@/hooks/use-toast"
 
 // Category structure with subcategories
 const categoryStructure = {
-  textiles: {
-    label: "Textiles",
+  Hospitality: {
+    label: "Bedsheet and Hospitality",
     subcategories: {
-      bedsheets: "Bedsheets",
-      curtains: "Curtains",
-      "cushion-covers": "Cushion Covers",
-      "table-runners": "Table Runners",
+      Bedsheets: "Bedsheets",
+
     },
-  },
-  spices: {
+  }, 
+  giftings: {
     label: "Readymade Garments",
     subcategories: {
-      "basic-spices": "Basic Spices",
-      "ground-spices": "Ground Spices",
-      "whole-spices": "Whole Spices",
-      "organic-spices": "Organic Spices",
+
     },
   },
-  pulses: {
+  garments: {
     label: "Corporate Giftings",
     subcategories: {
-      "premium-collection": "Premium Collection",
-      "rare-spices": "Rare Spices",
-      international: "International",
-      "limited-edition": "Limited Edition",
+
     },
   },
 }
 
 const products: Product[] = [
-  // Exotic Blends
+  // Product 1
   {
     id: "1",
     name: "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
     price: 999,
-    image: "/images/product1/1.jpg",
-    category: "textiles",
-    subcategory: "KING SIZE QUILTED & COORDINATE COLLECTION ⭐",
+    image: "/images/products/product1/1.jpg",
+    category: "Hospitality",
+    subcategory: "Bedsheets",
     specification: ["1 KING SIZE JOINTLESS PREMIUM BEDSHEET { 108x108INCHES }", "2 QUILTED KING SIZE PREMIUM PILLOW COVERS WITH BORDERS"],
     features: ["FABRIC - VERY HEAVY GSM AND SOFT COTTON FEEL GLACE"],
   },
@@ -61,9 +53,9 @@ const products: Product[] = [
     id: "2",
     name: "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
     price: 999,
-    image: "/images/product1/2.jpg",
-    category: "textiles",
-    subcategory: "KING SIZE QUILTED & COORDINATE COLLECTION ⭐",
+    image: "/images/products/product1/2.jpg",
+    category: "Hospitality",
+    subcategory: "Bedsheets",
     specification: ["1 KING SIZE JOINTLESS PREMIUM BEDSHEET { 108x108INCHES }", "2 QUILTED KING SIZE PREMIUM PILLOW COVERS WITH BORDERS"],
     features: ["FABRIC - VERY HEAVY GSM AND SOFT COTTON FEEL GLACE"],
   },
@@ -71,9 +63,9 @@ const products: Product[] = [
     id: "3",
     name: "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
     price: 999,
-    image: "/images/product1/3.jpg",
-    category: "textiles",
-    subcategory: "KING SIZE QUILTED & COORDINATE COLLECTION ⭐",
+    image: "/images/products/product1/3.jpg",
+    category: "Hospitality",
+    subcategory: "Bedsheets",
     specification: ["1 KING SIZE JOINTLESS PREMIUM BEDSHEET { 108x108INCHES }", "2 QUILTED KING SIZE PREMIUM PILLOW COVERS WITH BORDERS"],
     features: ["FABRIC - VERY HEAVY GSM AND SOFT COTTON FEEL GLACE"],
   },
@@ -81,194 +73,53 @@ const products: Product[] = [
     id: "4",
     name: "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
     price: 999,
-    image: "/images/product1/4.jpg",
-    category: "textiles",
-    subcategory: "KING SIZE QUILTED & COORDINATE COLLECTION ⭐",
+    image: "/images/products/product1/4.jpg",
+    category: "Hospitality",
+    subcategory: "Bedsheets",
     specification: ["1 KING SIZE JOINTLESS PREMIUM BEDSHEET { 108x108INCHES }", "2 QUILTED KING SIZE PREMIUM PILLOW COVERS WITH BORDERS"],
     features: ["FABRIC - VERY HEAVY GSM AND SOFT COTTON FEEL GLACE"],
   },
-  // {
-  //   id: "5",
-  //   name: "Vintage Rose",
-  //   price: 925,
-  //   image: "/images/bedsheets/5.jpeg",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   specification: ["1 bedsheet with 2 pillow covers"],
-  //   description: "Soft pink bedsheet with delicate vintage rose print.",
-  // },
-  // {
-  //   id: "6",
-  //   name: "Forest Fern",
-  //   price: 975,
-  //   image: "/images/bedsheets/6.jpeg",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   specification: ["1 bedsheet with 2 pillow covers"],
-  //   description: "Nature-inspired design with fern leaves in a green palette.",
-  // },
-  // {
-  //   id: "7",
-  //   name: "Minimalist Grey",
-  //   price: 799,
-  //   image: "/images/bedsheets/7.jpeg",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   specification: ["1 bedsheet with 2 pillow covers"],
-  //   description: "Sleek grey bedsheet with minimalist appeal for modern spaces.",
-  // },
-  // {
-  //   id: "8",
-  //   name: "Ethnic Mandala",
-  //   price: 1099,
-  //   image: "/images/bedsheets/8.jpeg",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   specification: ["1 bedsheet with 2 pillow covers"],
-  //   description: "Vibrant ethnic print with mandala artwork to energize your decor.",
-  // },
-  // {
-  //   id: "9",
-  //   name: "Ocean Waves",
-  //   price: 899,
-  //   image: "/images/bedsheets/9.jpeg",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   specification: ["1 bedsheet with 2 pillow covers"],
-  //   description: "Cool ocean-themed print for a calming sleep experience.",
-  // },
-  // {
-  //   id: "10",
-  //   name: "Golden Heritage",
-  //   price: 1199,
-  //   image: "/images/bedsheets/10.jpeg",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   specification: ["1 bedsheet with 2 pillow covers"],
-  //   description: "Traditional gold-toned patterns for a royal touch.",
-  // },
-  // {
-  //   id: "11",
-  //   name: "Floral Symphony",
-  //   price: 949,
-  //   image: "/images/bedsheets/11.jpeg",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   specification: ["1 bedsheet with 2 pillow covers"],
-  //   description: "Multi-colored floral explosion to brighten your room.",
-  // },
-  // {
-  //   id: "12",
-  //   name: "Abstract Dreams",
-  //   price: 870,
-  //   image: "/images/bedsheets/12.jpeg",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   specification: ["1 bedsheet with 2 pillow covers"],
-  //   description: "Abstract geometric pattern for a stylish bedroom look.",
-  // },
-  // {
-  //   id: "13",
-  //   name: "Classic Checks",
-  //   price: 820,
-  //   image: "/images/bedsheets/13.jpeg",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   specification: ["1 bedsheet with 2 pillow covers"],
-  //   description: "Timeless checkered pattern in neutral shades.",
-  // },
-  // {
-  //   id: "14",
-  //   name: "Lavender Mist",
-  //   price: 980,
-  //   image: "/images/bedsheets/14.jpeg",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   specification: ["1 bedsheet with 2 pillow covers"],
-  //   description: "Soothing lavender hue for a serene bedroom ambiance.",
-  // },
-  // {
-  //   id: "15",
-  //   name: "Festive Gold",
-  //   price: 1100,
-  //   image: "/images/bedsheets/15.jpeg",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   specification: ["1 bedsheet with 2 pillow covers"],
-  //   description: "Celebrate with rich golden patterns perfect for festive occasions.",
-  // },
-  // {
-  //   id: "16",
-  //   name: "Boho Spirit",
-  //   price: 1050,
-  //   image: "/images/bedsheets/16.jpeg",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   specification: ["1 bedsheet with 2 pillow covers"],
-  //   description: "Eclectic boho print with a burst of colors and charm.",
-  // },
-  // // Essential Spices
-  // {
-  //   id: "17",
-  //   name: "Turmeric Powder",
-  //   price: 95,
-  //   image: "/placeholder.svg?height=300&width=300",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   unit: "500g",
-  //   description: "Pure organic turmeric powder for daily cooking",
-  // },
-  // {
-  //   id: "18",
-  //   name: "Chili Powder",
-  //   price: 85,
-  //   image: "/placeholder.svg?height=300&width=300",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   unit: "250g",
-  //   description: "Premium red chili powder with perfect heat",
-  // },
-  // {
-  //   id: "19",
-  //   name: "Garam Masala",
-  //   price: 65,
-  //   image: "/placeholder.svg?height=300&width=300",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   unit: "200g",
-  //   description: "Traditional garam masala blend",
-  // },
-  // {
-  //   id: "20",
-  //   name: "Cumin Powder",
-  //   price: 75,
-  //   image: "/placeholder.svg?height=300&width=300",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   unit: "250g",
-  //   description: "Fresh ground cumin powder",
-  // },
-  // // Chef's Selection
-  // {
-  //   id: "21",
-  //   name: "Premium Saffron",
-  //   price: 800,
-  //   image: "/placeholder.svg?height=300&width=300",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   unit: "5g",
-  //   description: "Pure Kashmiri saffron threads",
-  // },
-  // {
-  //   id: "22",
-  //   name: "Black Cardamom",
-  //   price: 180,
-  //   image: "/placeholder.svg?height=300&width=300",
-  //   category: "textiles",
-  //   subcategory: "",
-  //   unit: "100g",
-  //   description: "Whole black cardamom pods",
-  // },
+  // Product 2
+  {
+    id: "5",
+    name: "100% COTTON / POLY-COTTON BEDSHEET",
+    price: 1000,
+    image: "/images/products/product2/1.jpg",
+    category: "Hospitality",
+    subcategory: "Bedsheets",
+    specification: ["SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)", "SIZE OPTIONS: (SINGLE: 60” X 90”) / (DOUBLE: 90” X 100”) / (KING: 108” X 108”)"],
+    features: ["FABRIC: 100% COTTON / POLY-COTTON BLEND (SELECT BASED ON ACTUAL MATERIAL)", "WEAVE TYPE: SATIN STRIPE (1 CM STRIPE PATTERN)", "THREAD COUNT: 200 TC / 300 TC (SPECIFY ACTUAL COUNT)" ,"FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"],
+  },
+  {
+    id: "6",
+    name: "100% COTTON / POLY-COTTON BEDSHEET",
+    price: 1000,
+    image: "/images/products/product2/2.jpg",
+    category: "Hospitality",
+    subcategory: "Bedsheets",
+    specification: ["SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)", "SIZE OPTIONS: (SINGLE: 60” X 90”) / (DOUBLE: 90” X 100”) / (KING: 108” X 108”)"],
+    features: ["FABRIC: 100% COTTON / POLY-COTTON BLEND (SELECT BASED ON ACTUAL MATERIAL)", "WEAVE TYPE: SATIN STRIPE (1 CM STRIPE PATTERN)", "THREAD COUNT: 200 TC / 300 TC (SPECIFY ACTUAL COUNT)" ,"FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"],
+  },
+  {
+    id: "7",
+    name: "100% COTTON / POLY-COTTON BEDSHEET",
+    price: 1000,
+    image: "/images/products/product2/3.jpg",
+    category: "Hospitality",
+    subcategory: "Bedsheets",
+    specification: ["SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)", "SIZE OPTIONS: (SINGLE: 60” X 90”) / (DOUBLE: 90” X 100”) / (KING: 108” X 108”)"],
+    features: ["FABRIC: 100% COTTON / POLY-COTTON BLEND (SELECT BASED ON ACTUAL MATERIAL)", "WEAVE TYPE: SATIN STRIPE (1 CM STRIPE PATTERN)", "THREAD COUNT: 200 TC / 300 TC (SPECIFY ACTUAL COUNT)" ,"FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"],
+  },
+  {
+    id: "8",
+    name: "100% COTTON / POLY-COTTON BEDSHEET",
+    price: 1000,
+    image: "/images/products/product2/4.jpg",
+    category: "Hospitality",
+    subcategory: "Bedsheets",
+    specification: ["SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)", "SIZE OPTIONS: (SINGLE: 60” X 90”) / (DOUBLE: 90” X 100”) / (KING: 108” X 108”)"],
+    features: ["FABRIC: 100% COTTON / POLY-COTTON BLEND (SELECT BASED ON ACTUAL MATERIAL)", "WEAVE TYPE: SATIN STRIPE (1 CM STRIPE PATTERN)", "THREAD COUNT: 200 TC / 300 TC (SPECIFY ACTUAL COUNT)" ,"FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"],
+  },
 ]
 
 // Product Detail Modal Component
@@ -528,13 +379,6 @@ export default function ProductsPage() {
     })
   }
 
-  const categories = [
-    { value: "all", label: "All Products" },
-    { value: "textiles", label: "Exotic Textile" },
-    { value: "spices", label: "Essential Spices" },
-    { value: "pulses", label: "Premium Pulses" },
-  ]
-
   return (
     <div className="min-h-screen bg-cream">
       <Navigation />
@@ -720,8 +564,8 @@ export default function ProductsPage() {
                   height={200}
                   className="w-full h-48 object-cover rounded-lg mb-4"
                 />
-                <h3 className="font-semibold text-heading mb-2">{product.subcategory}</h3>
-                <p className="text-sm text-body mb-3">{product.name}</p>
+                <h3 className="font-semibold text-heading mb-2">{product.name}</h3>
+                <p className="text-sm text-body mb-3">{product.subcategory}</p>
                 {/* Rating & Reviews */}
                 {/* <div className="flex items-center mb-2">
                   {[...Array(5)].map((_, i) => (

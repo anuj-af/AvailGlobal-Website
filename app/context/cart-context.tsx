@@ -8,8 +8,8 @@ export interface Product {
   name: string
   price: number
   image: string
-  category: "textiles" | "garments" | "giftings"
-  subcategory: "KING SIZE QUILTED & COORDINATE COLLECTION ⭐" | ""
+  category: "Hospitality" | "Giftings" | "Garments"
+  subcategory: "Bedsheets" | ""
   specification: string[]
   features: string[]
 }

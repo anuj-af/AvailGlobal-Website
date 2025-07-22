@@ -92,7 +92,7 @@ export default function QuotePage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-heading mb-4">Ready To Collaborate</h1>
           <p className="text-lg text-body max-w-2xl mx-auto">
-            We're listening or Start your next chapter with us.
+            We're Listening
           </p>
         </div>
 
@@ -266,7 +266,7 @@ export default function QuotePage() {
                 <h3 className="text-xl font-semibold mb-3">Need Immediate Assistance?</h3>
                 <p className="mb-4 text-white/90">Our wholesale team is ready to help you with urgent requirements.</p>
                 <Button variant="secondary" className="w-full bg-white text-warm-brown hover:bg-gray-100">
-                  Call +880 1234 567890
+                  Call +91 8989548626
                 </Button>
               </CardContent>
             </Card>

@@ -123,7 +123,7 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-semibold mb-2 text-heading">Avani Tongia</h3>
                 <p className="text-warm-brown font-medium mb-4">Co-Founder & CEO</p>
                 <p className="text-body italic">
-                  "Quality is not an act, it's a habit. We ensure every spice meets our highest standards."
+                  "Quality is not an act, it's a habit. We ensure every product meets our highest standards."
                 </p>
               </CardContent>
             </Card>

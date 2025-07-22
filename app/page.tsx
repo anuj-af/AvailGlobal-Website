@@ -65,7 +65,7 @@ export default function HomePage() {
     {
       id: 2,
       image: "/placeholder.svg?height=800&width=1400",
-      video:"/vid2.mp4",
+      video:"/vid4.mp4",
       alt: "Quality Textiles",
     },
     {
@@ -775,7 +775,7 @@ export default function HomePage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-heading mb-6">Ready To Collaborate</h2>
               <p className="text-lg text-body">
-                We're listening or Start your next chapter with us.
+                We're Listening
               </p>
             </div>
 
