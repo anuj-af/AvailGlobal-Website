@@ -60,7 +60,7 @@ export default function Navigation() {
                 <Instagram className="h-5 w-5 text-gray-600" />
               </Button>
             </Link>
-            <Link href="/" target="_blank">
+            <Link href="https://m.facebook.com/profile.php?id=61578687941350&name=xhp_nt__fb__action__open_user" target="_blank">
               <Button variant="ghost" size="sm">
                 <Facebook className="h-5 w-5 text-gray-600" />
               </Button>

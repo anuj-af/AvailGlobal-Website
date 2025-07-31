@@ -15,9 +15,69 @@ import Image from "next/image"
 import { useToast } from "@/hooks/use-toast"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import Autoplay from "embla-carousel-autoplay"
 import Footer from "./components/footer"
 import Link from "next/link";
+import MarkdownRenderer from "./components/markdown-renderer"
+import { Badge } from "@/components/ui/badge"
+
+
+  // Blog Post Interface
+  interface BlogPost {
+    id: string
+    title: string
+    date: string
+    excerpt: string
+    image: string
+    author: string
+    tags: string[]
+    content: string
+  }
+
+  // Blog Detail Modal Component
+  function BlogDetailModal({ blog, isOpen, onClose }: { blog: BlogPost | null; isOpen: boolean; onClose: () => void }) {
+    if (!blog) return null
+
+    return (
+      <Dialog open={isOpen} onOpenChange={onClose}>
+        <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto bg-white p-10">
+          <DialogHeader>
+            <DialogTitle className="text-2xl md:text-3xl font-bold text-heading leading-tight">{blog.title}</DialogTitle>
+          </DialogHeader>
+
+          <div className="space-y-6">
+            {/* Blog Image */}
+            <div className="relative aspect-video rounded-lg overflow-hidden bg-gray-100">
+              <Image src={blog.image || "/placeholder.svg"} alt={blog.title} fill className="object-cover" />
+              <div className="absolute bottom-4 left-4">
+                <Badge className="bg-white/90 text-gray-700 backdrop-blur-sm">{blog.date}</Badge>
+              </div>
+              {blog.author && (
+                <div className="absolute bottom-4 right-4">
+                  <Badge className="bg-warm-brown/90 text-white backdrop-blur-sm">By {blog.author}</Badge>
+                </div>
+              )}
+            </div>
+
+            {/* Tags */}
+            {blog.tags && blog.tags.length > 0 && (
+              <div className="flex flex-wrap gap-2">
+                {blog.tags.map((tag) => (
+                  <Badge key={tag} variant="secondary" className="bg-warm-brown/10 text-warm-brown">
+                    #{tag}
+                  </Badge>
+                ))}
+              </div>
+            )}
+
+            {/* Blog Content - Rendered from Markdown */}
+            <MarkdownRenderer content={blog.content} />
+          </div>
+        </DialogContent>
+      </Dialog>
+    )
+  }
 
 export default function HomePage() {
   // const bestSellingProducts = [
@@ -135,41 +195,6 @@ export default function HomePage() {
     },
   ]
 
-  const blogItems = [
-    {
-      id: 1,
-      title: "Top Textile Trends for 2025: Innovations in Fabric & Design",
-      image: "/images/blogs/blog1.png",
-      date: "June 18, 2025",
-      slug: "top-textile-trends-2025",
-      excerpt: "Explore the latest innovations shaping the textile industry, including sustainable materials, digital printing, and smart fabrics.",
-    },
-    {
-      id: 2,
-      title: "Corporate Gifting: How to Make Lasting Impressions",
-      image: "/images/blogs/blog2.png",
-      date: "May 27, 2025",
-      slug: "corporate-gifting-tips",
-      excerpt: "Discover creative and impactful corporate gifting ideas that strengthen client relationships and boost brand loyalty.",
-    },
-    {
-      id: 3,
-      title: "Choosing the Right Readymade Garments for Every Season",
-      image: "/images/blogs/blog3.png",
-      date: "May 14, 2025",
-      slug: "readymade-garments-guide",
-      excerpt: "A practical guide to selecting high-quality readymade garments that fit every season and occasion.",
-    },
-    {
-      id: 4,
-      title: "Sustainability in Textiles: AvailGlobal’s Commitment to a Greener Future",
-      image: "/images/blogs/blog4.png",
-      date: "April 28, 2025",
-      slug: "sustainable-textiles",
-      excerpt: "Learn how AvailGlobal integrates eco-friendly practices into textile manufacturing while maintaining product excellence.",
-    },
-  ];
-
   const brandLogos = [
     { name: "C21", logo: "/images/brands/c21.png" },
     { name: "Adven Tyre", logo: "/images/brands/adven.png" },
@@ -192,6 +217,39 @@ export default function HomePage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [currentSlide, setCurrentSlide] = useState(0)
   const { toast } = useToast()
+  const [selectedBlog, setSelectedBlog] = useState<BlogPost | null>(null)
+  const [blogPosts, setBlogPosts] = useState<BlogPost[]>([])
+  const [isLoadingBlogs, setIsLoadingBlogs] = useState(true)
+  
+  // Load blog posts from JSON file - THIS IS HOW IT FETCHES ALL BLOGS
+  useEffect(() => {
+    const loadBlogs = async () => {
+      try {
+        setIsLoadingBlogs(true)
+        // Single fetch request gets ALL blog posts with full content
+        const response = await fetch("/data/blogs.json")
+        if (response.ok) {
+          const blogs = await response.json()
+          // All blogs are now loaded with complete content
+          setBlogPosts(blogs)
+          console.log(
+            `Loaded ${blogs.length} blog posts:`,
+            blogs.map((b: { title: any }) => b.title),
+          )
+        } else {
+          console.error("Failed to load blogs")
+          setBlogPosts([])
+        }
+      } catch (error) {
+        console.error("Error loading blogs:", error)
+        setBlogPosts([])
+      } finally {
+        setIsLoadingBlogs(false)
+      }
+    }
+
+    loadBlogs()
+  }, [])
   
   // Auto-advance carousel
   useEffect(() => {
@@ -520,11 +578,6 @@ export default function HomePage() {
 
       {/* AvailGlobal Blogs Section */}
       <section className="section-padding relative overflow-hidden">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0 bg-[url('/placeholder.svg?height=100&width=100')] bg-repeat opacity-20"></div>
-        </div>
-
         <div className="container-max relative z-10">
           <div className="flex flex-col lg:flex-row items-start gap-8">
             {/* Left side - Title */}
@@ -538,51 +591,73 @@ export default function HomePage() {
 
             {/* Right side - Blog Cards Carousel */}
             <div className="w-full relative">
-              <Carousel className="w-full" opts={{ loop: true }} plugins={[Autoplay({ delay: 4000 })]}>
-                <CarouselContent className="-ml-4 mt-2 mb-2">
-                  {blogItems.map((item, index) => (
-                    <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3 mt-4 md:mt-0">
-                      <div className="bg-white rounded-xl overflow-hidden shadow-lg h-full hover-lift transition-all duration-300">
-                        <div className="h-48  relative overflow-hidden flex items-center justify-center">
-                          <Image
-                            src={item.image || "/placeholder.svg"}
-                            alt={item.title}
-                            fill
-                            className="object-cover"
-                          />
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-                        </div>
-                        <div className="p-6">
-                          <div className="flex items-center justify-between mb-3">
-                            <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
-                              {item.date}
-                            </span>
+              {isLoadingBlogs ? (
+                <div className="flex items-center justify-center h-64">
+                  <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-warm-brown"></div>
+                </div>
+              ) : blogPosts.length > 0 ? (
+                <Carousel className="w-full" opts={{ loop: true }} plugins={[Autoplay({ delay: 4000 })]}>
+                  <CarouselContent className="-ml-4 mt-2 mb-2">
+                    {blogPosts.map((item, index) => (
+                      <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3 mt-4 md:mt-0">
+                        <div
+                          className="bg-white rounded-xl overflow-hidden shadow-lg h-full hover-lift transition-all duration-300 cursor-pointer"
+                          onClick={() => setSelectedBlog(item)}
+                        >
+                          <div className="h-48 relative overflow-hidden flex items-center justify-center">
+                            <Image
+                              src={item.image || "/placeholder.svg"}
+                              alt={item.title}
+                              fill
+                              className="object-cover"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                           </div>
-                          <h3 className="font-semibold text-lg line-clamp-2 text-heading mb-3">{item.title}</h3>
-                          <p className="text-sm text-body line-clamp-2 mb-4">{item.excerpt}</p>
-                          <Button
-                            variant="ghost"
-                            size="sm"
-                            className="text-warm-brown hover:text-dark-brown p-0 h-auto font-medium"
-                          >
-                            Read More →
-                          </Button>
+                          <div className="p-6">
+                            <div className="flex items-center justify-between mb-3">
+                              <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
+                                {item.date}
+                              </span>
+                            </div>
+                            <h3 className="font-semibold text-lg line-clamp-2 text-heading mb-3">{item.title}</h3>
+                            <p className="text-sm text-body line-clamp-2 mb-4">{item.excerpt}</p>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              className="text-warm-brown hover:text-dark-brown p-0 h-auto font-medium"
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                setSelectedBlog(item)
+                              }}
+                            >
+                              Read More →
+                            </Button>
+                          </div>
                         </div>
-                      </div>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                {/* Mobile arrows */}
-                <CarouselPrevious className="left-2 sm:hidden bg-white/90 hover:bg-white" />
-                <CarouselNext className="right-2 sm:hidden bg-white/90 hover:bg-white" />
-                {/* Desktop arrows */}
-                <CarouselPrevious className="-left-12 bg-white/90 hover:bg-white" />
-                <CarouselNext className="-right-12 bg-white/90 hover:bg-white" />
-              </Carousel>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  {/* Mobile arrows */}
+                  <CarouselPrevious className="left-2 sm:hidden bg-white/90 hover:bg-white" />
+                  <CarouselNext className="right-2 sm:hidden bg-white/90 hover:bg-white" />
+                  {/* Desktop arrows */}
+                  <CarouselPrevious className="-left-12 bg-white/90 hover:bg-white" />
+                  <CarouselNext className="-right-12 bg-white/90 hover:bg-white" />
+                </Carousel>
+              ) : (
+                <div className="text-center py-12">
+                  <p className="text-gray-500">No blog posts available at the moment.</p>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </section>
+
+      {/* Blog Detail Modal */}
+      {selectedBlog && (
+        <BlogDetailModal blog={selectedBlog} isOpen={!!selectedBlog} onClose={() => setSelectedBlog(null)} />
+      )}
 
       {/* Customer Testimonials */}
       <section className="section-padding bg-light-beige">

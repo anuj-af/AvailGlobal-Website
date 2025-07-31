@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
-import { Search, Filter, ShoppingCart, Heart, Star, Truck, Shield, RotateCcw, X } from "lucide-react"
+import { Search, Heart, X, Phone, Mail } from "lucide-react"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Image from "next/image"
@@ -194,9 +194,9 @@ function ProductDetailModal({
                 </div>
               </div> */}
 
-              <div className="flex items-center gap-3">
+              {/* <div className="flex items-center gap-3">
                 <span className="text-2xl font-bold text-heading">Price: ₹{product.price}.00 INR</span>
-              </div>
+              </div> */}
               {/* <p className="text-sm text-gray-600">per {product.unit}</p> */}
             </div>
 
@@ -280,22 +280,6 @@ function ProductDetailModal({
                 </Button>
               </div>
             </div> */}
-
-            {/* Guarantees */}
-            <div className="grid grid-cols-3 gap-4 pt-4 border-t border-gray-200">
-              <div className="text-center">
-                <Truck className="h-6 w-6 text-warm-brown mx-auto mb-1" />
-                <p className="text-xs text-gray-600">Free Shipping</p>
-              </div>
-              <div className="text-center">
-                <Shield className="h-6 w-6 text-warm-brown mx-auto mb-1" />
-                <p className="text-xs text-gray-600">Quality Assured</p>
-              </div>
-              <div className="text-center">
-                <RotateCcw className="h-6 w-6 text-warm-brown mx-auto mb-1" />
-                <p className="text-xs text-gray-600">Easy Returns</p>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -311,6 +295,26 @@ function ProductDetailModal({
             ))}
           </div>
         </div> */}
+
+        {/* Action Buttons */}
+            <div className="flex gap-4 pt-4">
+              <Button asChild className="flex-1 bg-warm-brown hover:bg-warm-brown/90 text-white">
+                <a href="tel:+918989548626" className="flex items-center justify-center gap-2">
+                  <Phone className="w-4 h-4" />
+                  Call Us
+                </a>
+              </Button>
+              <Button
+                asChild
+                variant="outline"
+                className="flex-1 border-warm-brown text-warm-brown hover:bg-warm-brown hover:text-white bg-transparent"
+              >
+                <a href="mailto:avanitongia@gmail.com" className="flex items-center justify-center gap-2">
+                  <Mail className="w-4 h-4" />
+                  Send Enquiry
+                </a>
+              </Button>
+            </div>
       </DialogContent>
     </Dialog>
   )
@@ -572,12 +576,12 @@ export default function ProductsPage() {
                     <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
                   ))}
                 </div> */}
-                <div className="flex items-center justify-between mb-4">
+                {/* <div className="flex items-center justify-between mb-4">
                   <div>
                     <span className="text-lg font-bold text-heading">₹{product.price}.00 INR</span>
-                    {/* <span className="text-sm text-gray-500 ml-1">per {product.unit}</span> */}
+                    <span className="text-sm text-gray-500 ml-1">per {product.unit}</span>
                   </div>
-                </div>
+                </div> */}
                 {/* <Button onClick={() => handleAddToCart(product)} className="btn-primary w-full">
                   <ShoppingCart className="h-4 w-4 mr-2" />
                   Add to Cart
