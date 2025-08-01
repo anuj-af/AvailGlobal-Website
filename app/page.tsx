@@ -3,7 +3,6 @@
 import type React from "react"
 import { useState, useEffect } from "react"
 import Navigation from "./components/navigation"
-// import Footer from "./components/footer"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
@@ -21,6 +20,8 @@ import Footer from "./components/footer"
 import Link from "next/link";
 import MarkdownRenderer from "./components/markdown-renderer"
 import { Badge } from "@/components/ui/badge"
+import { useAllWordPressData } from "../hooks/use-wordpress-data"
+import WhatsAppWidget from "./components/whatsapp-widget"; // adjust path as needed
 
 
   // Blog Post Interface
@@ -1003,6 +1004,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      <WhatsAppWidget />
       <Footer />
     </div>
   )
