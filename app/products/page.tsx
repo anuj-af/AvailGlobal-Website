@@ -120,16 +120,6 @@ const products: Product[] = [
     specification: ["SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)", "SIZE OPTIONS: (SINGLE: 60” X 90”) / (DOUBLE: 90” X 100”) / (KING: 108” X 108”)"],
     features: ["FABRIC: 100% COTTON / POLY-COTTON BLEND (SELECT BASED ON ACTUAL MATERIAL)", "WEAVE TYPE: SATIN STRIPE (1 CM STRIPE PATTERN)", "THREAD COUNT: 200 TC / 300 TC (SPECIFY ACTUAL COUNT)" ,"FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"],
   },
-  {
-    id: "9",
-    name: "100% COTTON / POLY-COTTON BEDSHEET",
-    price: 1000,
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FStory-Home-Cotton-Single-Bedsheet%2Fdp%2FB01GS4BE2Y&psig=AOvVaw0hBy4OefTSoq22Tm2pKu9b&ust=1755174181411000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCODY_b7jh48DFQAAAAAdAAAAABAE",
-    category: "Hospitality",
-    subcategory: "Bedsheets",
-    specification: ["SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)", "SIZE OPTIONS: (SINGLE: 60” X 90”) / (DOUBLE: 90” X 100”) / (KING: 108” X 108”)"],
-    features: ["FABRIC: 100% COTTON / POLY-COTTON BLEND (SELECT BASED ON ACTUAL MATERIAL)", "WEAVE TYPE: SATIN STRIPE (1 CM STRIPE PATTERN)", "THREAD COUNT: 200 TC / 300 TC (SPECIFY ACTUAL COUNT)" ,"FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"],
-  },
 ]
 
 // Product Detail Modal Component
