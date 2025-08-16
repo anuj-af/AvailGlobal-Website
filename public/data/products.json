@@ -3,7 +3,7 @@
     "id": "1",
     "name": "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
     "price": 999,
-    "image": "/images/products/product1/1.jpg",
+    "image": "/images/products/1.jpg",
     "category": "Hospitality",
     "subcategory": "Bedsheets",
     "specification": [
@@ -18,7 +18,7 @@
     "id": "2",
     "name": "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
     "price": 999,
-    "image": "/images/products/product1/2.jpg",
+    "image": "/images/products/2.jpg",
     "category": "Hospitality",
     "subcategory": "Bedsheets",
     "specification": [
@@ -33,7 +33,7 @@
     "id": "3",
     "name": "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
     "price": 999,
-    "image": "/images/products/product1/3.jpg",
+    "image": "/images/products/3.jpg",
     "category": "Hospitality",
     "subcategory": "Bedsheets",
     "specification": [
@@ -48,7 +48,7 @@
     "id": "4",
     "name": "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
     "price": 999,
-    "image": "/images/products/product1/4.jpg",
+    "image": "/images/products/4.jpg",
     "category": "Hospitality",
     "subcategory": "Bedsheets",
     "specification": [
@@ -63,7 +63,7 @@
     "id": "5",
     "name": "100% COTTON / POLY-COTTON BEDSHEET",
     "price": 1000,
-    "image": "/images/products/product2/1.jpg",
+    "image": "/images/products/1.jpg",
     "category": "Hospitality",
     "subcategory": "Bedsheets",
     "specification": [
@@ -81,7 +81,7 @@
     "id": "6",
     "name": "100% COTTON / POLY-COTTON BEDSHEET",
     "price": 1000,
-    "image": "/images/products/product2/2.jpg",
+    "image": "/images/products/2.jpg",
     "category": "Hospitality",
     "subcategory": "Bedsheets",
     "specification": [
@@ -99,7 +99,7 @@
     "id": "7",
     "name": "100% COTTON / POLY-COTTON BEDSHEET",
     "price": 1000,
-    "image": "/images/products/product2/3.jpg",
+    "image": "/images/products/3.jpg",
     "category": "Hospitality",
     "subcategory": "Bedsheets",
     "specification": [
@@ -117,7 +117,7 @@
     "id": "8",
     "name": "100% COTTON / POLY-COTTON BEDSHEET",
     "price": 1000,
-    "image": "/images/products/product2/4.jpg",
+    "image": "/images/products/4.jpg",
     "category": "Hospitality",
     "subcategory": "Bedsheets",
     "specification": [

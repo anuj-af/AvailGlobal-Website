@@ -121,19 +121,19 @@ export default function HomePage() {
     {
       id: 1,
       image: "/placeholder.svg?height=800&width=1400",
-      video:"/vid1.mp4",
+      video:"/videos/vid1.mp4",
       alt: "Premium Spices Collection",
     },
     {
       id: 2,
       image: "/placeholder.svg?height=800&width=1400",
-      video:"/vid4.mp4",
+      video:"/videos/vid2.mp4",
       alt: "Quality Textiles",
     },
     {
       id: 3,
       image: "/placeholder.svg?height=800&width=1400",
-      video:"/vid3.mp4",
+      video:"/videos/vid3.mp4",
       alt: "Fresh Pulses",
     },
   ]
