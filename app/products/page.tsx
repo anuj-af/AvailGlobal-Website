@@ -13,114 +13,13 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Image from "next/image"
 import { useCart, type Product } from "../context/cart-context"
 import { useToast } from "@/hooks/use-toast"
+import productsData from "../../public/data/products.json";
+import categoryStructureData from "../../public/data/categories.json";
 
 // Category structure with subcategories
-const categoryStructure = {
-  Hospitality: {
-    label: "Bedsheet and Hospitality",
-    subcategories: {
-      Bedsheets: "Bedsheets",
+const categoryStructure = categoryStructureData;
 
-    },
-  }, 
-  giftings: {
-    label: "Readymade Garments",
-    subcategories: {
-
-    },
-  },
-  garments: {
-    label: "Corporate Giftings",
-    subcategories: {
-
-    },
-  },
-}
-
-const products: Product[] = [
-  // Product 1
-  {
-    id: "1",
-    name: "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
-    price: 999,
-    image: "/images/products/product1/1.jpg",
-    category: "Hospitality",
-    subcategory: "Bedsheets",
-    specification: ["1 KING SIZE JOINTLESS PREMIUM BEDSHEET { 108x108INCHES }", "2 QUILTED KING SIZE PREMIUM PILLOW COVERS WITH BORDERS"],
-    features: ["FABRIC - VERY HEAVY GSM AND SOFT COTTON FEEL GLACE"],
-  },
-  {
-    id: "2",
-    name: "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
-    price: 999,
-    image: "/images/products/product1/2.jpg",
-    category: "Hospitality",
-    subcategory: "Bedsheets",
-    specification: ["1 KING SIZE JOINTLESS PREMIUM BEDSHEET { 108x108INCHES }", "2 QUILTED KING SIZE PREMIUM PILLOW COVERS WITH BORDERS"],
-    features: ["FABRIC - VERY HEAVY GSM AND SOFT COTTON FEEL GLACE"],
-  },
-  {
-    id: "3",
-    name: "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
-    price: 999,
-    image: "/images/products/product1/3.jpg",
-    category: "Hospitality",
-    subcategory: "Bedsheets",
-    specification: ["1 KING SIZE JOINTLESS PREMIUM BEDSHEET { 108x108INCHES }", "2 QUILTED KING SIZE PREMIUM PILLOW COVERS WITH BORDERS"],
-    features: ["FABRIC - VERY HEAVY GSM AND SOFT COTTON FEEL GLACE"],
-  },
-  {
-    id: "4",
-    name: "QUILTED AND COORDINATE PREMIUM KING SIZE BEDSHEET COLLECTION { 1+2 } 👑",
-    price: 999,
-    image: "/images/products/product1/4.jpg",
-    category: "Hospitality",
-    subcategory: "Bedsheets",
-    specification: ["1 KING SIZE JOINTLESS PREMIUM BEDSHEET { 108x108INCHES }", "2 QUILTED KING SIZE PREMIUM PILLOW COVERS WITH BORDERS"],
-    features: ["FABRIC - VERY HEAVY GSM AND SOFT COTTON FEEL GLACE"],
-  },
-  // Product 2
-  {
-    id: "5",
-    name: "100% COTTON / POLY-COTTON BEDSHEET",
-    price: 1000,
-    image: "/images/products/product2/1.jpg",
-    category: "Hospitality",
-    subcategory: "Bedsheets",
-    specification: ["SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)", "SIZE OPTIONS: (SINGLE: 60” X 90”) / (DOUBLE: 90” X 100”) / (KING: 108” X 108”)"],
-    features: ["FABRIC: 100% COTTON / POLY-COTTON BLEND (SELECT BASED ON ACTUAL MATERIAL)", "WEAVE TYPE: SATIN STRIPE (1 CM STRIPE PATTERN)", "THREAD COUNT: 200 TC / 300 TC (SPECIFY ACTUAL COUNT)" ,"FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"],
-  },
-  {
-    id: "6",
-    name: "100% COTTON / POLY-COTTON BEDSHEET",
-    price: 1000,
-    image: "/images/products/product2/2.jpg",
-    category: "Hospitality",
-    subcategory: "Bedsheets",
-    specification: ["SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)", "SIZE OPTIONS: (SINGLE: 60” X 90”) / (DOUBLE: 90” X 100”) / (KING: 108” X 108”)"],
-    features: ["FABRIC: 100% COTTON / POLY-COTTON BLEND (SELECT BASED ON ACTUAL MATERIAL)", "WEAVE TYPE: SATIN STRIPE (1 CM STRIPE PATTERN)", "THREAD COUNT: 200 TC / 300 TC (SPECIFY ACTUAL COUNT)" ,"FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"],
-  },
-  {
-    id: "7",
-    name: "100% COTTON / POLY-COTTON BEDSHEET",
-    price: 1000,
-    image: "/images/products/product2/3.jpg",
-    category: "Hospitality",
-    subcategory: "Bedsheets",
-    specification: ["SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)", "SIZE OPTIONS: (SINGLE: 60” X 90”) / (DOUBLE: 90” X 100”) / (KING: 108” X 108”)"],
-    features: ["FABRIC: 100% COTTON / POLY-COTTON BLEND (SELECT BASED ON ACTUAL MATERIAL)", "WEAVE TYPE: SATIN STRIPE (1 CM STRIPE PATTERN)", "THREAD COUNT: 200 TC / 300 TC (SPECIFY ACTUAL COUNT)" ,"FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"],
-  },
-  {
-    id: "8",
-    name: "100% COTTON / POLY-COTTON BEDSHEET",
-    price: 1000,
-    image: "/images/products/product2/4.jpg",
-    category: "Hospitality",
-    subcategory: "Bedsheets",
-    specification: ["SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)", "SIZE OPTIONS: (SINGLE: 60” X 90”) / (DOUBLE: 90” X 100”) / (KING: 108” X 108”)"],
-    features: ["FABRIC: 100% COTTON / POLY-COTTON BLEND (SELECT BASED ON ACTUAL MATERIAL)", "WEAVE TYPE: SATIN STRIPE (1 CM STRIPE PATTERN)", "THREAD COUNT: 200 TC / 300 TC (SPECIFY ACTUAL COUNT)" ,"FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"],
-  },
-]
+const products: Product[] = productsData as Product[];
 
 // Product Detail Modal Component
 function ProductDetailModal({

@@ -20,8 +20,9 @@ import Footer from "./components/footer"
 import Link from "next/link";
 import MarkdownRenderer from "./components/markdown-renderer"
 import { Badge } from "@/components/ui/badge"
-import { useAllWordPressData } from "../hooks/use-wordpress-data"
 import WhatsAppWidget from "./components/whatsapp-widget"; // adjust path as needed
+import testimonialsData from "../public/data/testimonials.json"
+import brandsData from "../public/data/brands.json"
 
 
   // Blog Post Interface
@@ -137,20 +138,7 @@ export default function HomePage() {
     },
   ]
 
-  const testimonials = [
-    {
-      name: "Anuj",
-      rating: 5,
-      comment: "The Quality Was Soo Good!",
-      details: "AvailGlobal textiles transformed my business! The quality is exceptional and authentic.",
-    },
-    {
-      name: "Renam",
-      rating: 5,
-      comment: "Premium Products!",
-      details: "Best gifting products I've ever used. Fresh, aromatic, and perfectly ground.",
-    },
-  ]
+  const testimonials = testimonialsData
 
   const values = [
     {
@@ -196,13 +184,7 @@ export default function HomePage() {
     },
   ]
 
-  const brandLogos = [
-    { name: "C21", logo: "/images/brands/c21.png" },
-    { name: "Adven Tyre", logo: "/images/brands/adven.png" },
-    { name: "BJP", logo: "/images/brands/bjp.png" },
-    { name: "Tata Power Lux", logo: "/images/brands/tata.png" },
-    { name: "Eicher", logo: "/images/brands/eicher.png" },
-  ]
+  const brandLogos = brandsData
 
   
   const [formData, setFormData] = useState({

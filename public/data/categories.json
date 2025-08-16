@@ -1,0 +1,16 @@
+{
+  "Hospitality": {
+    "label": "Bedsheet and Hospitality",
+    "subcategories": {
+      "Bedsheets": "Bedsheets"
+    }
+  },
+  "Giftings": {
+    "label": "Corporate Giftings",
+    "subcategories": {}
+  },
+  "Garments": {
+    "label": "Readymade Garments",
+    "subcategories": {}
+  }
+}
