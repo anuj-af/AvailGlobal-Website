@@ -184,6 +184,24 @@
       "THREAD COUNT: 300 TC (SPECIFY ACTUAL COUNT)",
       "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
     ]
+  },
+   {
+    "id": "12",
+    "name": "100% COTTON BEDSHEET",
+    "price": 600,
+    "image": "/images/products/12.png",
+    "category": "Hospitality",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)",
+      "SIZE OPTIONS: (DOUBLE: 90” X 100”) / (KING: 108” X 108”)"
+    ],
+    "features": [
+      "FABRIC: 100% COTTON",
+      "WEAVE TYPE: SATIN STRIPE (1 CM STRIPE PATTERN)",
+      "THREAD COUNT: 300 TC (SPECIFY ACTUAL COUNT)",
+      "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
+    ]
   }
 ]
 
