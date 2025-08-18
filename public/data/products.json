@@ -202,6 +202,23 @@
       "THREAD COUNT: 300 TC (SPECIFY ACTUAL COUNT)",
       "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
     ]
+  },
+ {
+    "id": "13",
+    "name": "POLY-COTTON BEDSHEET",
+    "price": 300,
+    "image": "/images/products/13.png",
+    "category": "Hospitality",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)",
+      "SIZE OPTIONS: (DOUBLE: 90” X 100”) / (KING: 108” X 108”)"
+    ],
+    "features": [
+      "FABRIC: POLY-COTTON BEDSHEET",
+      "WEAVE TYPE: Plain Weave (Percale)",
+      "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
+    ]
   }
 ]
 
