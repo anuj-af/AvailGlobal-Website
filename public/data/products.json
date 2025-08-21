@@ -412,6 +412,82 @@
       "THREAD COUNT: 300 TC",
       "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
     ]
+  },
+  {
+    "id": "25",
+    "name": "PREMIUM CORPORATE GIFTING SET",
+    "price": 1200,
+    "image": "/images/products/25.png",
+    "category": "Gifting",
+    "subcategory": "Corporate Gifting",
+    "specification": [
+      "SET INCLUDES: 1 PREMIUM DIARY • 1 CARD HOLDER • 1 METAL PEN • 1 KEYCHAIN",
+      "PACKAGING: Delivered in an Elegant Black Gift Box"
+    ],
+    "features": [
+      "BRAND: CUSTOMISABLE WITH COMPANY LOGO OR NAME",
+      "MATERIAL: HIGH-QUALITY LEATHERITE FINISH (DIARY & CARD HOLDER)",
+      "PEN TYPE: METAL BALL PEN WITH SMOOTH WRITING INK",
+      "KEYCHAIN: DURABLE METALLIC FINISH WITH LEATHER STRAP",
+      "IDEAL FOR: CORPORATE GIFTING, CLIENT WELCOME KITS, AND EMPLOYEE APPRECIATION"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "PREMIUM CORPORATE GIFTING SET",
+    "price": 1200,
+    "image": "/images/products/26.png",
+    "category": "Gifting",
+    "subcategory": "Corporate Gifting",
+    "specification": [
+      "SET INCLUDES: 1 PREMIUM DIARY • 1 CARD HOLDER • 1 METAL PEN • 1 KEYCHAIN",
+      "PACKAGING: Delivered in an Elegant Black Gift Box"
+    ],
+    "features": [
+      "BRAND: CUSTOMISABLE WITH COMPANY LOGO OR NAME",
+      "MATERIAL: HIGH-QUALITY LEATHERITE FINISH (DIARY & CARD HOLDER)",
+      "PEN TYPE: METAL BALL PEN WITH SMOOTH WRITING INK",
+      "KEYCHAIN: DURABLE METALLIC FINISH WITH LEATHER STRAP",
+      "IDEAL FOR: CORPORATE GIFTING, CLIENT WELCOME KITS, AND EMPLOYEE APPRECIATION"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "PREMIUM CORPORATE GIFTING SET",
+    "price": 1200,
+    "image": "/images/products/27.png",
+    "category": "Gifting",
+    "subcategory": "Corporate Gifting",
+    "specification": [
+      "SET INCLUDES: 1 PREMIUM DIARY • 1 CARD HOLDER • 1 METAL PEN • 1 KEYCHAIN",
+      "PACKAGING: Delivered in an Elegant Black Gift Box"
+    ],
+    "features": [
+      "BRAND: CUSTOMISABLE WITH COMPANY LOGO OR NAME",
+      "MATERIAL: HIGH-QUALITY LEATHERITE FINISH (DIARY & CARD HOLDER)",
+      "PEN TYPE: METAL BALL PEN WITH SMOOTH WRITING INK",
+      "KEYCHAIN: DURABLE METALLIC FINISH WITH LEATHER STRAP",
+      "IDEAL FOR: CORPORATE GIFTING, CLIENT WELCOME KITS, AND EMPLOYEE APPRECIATION"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "PREMIUM CORPORATE GIFTING SET",
+    "price": 1200,
+    "image": "/images/products/28.png",
+    "category": "Gifting",
+    "subcategory": "Corporate Gifting",
+    "specification": [
+      "SET INCLUDES: 1 PREMIUM DIARY • 1 CARD HOLDER • 1 METAL PEN • 1 KEYCHAIN",
+      "PACKAGING: Delivered in an Elegant Black Gift Box"
+    ],
+    "features": [
+      "BRAND: CUSTOMISABLE WITH COMPANY LOGO OR NAME",
+      "MATERIAL: HIGH-QUALITY LEATHERITE FINISH (DIARY & CARD HOLDER)",
+      "PEN TYPE: METAL BALL PEN WITH SMOOTH WRITING INK",
+      "KEYCHAIN: DURABLE METALLIC FINISH WITH LEATHER STRAP",
+      "IDEAL FOR: CORPORATE GIFTING, CLIENT WELCOME KITS, AND EMPLOYEE APPRECIATION"
+    ]
   }
 ]
 

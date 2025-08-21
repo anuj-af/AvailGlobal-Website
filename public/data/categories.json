@@ -6,8 +6,12 @@
     }
   },
   "Giftings": {
-    "label": "Corporate Giftings",
-    "subcategories": {}
+    "label": "Giftings",
+    "subcategories": {
+      "Corporate Gifting": "Corporate Gifting",
+      "Wedding Gifting": "Wedding Gifting",
+      "Festive Gifting": "Festive Gifting"
+    }
   },
   "Garments": {
     "label": "Readymade Garments",
