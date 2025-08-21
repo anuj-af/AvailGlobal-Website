@@ -270,6 +270,40 @@
       "WEAVE TYPE: Satin Weave",
       "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
     ]
+  },
+  {
+    "id": "17",
+    "name": "SATIN COMBED BEDSHEET",
+    "price": 960,
+    "image": "/images/products/17.jpeg",
+    "category": "Hospitality",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)",
+      "SIZE OPTIONS: (KING: 108” X 108”)"
+    ],
+    "features": [
+      "FABRIC: 100% COTTON BEDSHEET",
+      "WEAVE TYPE: Satin Weave",
+      "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
+    ]
+  },
+   {
+    "id": "18",
+    "name": "SATIN COMBED BEDSHEET",
+    "price": 960,
+    "image": "/images/products/18.jpeg",
+    "category": "Hospitality",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "SET INCLUDES: 1 FLAT BEDSHEET • 2 PILLOW COVERS (17” X 27” OR STANDARD SIZE)",
+      "SIZE OPTIONS: (KING: 108” X 108”)"
+    ],
+    "features": [
+      "FABRIC: 100% COTTON BEDSHEET",
+      "WEAVE TYPE: Satin Weave",
+      "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
+    ]
   }
 ]
 
