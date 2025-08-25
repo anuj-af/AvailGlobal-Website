@@ -532,6 +532,28 @@
     "UTILITY: Ideal for corporate gifting, executives, and professionals",
     "SAFETY: Padded interior to protect devices and essentials"
   ]
+},
+  {
+  "id": "31",
+  "name": "CUSTOM PRINTED T-SHIRT",
+  "price": 650,
+  "image": "/images/products/31.png",
+  "category": "Giftings",
+  "subcategory": "Corporate Gifting",
+  "specification": [
+    "MATERIAL: 100% premium cotton with soft touch finish",
+    "DESIGN: Round neck, half sleeves, comfortable regular fit",
+    "PRINT: High-quality digital print with company logo or design",
+    "COLOR OPTIONS: Available in multiple shades (Red, Black, White, Navy, Grey)",
+    "SIZES: S, M, L, XL, XXL"
+  ],
+  "features": [
+    "BRAND: Customisable with company logo, name, or design",
+    "USAGE: Perfect for corporate gifting, events, team uniforms, and promotions",
+    "STYLE: Trendy and modern casual wear with brand visibility",
+    "DURABILITY: Fade-resistant color and long-lasting print",
+    "COMFORT: Breathable cotton fabric suitable for all-day wear"
+  ]
 }
 ]
 
