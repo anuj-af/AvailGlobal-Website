@@ -554,6 +554,28 @@
     "DURABILITY: Fade-resistant color and long-lasting print",
     "COMFORT: Breathable cotton fabric suitable for all-day wear"
   ]
+},
+  {
+  "id": "32",
+  "name": "CUSTOM CORPORATE POLO T-SHIRT",
+  "price": 850,
+  "image": "/images/products/32.png",
+  "category": "Giftings",
+  "subcategory": "Corporate Gifting",
+  "specification": [
+    "MATERIAL: Premium poly-cotton blend for durability and comfort",
+    "DESIGN: Classic polo collar with button placket",
+    "FIT: Regular fit with short sleeves",
+    "PRINT/EMBROIDERY: Customisable with company logo on chest or sleeve",
+    "SIZES: S, M, L, XL, XXL"
+  ],
+  "features": [
+    "BRAND: Customisable with company logo, name, or design",
+    "USAGE: Perfect for corporate gifting, events, team uniforms, and promotional campaigns",
+    "STYLE: Professional polo design suitable for casual office wear",
+    "DURABILITY: Fade-resistant fabric and long-lasting stitching",
+    "COMFORT: Breathable and soft fabric for all-day wear"
+  ]
 }
 ]
 
