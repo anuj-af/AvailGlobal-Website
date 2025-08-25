@@ -510,6 +510,28 @@
     "SAFETY: Soft padded lining to protect laptop and gadgets",
     "STYLE: Sleek and modern look, perfect for daily commute and business travel"
   ]
+},
+  {
+  "id": "30",
+  "name": "LAPTOP BAG",
+  "price": 1800,
+  "image": "/images/products/30.png",
+  "category": "Giftings",
+  "subcategory": "Corporate Gifting",
+  "specification": [
+    "MATERIAL: Premium quality leatherite finish with stylish multicolor stripe design",
+    "DESIGN: Sleek, slim, and modern professional look",
+    "COMPARTMENTS: Spacious main section for laptop, with pockets for tablet, documents, and accessories",
+    "STRAP: Adjustable and detachable shoulder strap with padded top handles",
+    "CLOSURE: Smooth dual zipper for secure closure"
+  ],
+  "features": [
+    "BRAND: Customisable with company logo or name",
+    "SIZE: Fits laptops up to 15.6 inches",
+    "STYLE: Elegant blue finish with trendy central stripe for a premium appearance",
+    "UTILITY: Ideal for corporate gifting, executives, and professionals",
+    "SAFETY: Padded interior to protect devices and essentials"
+  ]
 }
 ]
 
