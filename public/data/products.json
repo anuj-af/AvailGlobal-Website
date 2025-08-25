@@ -488,7 +488,29 @@
       "KEYCHAIN: DURABLE METALLIC FINISH WITH LEATHER STRAP",
       "IDEAL FOR: CORPORATE GIFTING, CLIENT WELCOME KITS, AND EMPLOYEE APPRECIATION"
     ]
-  }
+  },
+  {
+  "id": "29",
+  "name": "LAPTOP BAG",
+  "price": 1500,
+  "image": "/images/products/29.png",
+  "category": "Giftings",
+  "subcategory": "Corporate Gifting",
+  "specification": [
+    "MATERIAL: Premium quality durable fabric with leatherite finish handles",
+    "DESIGN: Slim, lightweight, and professional design for business use",
+    "COMPARTMENTS: Multiple organized sections for laptop, tablet, charger, documents, and stationery",
+    "STRAP: Adjustable and detachable shoulder strap with padded handles for comfort",
+    "CLOSURE: Smooth zipper with sturdy pullers"
+  ],
+  "features": [
+    "BRAND: Customisable with company logo or name",
+    "SIZE: Fits laptops up to 15.6 inches",
+    "UTILITY: Ideal for professionals, corporate gifting, client welcome kits, and employee appreciation",
+    "SAFETY: Soft padded lining to protect laptop and gadgets",
+    "STYLE: Sleek and modern look, perfect for daily commute and business travel"
+  ]
+}
 ]
 
 
