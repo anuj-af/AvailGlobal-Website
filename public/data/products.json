@@ -756,7 +756,7 @@
   {
   "id": "41",
   "name": "Luxury 3-Piece Peacock Lid Bowl Set with Tray",
-  "price": 5499,
+  "price": 2499,
   "image": "/images/products/41.png",
   "category": "Giftings",
   "subcategory": "Wedding Gifting",
@@ -778,7 +778,7 @@
   {
   "id": "42",
   "name": "Luxury Silver Glass Set with Velvet Box",
-  "price": 4999,
+  "price": 1999,
   "image": "/images/products/42.png",
   "category": "Giftings",
   "subcategory": "Wedding Gifting",
@@ -795,6 +795,28 @@
     "DURABILITY: Strong glass with protective silver holder",
     "USAGE: Perfect for weddings, anniversaries, and festive occasions",
     "UNIQUENESS: Velvet box packaging makes it an exclusive premium gift"
+  ]
+},
+  {
+  "id": "43",
+  "name": "Luxury Decorative Square Box with Glass Lid",
+  "price": 3500,
+  "image": "/images/products/43.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium metal alloy with crystal glass lid and silver finish",
+    "DESIGN: Square handcrafted box with intricate detailing and pearl-inspired side accents",
+    "DIMENSIONS: Approx. 25 x 25 x 12 cm",
+    "USAGE: Ideal for storing sweets, dry fruits, or as a decorative centerpiece",
+    "FINISH: Glossy metallic shine with elegant glass knob on lid"
+  ],
+  "features": [
+    "BRAND: Royal handcrafted premium gifting collection",
+    "STYLE: Elegant square design with luxury appeal",
+    "DURABILITY: Strong metal frame with long-lasting finish",
+    "USAGE: Perfect for weddings, anniversaries, and festive occasions",
+    "UNIQUENESS: Combination of crystal glass, silver detailing, and handcrafted artistry"
   ]
 }
 ]
