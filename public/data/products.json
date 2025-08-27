@@ -752,6 +752,50 @@
     "USAGE: Perfect for weddings, anniversaries, and festive occasions",
     "UNIQUENESS: Distinctive artistic blend of enamel and silver carving"
   ]
+},
+  {
+  "id": "41",
+  "name": "Luxury 3-Piece Peacock Lid Bowl Set with Tray",
+  "price": 5499,
+  "image": "/images/products/41.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium metal alloy with silver finish and enamel detailing",
+    "DESIGN: Three intricately handcrafted bowls with peacock lids, placed on an ornate tray",
+    "DIMENSIONS: Tray approx. 30 cm diameter, bowls approx. 12 cm height each",
+    "USAGE: Ideal for serving dry fruits, sweets, or as a decorative centerpiece",
+    "FINISH: Glossy enamel with fine silver carving and detailing"
+  ],
+  "features": [
+    "BRAND: Royal handcrafted wedding gifting collection",
+    "STYLE: Elegant peacock design symbolizing grace and prosperity",
+    "DURABILITY: Strong metal construction with long-lasting finish",
+    "USAGE: Perfect for premium wedding gifts, anniversaries, and festive occasions",
+    "UNIQUENESS: Includes 3 peacock-lid bowls with matching decorative tray"
+  ]
+},
+  {
+  "id": "42",
+  "name": "Luxury Silver Glass Set with Velvet Box",
+  "price": 4999,
+  "image": "/images/products/42.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium glass with intricate silver-coated holders",
+    "DESIGN: Set of 3 designer glasses with fine cutwork design",
+    "PACKAGING: Comes in a royal blue velvet presentation box",
+    "USAGE: Suitable for serving water, juice, or as a decorative gift set",
+    "DIMENSIONS: Approx. 6 inches height each glass"
+  ],
+  "features": [
+    "BRAND: Royal handcrafted premium gifting collection",
+    "STYLE: Elegant silver pattern with luxury appeal",
+    "DURABILITY: Strong glass with protective silver holder",
+    "USAGE: Perfect for weddings, anniversaries, and festive occasions",
+    "UNIQUENESS: Velvet box packaging makes it an exclusive premium gift"
+  ]
 }
 ]
 
