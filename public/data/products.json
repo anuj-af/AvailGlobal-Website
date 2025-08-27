@@ -818,6 +818,28 @@
     "USAGE: Perfect for weddings, anniversaries, and festive occasions",
     "UNIQUENESS: Combination of crystal glass, silver detailing, and handcrafted artistry"
   ]
+},
+  {
+  "id": "44",
+  "name": "Elegant Swan Spoon Holder Set with Spoons",
+  "price": 2499,
+  "image": "/images/products/44.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium metal alloy with silver finish",
+    "DESIGN: Swan-shaped holder with a set of decorative spoons",
+    "SET INCLUDES: 1 swan holder + 6 matching spoons",
+    "DIMENSIONS: Approx. 12 cm height (holder), 10 cm length (spoons)",
+    "USAGE: Ideal for serving condiments, desserts, or as a table décor piece"
+  ],
+  "features": [
+    "BRAND: Royal handcrafted gifting collection",
+    "STYLE: Graceful swan design symbolizing elegance",
+    "DURABILITY: Strong metal with long-lasting silver coating",
+    "USAGE: Perfect for weddings, anniversaries, and festive gifting",
+    "UNIQUENESS: Combination of functionality and luxurious table décor"
+  ]
 }
 ]
 
