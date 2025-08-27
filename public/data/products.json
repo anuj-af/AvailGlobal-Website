@@ -730,6 +730,28 @@
     "USAGE: Perfect for weddings, anniversaries, and festive occasions",
     "UNIQUENESS: Distinctive artistic blend of enamel and silver carving"
   ]
+},
+  {
+  "id": "40",
+  "name": "Luxury Peacock Lid Decorative Bowl",
+  "price": 3999,
+  "image": "/images/products/40.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium metal alloy with turquoise enamel and silver finish",
+    "DESIGN: Intricate handcrafted bowl with a majestic peacock lid",
+    "DIMENSIONS: Approx. 15 x 15 x 12 cm",
+    "USAGE: Ideal for dry fruits, sweets, or as a decorative showpiece",
+    "FINISH: Glossy enamel with detailed silver carving"
+  ],
+  "features": [
+    "BRAND: Royal handcrafted gifting collection",
+    "STYLE: Regal peacock motif for luxurious appeal",
+    "DURABILITY: Strong metal structure with long-lasting shine",
+    "USAGE: Perfect for weddings, anniversaries, and festive occasions",
+    "UNIQUENESS: Distinctive artistic blend of enamel and silver carving"
+  ]
 }
 ]
 
