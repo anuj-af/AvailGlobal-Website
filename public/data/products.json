@@ -620,7 +620,117 @@
       "DURABILITY: Scratch-resistant mineral glass",
       "USAGE: Perfect for executive and corporate gifting"
     ]
-  }
+  },
+  {
+  "id": "35",
+  "name": "Elegant Decorative Vase with Golden Leaf Design",
+  "price": 2599,
+  "image": "/images/products/35.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium glass with golden metal leaf accents",
+    "DESIGN: Modern gradient blue vase with elegant leaf stand",
+    "DIMENSIONS: Approx. 10 inches height",
+    "USAGE: Suitable for fresh flowers, artificial arrangements, or standalone décor",
+    "FINISH: Glossy gradient finish with metallic detailing"
+  ],
+  "features": [
+    "BRAND: Luxury handcrafted home décor collection",
+    "STYLE: Elegant and timeless design for wedding and premium gifting",
+    "DURABILITY: Sturdy glass vase with strong metal support",
+    "USAGE: Perfect centerpiece for weddings, anniversaries, and festive occasions",
+    "UNIQUENESS: Distinctive blend of glass and golden leaf artistry"
+  ]
+},
+  {
+  "id": "36",
+  "name": "Luxury Blue Glass Vase with Golden Leaf Stand",
+  "price": 2799,
+  "image": "/images/products/36.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium gradient blue glass with metallic golden stand",
+    "DESIGN: Artistic golden leaves entwined around the vase",
+    "DIMENSIONS: Approx. 10-12 inches in height",
+    "USAGE: Can be used as a flower vase or as a standalone decorative piece",
+    "FINISH: Smooth gradient finish with glossy metallic detailing"
+  ],
+  "features": [
+    "BRAND: Premium handcrafted décor collection",
+    "STYLE: Elegant and luxurious design for weddings and special occasions",
+    "DURABILITY: Strong glass body supported by sturdy golden stand",
+    "USAGE: Ideal as a wedding gift, centerpiece, or festive décor",
+    "UNIQUENESS: Handcrafted blend of glass artistry and golden leaf aesthetics"
+  ]
+},
+  {
+  "id": "37",
+  "name": "Elegant Silver Photo Frame with Floral Design",
+  "price": 1999,
+  "image": "/images/products/37.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium silver-plated frame with floral embellishments",
+    "DESIGN: Golden floral branch with pastel flower accents on one side",
+    "DIMENSIONS: Suitable for 5x7 inch photographs",
+    "USAGE: Ideal for wedding, anniversary, or memorable photo displays",
+    "FINISH: Glossy silver surface with elegant decorative detailing"
+  ],
+  "features": [
+    "BRAND: Luxury handcrafted gifting collection",
+    "STYLE: Elegant and timeless design perfect for weddings",
+    "DURABILITY: Sturdy build with long-lasting shine",
+    "USAGE: Perfect as a wedding gift or home décor accessory",
+    "UNIQUENESS: Artistic blend of silver and floral accents for a premium look"
+  ]
+},
+  {
+  "id": "38",
+  "name": "Ornate Wedding Gifting Bowl with Lid & Spoon (TWJ4035EM)",
+  "price": 3499,
+  "image": "/images/products/38.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium metal alloy with intricate embossed design",
+    "DESIGN: Ornate handcrafted bowl with lid, spoon, and four sturdy legs",
+    "DIMENSIONS: 14 x 14 x 11 cm",
+    "COLOR OPTIONS: Silver, Green, Orange, Aqua Blue",
+    "USAGE: Ideal for dry fruit serving, sweets, or as decorative centerpiece"
+  ],
+  "features": [
+    "BRAND: Luxury handcrafted wedding collection",
+    "STYLE: Traditional regal design with intricate carvings",
+    "DURABILITY: Sturdy construction with long-lasting shine",
+    "USAGE: Perfect for weddings, anniversaries, and festive gifting",
+    "UNIQUENESS: Available in multiple vibrant enamel finish options"
+  ]
+},
+  {
+  "id": "39",
+  "name": "Luxury Peacock Lid Decorative Bowl",
+  "price": 3999,
+  "image": "/images/products/39.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium metal alloy with turquoise enamel and silver finish",
+    "DESIGN: Intricate handcrafted bowl with a majestic peacock lid",
+    "DIMENSIONS: Approx. 15 x 15 x 12 cm",
+    "USAGE: Ideal for dry fruits, sweets, or as a decorative showpiece",
+    "FINISH: Glossy enamel with detailed silver carving"
+  ],
+  "features": [
+    "BRAND: Royal handcrafted gifting collection",
+    "STYLE: Regal peacock motif for luxurious appeal",
+    "DURABILITY: Strong metal structure with long-lasting shine",
+    "USAGE: Perfect for weddings, anniversaries, and festive occasions",
+    "UNIQUENESS: Distinctive artistic blend of enamel and silver carving"
+  ]
+}
 ]
 
 
