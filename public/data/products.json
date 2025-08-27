@@ -840,6 +840,50 @@
     "USAGE: Perfect for weddings, anniversaries, and festive gifting",
     "UNIQUENESS: Combination of functionality and luxurious table décor"
   ]
+},
+  {
+  "id": "45",
+  "name": "Golden Spiral Glass Holder Set",
+  "price": 1100,
+  "image": "/images/products/45.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium glass with golden metal spiral design",
+    "DESIGN: Modern cylindrical glass holders with artistic spiral wrap",
+    "SET INCLUDES: 2 decorative glass holders (small & large)",
+    "DIMENSIONS: Small approx. 6 inches, Large approx. 8 inches",
+    "USAGE: Ideal for candles, décor arrangements, or gifting"
+  ],
+  "features": [
+    "BRAND: Designer handcrafted gifting collection",
+    "STYLE: Contemporary golden spiral look",
+    "DURABILITY: Thick glass with sturdy metal frame",
+    "USAGE: Perfect for weddings, anniversaries, and home décor",
+    "UNIQUENESS: Combination of elegance and modern artistry"
+  ]
+},
+  {
+  "id": "46",
+  "name": "Floral Embellished Decorative Candle Holder",
+  "price": 1650,
+  "image": "/images/products/46.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium glass with metal floral embellishments",
+    "DESIGN: Tall candle holder with golden vine & purple flower accents",
+    "DIMENSIONS: 13 inches height",
+    "USAGE: Suitable for candles, tealights, or as a centerpiece",
+    "FINISH: Glossy finish with hand-painted detailing"
+  ],
+  "features": [
+    "BRAND: Elegant premium gifting collection",
+    "STYLE: Artistic floral design with luxury appeal",
+    "DURABILITY: Strong metal with glass integration",
+    "USAGE: Perfect for weddings, home décor, and festive gifting",
+    "UNIQUENESS: Distinctive floral artistry with intricate handwork"
+  ]
 }
 ]
 
