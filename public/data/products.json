@@ -576,7 +576,51 @@
     "DURABILITY: Fade-resistant fabric and long-lasting stitching",
     "COMFORT: Breathable and soft fabric for all-day wear"
   ]
-}
+},
+  {
+    "id": "33",
+    "name": "EWM-URBAN White Dial Tan Strap",
+    "price": 1999,
+    "image": "/images/products/33.png",
+    "category": "Giftings",
+    "subcategory": "Corporate Gifting",
+    "specification": [
+      "DIAL COLOR: White with bold Arabic numerals",
+      "STRAP: Tan leather strap with buckle closure",
+      "MOVEMENT: Quartz precision movement",
+      "CASE: Stainless steel case with polished finish",
+      "WATER RESISTANCE: Up to 30 meters"
+    ],
+    "features": [
+      "BRAND: EWM-URBAN Series",
+      "STYLE: Contemporary urban design for professionals",
+      "COMFORT: Lightweight and durable leather strap",
+      "DURABILITY: Scratch-resistant mineral glass",
+      "USAGE: Ideal for corporate gifting and daily wear"
+    ]
+  },
+  {
+    "id": "34",
+    "name": "EWM-POLO Silver Dial Steel Strap",
+    "price": 2199,
+    "image": "/images/products/34.png",
+    "category": "Giftings",
+    "subcategory": "Corporate Gifting",
+    "specification": [
+      "DIAL COLOR: Silver with minimalist index markers",
+      "STRAP: Stainless steel bracelet with clasp closure",
+      "MOVEMENT: Quartz precision movement",
+      "CASE: Stainless steel case with polished finish",
+      "WATER RESISTANCE: Up to 30 meters"
+    ],
+    "features": [
+      "BRAND: EWM-POLO Series",
+      "STYLE: Elegant and professional corporate look",
+      "COMFORT: Adjustable steel strap for secure fit",
+      "DURABILITY: Scratch-resistant mineral glass",
+      "USAGE: Perfect for executive and corporate gifting"
+    ]
+  }
 ]
 
 
