@@ -972,6 +972,50 @@
     "MULTI-PURPOSE: Perfect for weddings, festive gifts, and corporate hampers",
     "DECORATIVE: Enhances home, temple, and office décor with a royal touch"
   ]
+},
+  {
+  "id": "51",
+  "name": "Peacock Embossed Decorative Gift Box",
+  "price": 2950,
+  "image": "/images/products/51.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium resin and metal blend with embossed silver peacock design",
+    "DESIGN: Handcrafted green decorative box with intricate peacock artistry",
+    "DIMENSIONS: Medium-size keepsake box (custom sizes available on request)",
+    "PACKAGING: Comes in protective casing, gift-ready presentation",
+    "USAGE: Ideal for storing jewelry, dry fruits, chocolates, and wedding gifts"
+  ],
+  "features": [
+    "ARTISANAL: Handcrafted with detailed silver-tone peacock embossing",
+    "PREMIUM LOOK: Glossy green finish with luxury appeal",
+    "MULTI-PURPOSE: Perfect for weddings, festive gifting, and home décor",
+    "DURABILITY: Strong and long-lasting with fine detailing",
+    "UNIQUE: Distinctive peacock design symbolizing prosperity and elegance"
+  ]
+},
+  {
+  "id": "52",
+  "name": "Royal Peacock & Elephant Decorative Gift Set",
+  "price": 6250,
+  "image": "/images/products/52.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium metal with turquoise enamel finish and silver detailing",
+    "DESIGN: Set includes a royal peacock-embossed storage box and 2 decorative elephant jars",
+    "DIMENSIONS: Large gift set with luxury presence",
+    "PACKAGING: Comes in a velvet-lined hard case with gold clasp",
+    "USAGE: Ideal for wedding gifting, corporate hampers, home décor & festive occasions"
+  ],
+  "features": [
+    "LUXURIOUS: Combination of peacock and elephant motifs symbolizing prosperity & strength",
+    "HANDCRAFTED: Intricate embossed detailing with antique silver finish",
+    "READY-TO-GIFT: Premium presentation box with protective velvet lining",
+    "MULTI-PURPOSE: Perfect for weddings, festive gifting, and corporate luxury hampers",
+    "PREMIUM COLLECTION: Distinctive design that stands out as a statement piece"
+  ]
 }
 ]
 
