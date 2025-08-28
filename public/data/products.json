@@ -906,6 +906,28 @@
     "MULTI-PURPOSE: Ideal for families, weddings, and corporate festive hampers",
     "QUALITY: Handpicked, hygienically packed items ensuring authenticity"
   ]
+},
+ {
+  "id": "48",
+  "name": "Big Sankh Gift Box",
+  "price": 3250,
+  "image": "/images/products/48.png",
+  "category": "Giftings",
+  "subcategory": "Religious & Festive Gifting",
+  "specification": [
+    "MATERIAL: Premium metal-plated decorative Sankh with intricate hand-carved detailing",
+    "DESIGN: Golden and silver finish with embossed religious motifs",
+    "DIMENSIONS: Large size Sankh (custom sizes available on request)",
+    "PACKAGING: Comes in a luxury velvet-lined red gift box with golden clasp",
+    "USAGE: Ideal for temple decor, auspicious rituals, wedding gifts, and corporate festive gifting"
+  ],
+  "features": [
+    "PREMIUM QUALITY: Strong and durable with elegant metallic finish",
+    "AUSPICIOUS: Symbol of prosperity, purity, and good fortune",
+    "LUXURY PACKAGING: Velvet-lined hard box makes it ready for gifting",
+    "ARTISANAL: Handcrafted with intricate detailing and traditional artistry",
+    "MULTI-PURPOSE: Suitable for personal worship, home decor, weddings, and festive corporate hampers"
+  ]
 }
 ]
 
