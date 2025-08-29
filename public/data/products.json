@@ -863,26 +863,26 @@
     "UNIQUENESS: Combination of elegance and modern artistry"
   ]
 },
-  {
+ {
   "id": "46",
-  "name": "Floral Embellished Decorative Candle Holder",
+  "name": "Vintage Brass Finish Goblet Candle Holders (Set of 2)",
   "price": 1650,
   "image": "/images/products/46.png",
   "category": "Giftings",
   "subcategory": "Wedding Gifting",
   "specification": [
-    "MATERIAL: Premium glass with metal floral embellishments",
-    "DESIGN: Tall candle holder with golden vine & purple flower accents",
-    "DIMENSIONS: 13 inches height",
-    "USAGE: Suitable for candles, tealights, or as a centerpiece",
-    "FINISH: Glossy finish with hand-painted detailing"
+    "MATERIAL: Brass-finish metal with gold inner lining",
+    "DESIGN: Vintage goblet style with intricate floral embossing",
+    "DIMENSIONS: 7 inches height each",
+    "USAGE: Suitable as decorative showpiece, candle/tealight holder, or centerpiece",
+    "FINISH: Antique matte bronze outer with polished gold inner"
   ],
   "features": [
-    "BRAND: Elegant premium gifting collection",
-    "STYLE: Artistic floral design with luxury appeal",
-    "DURABILITY: Strong metal with glass integration",
-    "USAGE: Perfect for weddings, home décor, and festive gifting",
-    "UNIQUENESS: Distinctive floral artistry with intricate handwork"
+    "BRAND: Premium heritage gifting collection",
+    "STYLE: Royal vintage design inspired by traditional goblets",
+    "DURABILITY: Made of sturdy metal with long-lasting finish",
+    "USAGE: Ideal for weddings, home décor, and festive gifting",
+    "UNIQUENESS: Hand-embossed floral artistry with antique appeal"
   ]
 },
   {
@@ -1015,6 +1015,138 @@
     "READY-TO-GIFT: Premium presentation box with protective velvet lining",
     "MULTI-PURPOSE: Perfect for weddings, festive gifting, and corporate luxury hampers",
     "PREMIUM COLLECTION: Distinctive design that stands out as a statement piece"
+  ]
+},
+  {
+  "id": "53",
+  "name": "Silver-Plated Bowl Set with Tray (3 Pieces)",
+  "price": 2450,
+  "image": "/images/products/53.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium silver-plated brass",
+    "DESIGN: 3 intricately carved bowls with spoons placed on a tray",
+    "DIMENSIONS: Tray length 12 inches, bowl height 3 inches",
+    "USAGE: Ideal for serving dry fruits, sweets, or as festive décor",
+    "FINISH: Glossy silver polish with embossed detailing"
+  ],
+  "features": [
+    "BRAND: Heritage luxury gifting",
+    "STYLE: Traditional Indian design",
+    "DURABILITY: Long-lasting silver polish finish",
+    "USAGE: Wedding, festive occasions, and corporate gifting",
+    "UNIQUENESS: Comes with an elegant velvet storage box"
+  ]
+},
+  {
+  "id": "54",
+  "name": "Antique Twin Bowl Parrot Stand",
+  "price": 1850,
+  "image": "/images/products/54.png",
+  "category": "Giftings",
+  "subcategory": "Festive Gifting",
+  "specification": [
+    "MATERIAL: Brass with antique bronze finish",
+    "DESIGN: Two bowls supported on branches with perched parrots",
+    "DIMENSIONS: 10 inches height",
+    "USAGE: Can hold dry fruits, flowers, or tealights",
+    "FINISH: Antique hand-carved with matte polish"
+  ],
+  "features": [
+    "BRAND: Premium artistic gifting collection",
+    "STYLE: Vintage parrot design",
+    "DURABILITY: Sturdy brass construction",
+    "USAGE: Ideal for Diwali, weddings, and home décor",
+    "UNIQUENESS: Handcrafted dual-bowl design"
+  ]
+},
+  {
+  "id": "55",
+  "name": "Silver-Plated Designer Pooja Thali Set",
+  "price": 2200,
+  "image": "/images/products/55.png",
+  "category": "Giftings",
+  "subcategory": "Religious Gifting",
+  "specification": [
+    "MATERIAL: Premium silver-plated metal",
+    "DESIGN: Intricately carved thali with Swastik symbol, includes diya and bell",
+    "DIMENSIONS: Thali diameter 12 inches",
+    "USAGE: Suitable for pooja, festive rituals, or gifting",
+    "FINISH: Glossy silver polish with traditional artistry"
+  ],
+  "features": [
+    "BRAND: Devotional luxury gifting collection",
+    "STYLE: Traditional religious pooja thali",
+    "DURABILITY: Long-lasting silver plating",
+    "USAGE: Perfect for Diwali, Navratri, or weddings",
+    "UNIQUENESS: Includes diya holders and bell"
+  ]
+},
+ {
+  "id": "56",
+  "name": "Peacock Decorative Bowl with Enamel Work",
+  "price": 1990,
+  "image": "/images/products/56.png",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Metal with silver finish and enamel detailing",
+    "DESIGN: Peacock body holding a floral-shaped bowl",
+    "DIMENSIONS: 9 inches height",
+    "USAGE: Perfect for dry fruits, décor, or as a centerpiece",
+    "FINISH: Hand-painted enamel with antique polish"
+  ],
+  "features": [
+    "BRAND: Royal heritage gifting collection",
+    "STYLE: Artistic peacock design",
+    "DURABILITY: Strong metal with enamel work",
+    "USAGE: Ideal for weddings, Diwali, and festive décor",
+    "UNIQUENESS: Intricate hand-enamel with embedded stones"
+  ]
+},
+  {
+  "id": "57",
+  "name": "Golden Banana Leaf Decorative Platter",
+  "price": 1350,
+  "image": "/images/products/57.png",
+  "category": "Giftings",
+  "subcategory": "Home Décor Gifting",
+  "specification": [
+    "MATERIAL: Aluminium with golden finish",
+    "DESIGN: Banana leaf shaped platter with realistic vein detailing",
+    "DIMENSIONS: 12 inches length",
+    "USAGE: Suitable for serving, décor, or gifting",
+    "FINISH: Glossy golden polish"
+  ],
+  "features": [
+    "BRAND: Designer gifting collection",
+    "STYLE: Nature-inspired platter design",
+    "DURABILITY: Lightweight yet strong aluminium",
+    "USAGE: Ideal for home décor and festive gifting",
+    "UNIQUENESS: Artistic banana leaf impression"
+  ]
+},
+  {
+  "id": "58",
+  "name": "Golden Floral Leaf Decorative Bowl",
+  "price": 1250,
+  "image": "/images/products/58.png",
+  "category": "Giftings",
+  "subcategory": "Home Décor Gifting",
+  "specification": [
+    "MATERIAL: Aluminium with gold plating",
+    "DESIGN: Large leaf-shaped bowl with embossed veins",
+    "DIMENSIONS: 10 inches diameter",
+    "USAGE: Can be used as fruit bowl, centerpiece, or décor",
+    "FINISH: Glossy golden finish"
+  ],
+  "features": [
+    "BRAND: Elegant gifting collection",
+    "STYLE: Floral leaf-inspired luxury bowl",
+    "DURABILITY: Long-lasting aluminium with polish",
+    "USAGE: Suitable for weddings, festive, or home décor gifting",
+    "UNIQUENESS: Handcrafted golden leaf artistry"
   ]
 }
 ]
