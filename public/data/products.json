@@ -1148,6 +1148,94 @@
     "USAGE: Suitable for weddings, festive, or home décor gifting",
     "UNIQUENESS: Handcrafted golden leaf artistry"
   ]
+},
+  {
+  "id": "59",
+  "name": "Elephant & Tree Print Bedsheet Set",
+  "price": 1499,
+  "image": "/images/products/59.png",
+  "category": "Home Furnishing",
+  "subcategory": "Bedsheets",
+  "specification": [
+    "MATERIAL: Premium cotton blend fabric",
+    "DESIGN: Intricate elephant and tree motif print",
+    "DIMENSIONS: 108 x 108 inches (king size)",
+    "INCLUDES: 1 bedsheet with 2 matching pillow covers",
+    "FINISH: Smooth, soft-touch finish with detailed print"
+  ],
+  "features": [
+    "BRAND: Royal Supreme Collection",
+    "STYLE: Ethnic-inspired traditional elephant design",
+    "DURABILITY: Long-lasting color and fabric strength",
+    "USAGE: Perfect for daily use and festive occasions",
+    "UNIQUENESS: Classic elephant artwork for royal décor"
+  ]
+},
+  {
+  "id": "60",
+  "name": "Tribal Art Print Bedsheet Set",
+  "price": 1599,
+  "image": "/images/products/60.png",
+  "category": "Home Furnishing",
+  "subcategory": "Bedsheets",
+  "specification": [
+    "MATERIAL: Soft cotton fabric",
+    "DESIGN: Tribal women art motif with nature theme",
+    "DIMENSIONS: 108 x 108 inches (king size)",
+    "INCLUDES: 1 bedsheet with 2 pillow covers",
+    "FINISH: Breathable, lightweight fabric with smooth finish"
+  ],
+  "features": [
+    "BRAND: Royal Supreme Collection",
+    "STYLE: Contemporary tribal art-inspired print",
+    "DURABILITY: High-quality fabric for daily use",
+    "USAGE: Ideal for modern homes and gifting",
+    "UNIQUENESS: Handcrafted artistic appeal"
+  ]
+},
+  {
+  "id": "61",
+  "name": "Tree of Life Print Bedsheet Set",
+  "price": 1399,
+  "image": "/images/products/61.png",
+  "category": "Home Furnishing",
+  "subcategory": "Bedsheets",
+  "specification": [
+    "MATERIAL: Cotton-rich fabric with premium feel",
+    "DESIGN: Tree of Life print with detailed roots",
+    "DIMENSIONS: 108 x 108 inches (king size)",
+    "INCLUDES: 1 bedsheet and 2 matching pillow covers",
+    "FINISH: Elegant matte finish with subtle tones"
+  ],
+  "features": [
+    "BRAND: Tree House Collection",
+    "STYLE: Nature-inspired design",
+    "DURABILITY: Strong weave with colorfast prints",
+    "USAGE: Suitable for all-season use",
+    "UNIQUENESS: Spiritual and calming tree motif"
+  ]
+},
+  {
+  "id": "62",
+  "name": "Blue Floral Embroidered Bedsheet Set",
+  "price": 1699,
+  "image": "/images/products/62.png",
+  "category": "Home Furnishing",
+  "subcategory": "Bedsheets",
+  "specification": [
+    "MATERIAL: Soft cotton blend fabric",
+    "DESIGN: Floral embroidered-style print in white",
+    "DIMENSIONS: 108 x 108 inches (king size)",
+    "INCLUDES: 1 bedsheet with 2 pillow covers",
+    "FINISH: Smooth and premium look"
+  ],
+  "features": [
+    "BRAND: Royal Supreme Collection",
+    "STYLE: Elegant floral pattern on solid blue base",
+    "DURABILITY: High-quality stitching and fabric",
+    "USAGE: Perfect for home décor and gifting",
+    "UNIQUENESS: Rich blue tone with intricate floral motifs"
+  ]
 }
 ]
 
