@@ -1236,8 +1236,26 @@
     "USAGE: Perfect for home décor and gifting",
     "UNIQUENESS: Rich blue tone with intricate floral motifs"
   ]
+},
+{ 
+  "id": "59",
+  "name": "Luxury Wedding Bedsheet Hamper Gift Box",
+  "price": 2850,
+  "image": "/images/products/63.jpeg",
+  "category": "Giftings",
+  "subcategory": "Wedding Gifting",
+  "specification": [
+    "MATERIAL: Premium rigid gift box with fabric bedsheet set",
+    "DESIGN: Elegant green floral textured hamper with golden handle and lock",
+    "DIMENSIONS: Approx. 14 x 10 x 6 inches box",
+    "USAGE: Ideal for wedding return gifts, trousseau packing, and premium gifting",
+    "FINISH: Luxury matte textured finish with gold hardware"
+  ],
+  "features": [
+    "BRAND: Premium wedding gifting collection",
+    "STYLE: Royal luxury hamper presentation box",
+    "DURABILITY: Strong rigid structure with metal handle and clasp lock",
+    "USAGE: Perfect for weddings, engagements, festive gifting, and trousseau",
+    "UNIQUENESS: Elegant packaging with folded bedsheet tied with ribbon inside"
+  ]
 }
-]
-
-
-
