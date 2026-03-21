@@ -12,6 +12,7 @@ export interface Product {
   subcategory: "Bedsheets" | ""
   specification: string[]
   features: string[]
+  amazonLink?: string
 }
 
 export interface CartItem extends Product {

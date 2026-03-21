@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { useState, useMemo } from "react"
 import Navigation from "../components/navigation"
 import Footer from "../components/footer"
@@ -7,7 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
-import { Search, Heart, X, Phone, Mail } from "lucide-react"
+import { Search, Heart, X, Phone, Mail, ShoppingCart, Info, ExternalLink, ChevronRight } from "lucide-react"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import Image from "next/image"
@@ -259,6 +260,13 @@ export default function ProductsPage() {
     setSortBy("name")
   }
 
+  const handleBuyNowClick = (e: React.MouseEvent, link?: string) => {
+    e.stopPropagation()
+    if (link) {
+      window.open(link, "_blank", "noopener,noreferrer")
+    }
+  }
+
   function getSubcategories(): Record<string, string> {
     if (selectedCategory === "all") return {};
     return (
@@ -452,7 +460,7 @@ export default function ProductsPage() {
           {filteredProducts.map((product, index) => (
             <Card
               key={product.id}
-              className="product-card animate-slide-up bg-white relative cursor-pointer hover:shadow-xl transition-transform duration-300 transform hover:scale-105"
+              className={`product-card animate-slide-up bg-white relative cursor-pointer transition-transform duration-300 transform hover:scale-105 ${product.amazonLink ? "amazon-glow" : "theme-glow"}`}
               style={{ animationDelay: `${index * 0.1}s` }}
               onClick={() => setSelectedProduct(product)}
             >
@@ -474,17 +482,36 @@ export default function ProductsPage() {
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
                   ))}
-                </div> */}
-                {/* <div className="flex items-center justify-between mb-4">
+                </div>
+                <div className="flex items-center justify-between mb-4">
                   <div>
                     <span className="text-lg font-bold text-heading">₹{product.price}.00 INR</span>
-                    <span className="text-sm text-gray-500 ml-1">per {product.unit}</span>
+                    <span className="text-sm text-gray-500 ml-1">per unit</span>
                   </div>
-                </div> */}
-                {/* <Button onClick={() => handleAddToCart(product)} className="btn-primary w-full">
+                </div>
+                <Button onClick={() => handleAddToCart(product)} className="btn-primary w-full">
                   <ShoppingCart className="h-4 w-4 mr-2" />
-                  Add to Cart
+                  Know More
                 </Button> */}
+                {product.amazonLink ? (
+                  // Buy Now Button
+                  <button
+                    onClick={(e) => handleBuyNowClick(e, product.amazonLink)}
+                    className="w-full py-2 bg-orange-400 hover:bg-orange-500 text-white font-semibold rounded-md transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-md hover:shadow-lg flex items-center justify-center gap-2 group/btn"
+                  >
+                    <ShoppingCart className="h-4 w-4 mr-2" />
+                    <span>Buy on Amazon</span>
+                    <ExternalLink className="h-4 w-4 opacity-0 group-hover/btn:opacity-100 transition-opacity" />
+                  </button>
+                ) : (
+                  // Know More Button
+                  <Button
+                    className="w-full bg-warm-brown hover:bg-warm-brown/90 text-white font-semibold rounded-md transition-all duration-200 flex items-center justify-center gap-2 group/btn"
+                  >
+                    <Info className="h-4 w-4 mr-2" />
+                    <span>View Product</span>
+                  </Button>
+                )}
               </div>
             </Card>
           ))}
