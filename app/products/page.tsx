@@ -237,8 +237,14 @@ export default function ProductsPage() {
       return matchesSearch && matchesCategory && matchesSubcategory
     })
 
-    // Sort products
+    // Sort products — Amazon-linked products always come first
     filtered.sort((a, b) => {
+      // Primary sort: Amazon products first
+      const aHasAmazon = a.amazonLink ? 1 : 0
+      const bHasAmazon = b.amazonLink ? 1 : 0
+      if (bHasAmazon !== aHasAmazon) return bHasAmazon - aHasAmazon
+
+      // Secondary sort: user-selected criteria
       switch (sortBy) {
         case "price-low":
           return a.price - b.price
@@ -460,58 +466,57 @@ export default function ProductsPage() {
           {filteredProducts.map((product, index) => (
             <Card
               key={product.id}
-              className={`product-card animate-slide-up bg-white relative cursor-pointer transition-transform duration-300 transform hover:scale-105 ${product.amazonLink ? "amazon-glow" : "theme-glow"}`}
+              className={`product-card animate-slide-up bg-white relative cursor-pointer transition-transform duration-300 transform hover:scale-105 flex flex-col ${product.amazonLink ? "amazon-glow" : "theme-glow"}`}
               style={{ animationDelay: `${index * 0.1}s` }}
               onClick={() => setSelectedProduct(product)}
             >
-              <div className="relative p-4">
-                <Button variant="ghost" size="sm" className="absolute top-2 right-2 z-10">
-                  <Heart className="h-4 w-4 text-gray-400 hover:text-red-500" />
+              {/* Image Section */}
+              <div className="relative overflow-hidden rounded-t-lg">
+                {product.amazonLink && (
+                  <span className="absolute top-3 left-3 z-10 bg-orange-500 text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full shadow-md flex items-center gap-1">
+                    <ShoppingCart className="h-3 w-3" />
+                    Amazon
+                  </span>
+                )}
+                <Button variant="ghost" size="sm" className="absolute top-2 right-2 z-10 bg-white/70 backdrop-blur-sm rounded-full h-8 w-8 p-0 hover:bg-white hover:text-red-500 transition-colors">
+                  <Heart className="h-4 w-4 text-gray-500" />
                 </Button>
                 <Image
                   src={product.image || "/placeholder.svg"}
                   alt={product.name}
-                  width={250}
-                  height={200}
-                  className="w-full h-48 object-cover rounded-lg mb-4"
+                  width={400}
+                  height={300}
+                  className="w-full h-52 object-cover transition-transform duration-500 hover:scale-110"
                 />
-                <h3 className="font-semibold text-heading mb-2">{product.name}</h3>
-                <p className="text-sm text-body mb-3">{product.subcategory}</p>
-                {/* Rating & Reviews */}
-                {/* <div className="flex items-center mb-2">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
-                  ))}
+              </div>
+
+              {/* Content Section — grows to fill, pushing button down */}
+              <div className="flex flex-col flex-1 p-4">
+                <h3 className="font-semibold text-heading text-sm leading-snug mb-1.5 line-clamp-2 min-h-[2.5rem]">{product.name}</h3>
+                <p className="text-xs text-body mb-2">{product.subcategory}</p>
+                <p className="text-lg font-bold text-warm-brown mb-3">₹{product.price.toLocaleString('en-IN')}</p>
+
+                {/* Button — always sticks to bottom */}
+                <div className="mt-auto">
+                  {product.amazonLink ? (
+                    <button
+                      onClick={(e) => handleBuyNowClick(e, product.amazonLink)}
+                      className="w-full py-2.5 bg-gradient-to-r from-orange-400 to-orange-500 hover:from-orange-500 hover:to-orange-600 text-white font-semibold rounded-lg transition-all duration-200 transform hover:scale-[1.03] active:scale-95 shadow-md hover:shadow-lg flex items-center justify-center gap-2 group/btn"
+                    >
+                      <ShoppingCart className="h-4 w-4" />
+                      <span>Buy on Amazon</span>
+                      <ExternalLink className="h-3.5 w-3.5 opacity-0 group-hover/btn:opacity-100 transition-opacity" />
+                    </button>
+                  ) : (
+                    <Button
+                      className="w-full py-2.5 bg-warm-brown hover:bg-dark-brown text-white font-semibold rounded-lg transition-all duration-200 flex items-center justify-center gap-2 group/btn"
+                    >
+                      <Info className="h-4 w-4" />
+                      <span>View Product</span>
+                      <ChevronRight className="h-4 w-4 opacity-0 group-hover/btn:opacity-100 transition-opacity" />
+                    </Button>
+                  )}
                 </div>
-                <div className="flex items-center justify-between mb-4">
-                  <div>
-                    <span className="text-lg font-bold text-heading">₹{product.price}.00 INR</span>
-                    <span className="text-sm text-gray-500 ml-1">per unit</span>
-                  </div>
-                </div>
-                <Button onClick={() => handleAddToCart(product)} className="btn-primary w-full">
-                  <ShoppingCart className="h-4 w-4 mr-2" />
-                  Know More
-                </Button> */}
-                {product.amazonLink ? (
-                  // Buy Now Button
-                  <button
-                    onClick={(e) => handleBuyNowClick(e, product.amazonLink)}
-                    className="w-full py-2 bg-orange-400 hover:bg-orange-500 text-white font-semibold rounded-md transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-md hover:shadow-lg flex items-center justify-center gap-2 group/btn"
-                  >
-                    <ShoppingCart className="h-4 w-4 mr-2" />
-                    <span>Buy on Amazon</span>
-                    <ExternalLink className="h-4 w-4 opacity-0 group-hover/btn:opacity-100 transition-opacity" />
-                  </button>
-                ) : (
-                  // Know More Button
-                  <Button
-                    className="w-full bg-warm-brown hover:bg-warm-brown/90 text-white font-semibold rounded-md transition-all duration-200 flex items-center justify-center gap-2 group/btn"
-                  >
-                    <Info className="h-4 w-4 mr-2" />
-                    <span>View Product</span>
-                  </Button>
-                )}
               </div>
             </Card>
           ))}

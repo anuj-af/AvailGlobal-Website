@@ -167,7 +167,7 @@
       "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
     ]
   },
-   {
+  {
     "id": "11",
     "name": "100% COTTON BEDSHEET",
     "price": 600,
@@ -185,7 +185,7 @@
       "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
     ]
   },
-   {
+  {
     "id": "12",
     "name": "100% COTTON BEDSHEET",
     "price": 600,
@@ -203,7 +203,7 @@
       "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
     ]
   },
- {
+  {
     "id": "13",
     "name": "POLY-COTTON BEDSHEET",
     "price": 300,
@@ -288,7 +288,7 @@
       "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
     ]
   },
-   {
+  {
     "id": "18",
     "name": "SATIN COMBED BEDSHEET",
     "price": 960,
@@ -341,7 +341,7 @@
       "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
     ]
   },
-   {
+  {
     "id": "21",
     "name": "RAJWADA BEDSHEET",
     "price": 900,
@@ -359,7 +359,7 @@
       "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
     ]
   },
-   {
+  {
     "id": "22",
     "name": "RAJWADA BEDSHEET",
     "price": 900,
@@ -395,7 +395,7 @@
       "FINISH: SOFT, WRINKLE-RESISTANT, EASY TO MAINTAIN"
     ]
   },
-   {
+  {
     "id": "24",
     "name": "RAJWADA BEDSHEET",
     "price": 900,
@@ -490,93 +490,93 @@
     ]
   },
   {
-  "id": "29",
-  "name": "LAPTOP BAG",
-  "price": 1500,
-  "image": "/images/products/29.png",
-  "category": "Giftings",
-  "subcategory": "Corporate Gifting",
-  "specification": [
-    "MATERIAL: Premium quality durable fabric with leatherite finish handles",
-    "DESIGN: Slim, lightweight, and professional design for business use",
-    "COMPARTMENTS: Multiple organized sections for laptop, tablet, charger, documents, and stationery",
-    "STRAP: Adjustable and detachable shoulder strap with padded handles for comfort",
-    "CLOSURE: Smooth zipper with sturdy pullers"
-  ],
-  "features": [
-    "BRAND: Customisable with company logo or name",
-    "SIZE: Fits laptops up to 15.6 inches",
-    "UTILITY: Ideal for professionals, corporate gifting, client welcome kits, and employee appreciation",
-    "SAFETY: Soft padded lining to protect laptop and gadgets",
-    "STYLE: Sleek and modern look, perfect for daily commute and business travel"
-  ]
-},
+    "id": "29",
+    "name": "LAPTOP BAG",
+    "price": 1500,
+    "image": "/images/products/29.png",
+    "category": "Giftings",
+    "subcategory": "Corporate Gifting",
+    "specification": [
+      "MATERIAL: Premium quality durable fabric with leatherite finish handles",
+      "DESIGN: Slim, lightweight, and professional design for business use",
+      "COMPARTMENTS: Multiple organized sections for laptop, tablet, charger, documents, and stationery",
+      "STRAP: Adjustable and detachable shoulder strap with padded handles for comfort",
+      "CLOSURE: Smooth zipper with sturdy pullers"
+    ],
+    "features": [
+      "BRAND: Customisable with company logo or name",
+      "SIZE: Fits laptops up to 15.6 inches",
+      "UTILITY: Ideal for professionals, corporate gifting, client welcome kits, and employee appreciation",
+      "SAFETY: Soft padded lining to protect laptop and gadgets",
+      "STYLE: Sleek and modern look, perfect for daily commute and business travel"
+    ]
+  },
   {
-  "id": "30",
-  "name": "LAPTOP BAG",
-  "price": 1800,
-  "image": "/images/products/30.png",
-  "category": "Giftings",
-  "subcategory": "Corporate Gifting",
-  "specification": [
-    "MATERIAL: Premium quality leatherite finish with stylish multicolor stripe design",
-    "DESIGN: Sleek, slim, and modern professional look",
-    "COMPARTMENTS: Spacious main section for laptop, with pockets for tablet, documents, and accessories",
-    "STRAP: Adjustable and detachable shoulder strap with padded top handles",
-    "CLOSURE: Smooth dual zipper for secure closure"
-  ],
-  "features": [
-    "BRAND: Customisable with company logo or name",
-    "SIZE: Fits laptops up to 15.6 inches",
-    "STYLE: Elegant blue finish with trendy central stripe for a premium appearance",
-    "UTILITY: Ideal for corporate gifting, executives, and professionals",
-    "SAFETY: Padded interior to protect devices and essentials"
-  ]
-},
+    "id": "30",
+    "name": "LAPTOP BAG",
+    "price": 1800,
+    "image": "/images/products/30.png",
+    "category": "Giftings",
+    "subcategory": "Corporate Gifting",
+    "specification": [
+      "MATERIAL: Premium quality leatherite finish with stylish multicolor stripe design",
+      "DESIGN: Sleek, slim, and modern professional look",
+      "COMPARTMENTS: Spacious main section for laptop, with pockets for tablet, documents, and accessories",
+      "STRAP: Adjustable and detachable shoulder strap with padded top handles",
+      "CLOSURE: Smooth dual zipper for secure closure"
+    ],
+    "features": [
+      "BRAND: Customisable with company logo or name",
+      "SIZE: Fits laptops up to 15.6 inches",
+      "STYLE: Elegant blue finish with trendy central stripe for a premium appearance",
+      "UTILITY: Ideal for corporate gifting, executives, and professionals",
+      "SAFETY: Padded interior to protect devices and essentials"
+    ]
+  },
   {
-  "id": "31",
-  "name": "CUSTOM PRINTED T-SHIRT",
-  "price": 650,
-  "image": "/images/products/31.png",
-  "category": "Giftings",
-  "subcategory": "Corporate Gifting",
-  "specification": [
-    "MATERIAL: 100% premium cotton with soft touch finish",
-    "DESIGN: Round neck, half sleeves, comfortable regular fit",
-    "PRINT: High-quality digital print with company logo or design",
-    "COLOR OPTIONS: Available in multiple shades (Red, Black, White, Navy, Grey)",
-    "SIZES: S, M, L, XL, XXL"
-  ],
-  "features": [
-    "BRAND: Customisable with company logo, name, or design",
-    "USAGE: Perfect for corporate gifting, events, team uniforms, and promotions",
-    "STYLE: Trendy and modern casual wear with brand visibility",
-    "DURABILITY: Fade-resistant color and long-lasting print",
-    "COMFORT: Breathable cotton fabric suitable for all-day wear"
-  ]
-},
+    "id": "31",
+    "name": "CUSTOM PRINTED T-SHIRT",
+    "price": 650,
+    "image": "/images/products/31.png",
+    "category": "Giftings",
+    "subcategory": "Corporate Gifting",
+    "specification": [
+      "MATERIAL: 100% premium cotton with soft touch finish",
+      "DESIGN: Round neck, half sleeves, comfortable regular fit",
+      "PRINT: High-quality digital print with company logo or design",
+      "COLOR OPTIONS: Available in multiple shades (Red, Black, White, Navy, Grey)",
+      "SIZES: S, M, L, XL, XXL"
+    ],
+    "features": [
+      "BRAND: Customisable with company logo, name, or design",
+      "USAGE: Perfect for corporate gifting, events, team uniforms, and promotions",
+      "STYLE: Trendy and modern casual wear with brand visibility",
+      "DURABILITY: Fade-resistant color and long-lasting print",
+      "COMFORT: Breathable cotton fabric suitable for all-day wear"
+    ]
+  },
   {
-  "id": "32",
-  "name": "CUSTOM CORPORATE POLO T-SHIRT",
-  "price": 850,
-  "image": "/images/products/32.png",
-  "category": "Giftings",
-  "subcategory": "Corporate Gifting",
-  "specification": [
-    "MATERIAL: Premium poly-cotton blend for durability and comfort",
-    "DESIGN: Classic polo collar with button placket",
-    "FIT: Regular fit with short sleeves",
-    "PRINT/EMBROIDERY: Customisable with company logo on chest or sleeve",
-    "SIZES: S, M, L, XL, XXL"
-  ],
-  "features": [
-    "BRAND: Customisable with company logo, name, or design",
-    "USAGE: Perfect for corporate gifting, events, team uniforms, and promotional campaigns",
-    "STYLE: Professional polo design suitable for casual office wear",
-    "DURABILITY: Fade-resistant fabric and long-lasting stitching",
-    "COMFORT: Breathable and soft fabric for all-day wear"
-  ]
-},
+    "id": "32",
+    "name": "CUSTOM CORPORATE POLO T-SHIRT",
+    "price": 850,
+    "image": "/images/products/32.png",
+    "category": "Giftings",
+    "subcategory": "Corporate Gifting",
+    "specification": [
+      "MATERIAL: Premium poly-cotton blend for durability and comfort",
+      "DESIGN: Classic polo collar with button placket",
+      "FIT: Regular fit with short sleeves",
+      "PRINT/EMBROIDERY: Customisable with company logo on chest or sleeve",
+      "SIZES: S, M, L, XL, XXL"
+    ],
+    "features": [
+      "BRAND: Customisable with company logo, name, or design",
+      "USAGE: Perfect for corporate gifting, events, team uniforms, and promotional campaigns",
+      "STYLE: Professional polo design suitable for casual office wear",
+      "DURABILITY: Fade-resistant fabric and long-lasting stitching",
+      "COMFORT: Breathable and soft fabric for all-day wear"
+    ]
+  },
   {
     "id": "33",
     "name": "EWM-URBAN White Dial Tan Strap",
@@ -622,664 +622,986 @@
     ]
   },
   {
-  "id": "35",
-  "name": "Elegant Decorative Vase with Golden Leaf Design",
-  "price": 2599,
-  "image": "/images/products/35.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium glass with golden metal leaf accents",
-    "DESIGN: Modern gradient blue vase with elegant leaf stand",
-    "DIMENSIONS: Approx. 10 inches height",
-    "USAGE: Suitable for fresh flowers, artificial arrangements, or standalone décor",
-    "FINISH: Glossy gradient finish with metallic detailing"
-  ],
-  "features": [
-    "BRAND: Luxury handcrafted home décor collection",
-    "STYLE: Elegant and timeless design for wedding and premium gifting",
-    "DURABILITY: Sturdy glass vase with strong metal support",
-    "USAGE: Perfect centerpiece for weddings, anniversaries, and festive occasions",
-    "UNIQUENESS: Distinctive blend of glass and golden leaf artistry"
-  ]
-},
+    "id": "35",
+    "name": "Elegant Decorative Vase with Golden Leaf Design",
+    "price": 2599,
+    "image": "/images/products/35.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium glass with golden metal leaf accents",
+      "DESIGN: Modern gradient blue vase with elegant leaf stand",
+      "DIMENSIONS: Approx. 10 inches height",
+      "USAGE: Suitable for fresh flowers, artificial arrangements, or standalone décor",
+      "FINISH: Glossy gradient finish with metallic detailing"
+    ],
+    "features": [
+      "BRAND: Luxury handcrafted home décor collection",
+      "STYLE: Elegant and timeless design for wedding and premium gifting",
+      "DURABILITY: Sturdy glass vase with strong metal support",
+      "USAGE: Perfect centerpiece for weddings, anniversaries, and festive occasions",
+      "UNIQUENESS: Distinctive blend of glass and golden leaf artistry"
+    ]
+  },
   {
-  "id": "36",
-  "name": "Luxury Blue Glass Vase with Golden Leaf Stand",
-  "price": 2799,
-  "image": "/images/products/36.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium gradient blue glass with metallic golden stand",
-    "DESIGN: Artistic golden leaves entwined around the vase",
-    "DIMENSIONS: Approx. 10-12 inches in height",
-    "USAGE: Can be used as a flower vase or as a standalone decorative piece",
-    "FINISH: Smooth gradient finish with glossy metallic detailing"
-  ],
-  "features": [
-    "BRAND: Premium handcrafted décor collection",
-    "STYLE: Elegant and luxurious design for weddings and special occasions",
-    "DURABILITY: Strong glass body supported by sturdy golden stand",
-    "USAGE: Ideal as a wedding gift, centerpiece, or festive décor",
-    "UNIQUENESS: Handcrafted blend of glass artistry and golden leaf aesthetics"
-  ]
-},
+    "id": "36",
+    "name": "Luxury Blue Glass Vase with Golden Leaf Stand",
+    "price": 2799,
+    "image": "/images/products/36.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium gradient blue glass with metallic golden stand",
+      "DESIGN: Artistic golden leaves entwined around the vase",
+      "DIMENSIONS: Approx. 10-12 inches in height",
+      "USAGE: Can be used as a flower vase or as a standalone decorative piece",
+      "FINISH: Smooth gradient finish with glossy metallic detailing"
+    ],
+    "features": [
+      "BRAND: Premium handcrafted décor collection",
+      "STYLE: Elegant and luxurious design for weddings and special occasions",
+      "DURABILITY: Strong glass body supported by sturdy golden stand",
+      "USAGE: Ideal as a wedding gift, centerpiece, or festive décor",
+      "UNIQUENESS: Handcrafted blend of glass artistry and golden leaf aesthetics"
+    ]
+  },
   {
-  "id": "37",
-  "name": "Elegant Silver Photo Frame with Floral Design",
-  "price": 1999,
-  "image": "/images/products/37.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium silver-plated frame with floral embellishments",
-    "DESIGN: Golden floral branch with pastel flower accents on one side",
-    "DIMENSIONS: Suitable for 5x7 inch photographs",
-    "USAGE: Ideal for wedding, anniversary, or memorable photo displays",
-    "FINISH: Glossy silver surface with elegant decorative detailing"
-  ],
-  "features": [
-    "BRAND: Luxury handcrafted gifting collection",
-    "STYLE: Elegant and timeless design perfect for weddings",
-    "DURABILITY: Sturdy build with long-lasting shine",
-    "USAGE: Perfect as a wedding gift or home décor accessory",
-    "UNIQUENESS: Artistic blend of silver and floral accents for a premium look"
-  ]
-},
+    "id": "37",
+    "name": "Elegant Silver Photo Frame with Floral Design",
+    "price": 1999,
+    "image": "/images/products/37.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium silver-plated frame with floral embellishments",
+      "DESIGN: Golden floral branch with pastel flower accents on one side",
+      "DIMENSIONS: Suitable for 5x7 inch photographs",
+      "USAGE: Ideal for wedding, anniversary, or memorable photo displays",
+      "FINISH: Glossy silver surface with elegant decorative detailing"
+    ],
+    "features": [
+      "BRAND: Luxury handcrafted gifting collection",
+      "STYLE: Elegant and timeless design perfect for weddings",
+      "DURABILITY: Sturdy build with long-lasting shine",
+      "USAGE: Perfect as a wedding gift or home décor accessory",
+      "UNIQUENESS: Artistic blend of silver and floral accents for a premium look"
+    ]
+  },
   {
-  "id": "38",
-  "name": "Ornate Wedding Gifting Bowl with Lid & Spoon (TWJ4035EM)",
-  "price": 3499,
-  "image": "/images/products/38.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium metal alloy with intricate embossed design",
-    "DESIGN: Ornate handcrafted bowl with lid, spoon, and four sturdy legs",
-    "DIMENSIONS: 14 x 14 x 11 cm",
-    "COLOR OPTIONS: Silver, Green, Orange, Aqua Blue",
-    "USAGE: Ideal for dry fruit serving, sweets, or as decorative centerpiece"
-  ],
-  "features": [
-    "BRAND: Luxury handcrafted wedding collection",
-    "STYLE: Traditional regal design with intricate carvings",
-    "DURABILITY: Sturdy construction with long-lasting shine",
-    "USAGE: Perfect for weddings, anniversaries, and festive gifting",
-    "UNIQUENESS: Available in multiple vibrant enamel finish options"
-  ]
-},
+    "id": "38",
+    "name": "Ornate Wedding Gifting Bowl with Lid & Spoon (TWJ4035EM)",
+    "price": 3499,
+    "image": "/images/products/38.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium metal alloy with intricate embossed design",
+      "DESIGN: Ornate handcrafted bowl with lid, spoon, and four sturdy legs",
+      "DIMENSIONS: 14 x 14 x 11 cm",
+      "COLOR OPTIONS: Silver, Green, Orange, Aqua Blue",
+      "USAGE: Ideal for dry fruit serving, sweets, or as decorative centerpiece"
+    ],
+    "features": [
+      "BRAND: Luxury handcrafted wedding collection",
+      "STYLE: Traditional regal design with intricate carvings",
+      "DURABILITY: Sturdy construction with long-lasting shine",
+      "USAGE: Perfect for weddings, anniversaries, and festive gifting",
+      "UNIQUENESS: Available in multiple vibrant enamel finish options"
+    ]
+  },
   {
-  "id": "39",
-  "name": "Luxury Peacock Lid Decorative Bowl",
-  "price": 3999,
-  "image": "/images/products/39.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium metal alloy with turquoise enamel and silver finish",
-    "DESIGN: Intricate handcrafted bowl with a majestic peacock lid",
-    "DIMENSIONS: Approx. 15 x 15 x 12 cm",
-    "USAGE: Ideal for dry fruits, sweets, or as a decorative showpiece",
-    "FINISH: Glossy enamel with detailed silver carving"
-  ],
-  "features": [
-    "BRAND: Royal handcrafted gifting collection",
-    "STYLE: Regal peacock motif for luxurious appeal",
-    "DURABILITY: Strong metal structure with long-lasting shine",
-    "USAGE: Perfect for weddings, anniversaries, and festive occasions",
-    "UNIQUENESS: Distinctive artistic blend of enamel and silver carving"
-  ]
-},
+    "id": "39",
+    "name": "Luxury Peacock Lid Decorative Bowl",
+    "price": 3999,
+    "image": "/images/products/39.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium metal alloy with turquoise enamel and silver finish",
+      "DESIGN: Intricate handcrafted bowl with a majestic peacock lid",
+      "DIMENSIONS: Approx. 15 x 15 x 12 cm",
+      "USAGE: Ideal for dry fruits, sweets, or as a decorative showpiece",
+      "FINISH: Glossy enamel with detailed silver carving"
+    ],
+    "features": [
+      "BRAND: Royal handcrafted gifting collection",
+      "STYLE: Regal peacock motif for luxurious appeal",
+      "DURABILITY: Strong metal structure with long-lasting shine",
+      "USAGE: Perfect for weddings, anniversaries, and festive occasions",
+      "UNIQUENESS: Distinctive artistic blend of enamel and silver carving"
+    ]
+  },
   {
-  "id": "40",
-  "name": "Luxury Peacock Lid Decorative Bowl",
-  "price": 3999,
-  "image": "/images/products/40.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium metal alloy with turquoise enamel and silver finish",
-    "DESIGN: Intricate handcrafted bowl with a majestic peacock lid",
-    "DIMENSIONS: Approx. 15 x 15 x 12 cm",
-    "USAGE: Ideal for dry fruits, sweets, or as a decorative showpiece",
-    "FINISH: Glossy enamel with detailed silver carving"
-  ],
-  "features": [
-    "BRAND: Royal handcrafted gifting collection",
-    "STYLE: Regal peacock motif for luxurious appeal",
-    "DURABILITY: Strong metal structure with long-lasting shine",
-    "USAGE: Perfect for weddings, anniversaries, and festive occasions",
-    "UNIQUENESS: Distinctive artistic blend of enamel and silver carving"
-  ]
-},
+    "id": "40",
+    "name": "Luxury Peacock Lid Decorative Bowl",
+    "price": 3999,
+    "image": "/images/products/40.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium metal alloy with turquoise enamel and silver finish",
+      "DESIGN: Intricate handcrafted bowl with a majestic peacock lid",
+      "DIMENSIONS: Approx. 15 x 15 x 12 cm",
+      "USAGE: Ideal for dry fruits, sweets, or as a decorative showpiece",
+      "FINISH: Glossy enamel with detailed silver carving"
+    ],
+    "features": [
+      "BRAND: Royal handcrafted gifting collection",
+      "STYLE: Regal peacock motif for luxurious appeal",
+      "DURABILITY: Strong metal structure with long-lasting shine",
+      "USAGE: Perfect for weddings, anniversaries, and festive occasions",
+      "UNIQUENESS: Distinctive artistic blend of enamel and silver carving"
+    ]
+  },
   {
-  "id": "41",
-  "name": "Luxury 3-Piece Peacock Lid Bowl Set with Tray",
-  "price": 2499,
-  "image": "/images/products/41.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium metal alloy with silver finish and enamel detailing",
-    "DESIGN: Three intricately handcrafted bowls with peacock lids, placed on an ornate tray",
-    "DIMENSIONS: Tray approx. 30 cm diameter, bowls approx. 12 cm height each",
-    "USAGE: Ideal for serving dry fruits, sweets, or as a decorative centerpiece",
-    "FINISH: Glossy enamel with fine silver carving and detailing"
-  ],
-  "features": [
-    "BRAND: Royal handcrafted wedding gifting collection",
-    "STYLE: Elegant peacock design symbolizing grace and prosperity",
-    "DURABILITY: Strong metal construction with long-lasting finish",
-    "USAGE: Perfect for premium wedding gifts, anniversaries, and festive occasions",
-    "UNIQUENESS: Includes 3 peacock-lid bowls with matching decorative tray"
-  ]
-},
+    "id": "41",
+    "name": "Luxury 3-Piece Peacock Lid Bowl Set with Tray",
+    "price": 2499,
+    "image": "/images/products/41.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium metal alloy with silver finish and enamel detailing",
+      "DESIGN: Three intricately handcrafted bowls with peacock lids, placed on an ornate tray",
+      "DIMENSIONS: Tray approx. 30 cm diameter, bowls approx. 12 cm height each",
+      "USAGE: Ideal for serving dry fruits, sweets, or as a decorative centerpiece",
+      "FINISH: Glossy enamel with fine silver carving and detailing"
+    ],
+    "features": [
+      "BRAND: Royal handcrafted wedding gifting collection",
+      "STYLE: Elegant peacock design symbolizing grace and prosperity",
+      "DURABILITY: Strong metal construction with long-lasting finish",
+      "USAGE: Perfect for premium wedding gifts, anniversaries, and festive occasions",
+      "UNIQUENESS: Includes 3 peacock-lid bowls with matching decorative tray"
+    ]
+  },
   {
-  "id": "42",
-  "name": "Luxury Silver Glass Set with Velvet Box",
-  "price": 1999,
-  "image": "/images/products/42.jpeg",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium glass with intricate silver-coated holders",
-    "DESIGN: Set of 3 designer glasses with fine cutwork design",
-    "PACKAGING: Comes in a royal blue velvet presentation box",
-    "USAGE: Suitable for serving water, juice, or as a decorative gift set",
-    "DIMENSIONS: Approx. 6 inches height each glass"
-  ],
-  "features": [
-    "BRAND: Royal handcrafted premium gifting collection",
-    "STYLE: Elegant silver pattern with luxury appeal",
-    "DURABILITY: Strong glass with protective silver holder",
-    "USAGE: Perfect for weddings, anniversaries, and festive occasions",
-    "UNIQUENESS: Velvet box packaging makes it an exclusive premium gift"
-  ]
-},
+    "id": "42",
+    "name": "Luxury Silver Glass Set with Velvet Box",
+    "price": 1999,
+    "image": "/images/products/42.jpeg",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium glass with intricate silver-coated holders",
+      "DESIGN: Set of 3 designer glasses with fine cutwork design",
+      "PACKAGING: Comes in a royal blue velvet presentation box",
+      "USAGE: Suitable for serving water, juice, or as a decorative gift set",
+      "DIMENSIONS: Approx. 6 inches height each glass"
+    ],
+    "features": [
+      "BRAND: Royal handcrafted premium gifting collection",
+      "STYLE: Elegant silver pattern with luxury appeal",
+      "DURABILITY: Strong glass with protective silver holder",
+      "USAGE: Perfect for weddings, anniversaries, and festive occasions",
+      "UNIQUENESS: Velvet box packaging makes it an exclusive premium gift"
+    ]
+  },
   {
-  "id": "43",
-  "name": "Luxury Decorative Square Box with Glass Lid",
-  "price": 3500,
-  "image": "/images/products/43.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium metal alloy with crystal glass lid and silver finish",
-    "DESIGN: Square handcrafted box with intricate detailing and pearl-inspired side accents",
-    "DIMENSIONS: Approx. 25 x 25 x 12 cm",
-    "USAGE: Ideal for storing sweets, dry fruits, or as a decorative centerpiece",
-    "FINISH: Glossy metallic shine with elegant glass knob on lid"
-  ],
-  "features": [
-    "BRAND: Royal handcrafted premium gifting collection",
-    "STYLE: Elegant square design with luxury appeal",
-    "DURABILITY: Strong metal frame with long-lasting finish",
-    "USAGE: Perfect for weddings, anniversaries, and festive occasions",
-    "UNIQUENESS: Combination of crystal glass, silver detailing, and handcrafted artistry"
-  ]
-},
+    "id": "43",
+    "name": "Luxury Decorative Square Box with Glass Lid",
+    "price": 3500,
+    "image": "/images/products/43.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium metal alloy with crystal glass lid and silver finish",
+      "DESIGN: Square handcrafted box with intricate detailing and pearl-inspired side accents",
+      "DIMENSIONS: Approx. 25 x 25 x 12 cm",
+      "USAGE: Ideal for storing sweets, dry fruits, or as a decorative centerpiece",
+      "FINISH: Glossy metallic shine with elegant glass knob on lid"
+    ],
+    "features": [
+      "BRAND: Royal handcrafted premium gifting collection",
+      "STYLE: Elegant square design with luxury appeal",
+      "DURABILITY: Strong metal frame with long-lasting finish",
+      "USAGE: Perfect for weddings, anniversaries, and festive occasions",
+      "UNIQUENESS: Combination of crystal glass, silver detailing, and handcrafted artistry"
+    ]
+  },
   {
-  "id": "44",
-  "name": "Elegant Swan Spoon Holder Set with Spoons",
-  "price": 2499,
-  "image": "/images/products/44.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium metal alloy with silver finish",
-    "DESIGN: Swan-shaped holder with a set of decorative spoons",
-    "SET INCLUDES: 1 swan holder + 6 matching spoons",
-    "DIMENSIONS: Approx. 12 cm height (holder), 10 cm length (spoons)",
-    "USAGE: Ideal for serving condiments, desserts, or as a table décor piece"
-  ],
-  "features": [
-    "BRAND: Royal handcrafted gifting collection",
-    "STYLE: Graceful swan design symbolizing elegance",
-    "DURABILITY: Strong metal with long-lasting silver coating",
-    "USAGE: Perfect for weddings, anniversaries, and festive gifting",
-    "UNIQUENESS: Combination of functionality and luxurious table décor"
-  ]
-},
+    "id": "44",
+    "name": "Elegant Swan Spoon Holder Set with Spoons",
+    "price": 2499,
+    "image": "/images/products/44.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium metal alloy with silver finish",
+      "DESIGN: Swan-shaped holder with a set of decorative spoons",
+      "SET INCLUDES: 1 swan holder + 6 matching spoons",
+      "DIMENSIONS: Approx. 12 cm height (holder), 10 cm length (spoons)",
+      "USAGE: Ideal for serving condiments, desserts, or as a table décor piece"
+    ],
+    "features": [
+      "BRAND: Royal handcrafted gifting collection",
+      "STYLE: Graceful swan design symbolizing elegance",
+      "DURABILITY: Strong metal with long-lasting silver coating",
+      "USAGE: Perfect for weddings, anniversaries, and festive gifting",
+      "UNIQUENESS: Combination of functionality and luxurious table décor"
+    ]
+  },
   {
-  "id": "45",
-  "name": "Golden Spiral Glass Holder Set",
-  "price": 1100,
-  "image": "/images/products/45.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium glass with golden metal spiral design",
-    "DESIGN: Modern cylindrical glass holders with artistic spiral wrap",
-    "SET INCLUDES: 2 decorative glass holders (small & large)",
-    "DIMENSIONS: Small approx. 6 inches, Large approx. 8 inches",
-    "USAGE: Ideal for candles, décor arrangements, or gifting"
-  ],
-  "features": [
-    "BRAND: Designer handcrafted gifting collection",
-    "STYLE: Contemporary golden spiral look",
-    "DURABILITY: Thick glass with sturdy metal frame",
-    "USAGE: Perfect for weddings, anniversaries, and home décor",
-    "UNIQUENESS: Combination of elegance and modern artistry"
-  ]
-},
- {
-  "id": "46",
-  "name": "Vintage Brass Finish Goblet Candle Holders (Set of 2)",
-  "price": 1650,
-  "image": "/images/products/46.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Brass-finish metal with gold inner lining",
-    "DESIGN: Vintage goblet style with intricate floral embossing",
-    "DIMENSIONS: 7 inches height each",
-    "USAGE: Suitable as decorative showpiece, candle/tealight holder, or centerpiece",
-    "FINISH: Antique matte bronze outer with polished gold inner"
-  ],
-  "features": [
-    "BRAND: Premium heritage gifting collection",
-    "STYLE: Royal vintage design inspired by traditional goblets",
-    "DURABILITY: Made of sturdy metal with long-lasting finish",
-    "USAGE: Ideal for weddings, home décor, and festive gifting",
-    "UNIQUENESS: Hand-embossed floral artistry with antique appeal"
-  ]
-},
+    "id": "45",
+    "name": "Golden Spiral Glass Holder Set",
+    "price": 1100,
+    "image": "/images/products/45.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium glass with golden metal spiral design",
+      "DESIGN: Modern cylindrical glass holders with artistic spiral wrap",
+      "SET INCLUDES: 2 decorative glass holders (small & large)",
+      "DIMENSIONS: Small approx. 6 inches, Large approx. 8 inches",
+      "USAGE: Ideal for candles, décor arrangements, or gifting"
+    ],
+    "features": [
+      "BRAND: Designer handcrafted gifting collection",
+      "STYLE: Contemporary golden spiral look",
+      "DURABILITY: Thick glass with sturdy metal frame",
+      "USAGE: Perfect for weddings, anniversaries, and home décor",
+      "UNIQUENESS: Combination of elegance and modern artistry"
+    ]
+  },
   {
-  "id": "47",
-  "name": "Diwali Pooja Kit – Complete Festive Gift Box",
-  "price": 1650,
-  "image": "/images/products/47.png",
-  "category": "Giftings",
-  "subcategory": "Festive Gifting",
-  "specification": [
-    "PACKAGE: Premium festive gift box with elegant peacock design",
-    "CONTENT: Includes 25+ traditional pooja items such as Laxmi Ganesh Murti, Metal Urli, Floating Flower, Lotus Latkan, 4-Color Rangoli, Cloth Bandhanwar, Roli, Sindoor, Akshat, Rui Batti, Kheel, Kamal Gatta, Peeli Sarson, Haldi, Kapoor, Supari, Dhup Cones, Ganga Jal, Mishri, Indra Jau, Dhania Seeds, Abir, Ittar & more",
-    "USAGE: Suitable for Diwali puja rituals, home celebrations, wedding return gifts & corporate gifting",
-    "PACKAGING: Attractive reusable box with organized compartments",
-    "DIMENSIONS: Standard medium hamper size (customizable on request)"
-  ],
-  "features": [
-    "COMPLETE SET: All essential pooja samagri in one kit",
-    "AUSPICIOUS: Traditional & authentic items curated for Diwali rituals",
-    "GIFT-READY: Premium festive packaging – no extra wrapping needed",
-    "MULTI-PURPOSE: Ideal for families, weddings, and corporate festive hampers",
-    "QUALITY: Handpicked, hygienically packed items ensuring authenticity"
-  ]
-},
- {
-  "id": "48",
-  "name": "Big Sankh Gift Box",
-  "price": 3250,
-  "image": "/images/products/48.png",
-  "category": "Giftings",
-  "subcategory": "Festive Gifting",
-  "specification": [
-    "MATERIAL: Premium metal-plated decorative Sankh with intricate hand-carved detailing",
-    "DESIGN: Golden and silver finish with embossed religious motifs",
-    "DIMENSIONS: Large size Sankh (custom sizes available on request)",
-    "PACKAGING: Comes in a luxury velvet-lined red gift box with golden clasp",
-    "USAGE: Ideal for temple decor, auspicious rituals, wedding gifts, and corporate festive gifting"
-  ],
-  "features": [
-    "PREMIUM QUALITY: Strong and durable with elegant metallic finish",
-    "AUSPICIOUS: Symbol of prosperity, purity, and good fortune",
-    "LUXURY PACKAGING: Velvet-lined hard box makes it ready for gifting",
-    "ARTISANAL: Handcrafted with intricate detailing and traditional artistry",
-    "MULTI-PURPOSE: Suitable for personal worship, home decor, weddings, and festive corporate hampers"
-  ]
-},
+    "id": "46",
+    "name": "Vintage Brass Finish Goblet Candle Holders (Set of 2)",
+    "price": 1650,
+    "image": "/images/products/46.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Brass-finish metal with gold inner lining",
+      "DESIGN: Vintage goblet style with intricate floral embossing",
+      "DIMENSIONS: 7 inches height each",
+      "USAGE: Suitable as decorative showpiece, candle/tealight holder, or centerpiece",
+      "FINISH: Antique matte bronze outer with polished gold inner"
+    ],
+    "features": [
+      "BRAND: Premium heritage gifting collection",
+      "STYLE: Royal vintage design inspired by traditional goblets",
+      "DURABILITY: Made of sturdy metal with long-lasting finish",
+      "USAGE: Ideal for weddings, home décor, and festive gifting",
+      "UNIQUENESS: Hand-embossed floral artistry with antique appeal"
+    ]
+  },
   {
-  "id": "49",
-  "name": "Diwali Pooja Kit – Complete Festive Gift Box (Orange Edition)",
-  "price": 1450,
-  "image": "/images/products/49.png",
-  "category": "Giftings",
-  "subcategory": "Festive Gifting",
-  "specification": [
-    "PACKAGE: Premium festive orange box with traditional mandala design",
-    "CONTENT: Includes 20+ essential pooja items such as Laxmi Ganesh Frame, Metal Urli, Gold Foil Bandhanwar, 2 Pcs Rangoli Colors, Roli, Sindoor, Akshat, Rui Batti, Kheel, Kamal Gatta, Peeli Sarson, Haldi, Laung, Elaichi, Kapoor, Supari, Red Cloth, Dhoop Cones, Ittar, Ganga Jal, Mishri, Indra Jau, Dhania Seeds, Abir",
-    "USAGE: Perfect for Diwali puja rituals, festive gifting, wedding gifts & corporate hampers",
-    "PACKAGING: Reusable gift box with organized compartments",
-    "DIMENSIONS: Medium festive hamper size (customizable options available)"
-  ],
-  "features": [
-    "COMPLETE SET: Includes all essential items needed for Diwali puja",
-    "AUSPICIOUS: Enhances festive rituals with authentic samagri",
-    "READY-TO-GIFT: Elegant packaging with festive design",
-    "MULTI-PURPOSE: Suitable for homes, weddings, and corporate Diwali gifting",
-    "QUALITY: Hygienically packed with premium pooja samagri"
-  ]
-},
+    "id": "47",
+    "name": "Diwali Pooja Kit – Complete Festive Gift Box",
+    "price": 1650,
+    "image": "/images/products/47.png",
+    "category": "Giftings",
+    "subcategory": "Festive Gifting",
+    "specification": [
+      "PACKAGE: Premium festive gift box with elegant peacock design",
+      "CONTENT: Includes 25+ traditional pooja items such as Laxmi Ganesh Murti, Metal Urli, Floating Flower, Lotus Latkan, 4-Color Rangoli, Cloth Bandhanwar, Roli, Sindoor, Akshat, Rui Batti, Kheel, Kamal Gatta, Peeli Sarson, Haldi, Kapoor, Supari, Dhup Cones, Ganga Jal, Mishri, Indra Jau, Dhania Seeds, Abir, Ittar & more",
+      "USAGE: Suitable for Diwali puja rituals, home celebrations, wedding return gifts & corporate gifting",
+      "PACKAGING: Attractive reusable box with organized compartments",
+      "DIMENSIONS: Standard medium hamper size (customizable on request)"
+    ],
+    "features": [
+      "COMPLETE SET: All essential pooja samagri in one kit",
+      "AUSPICIOUS: Traditional & authentic items curated for Diwali rituals",
+      "GIFT-READY: Premium festive packaging – no extra wrapping needed",
+      "MULTI-PURPOSE: Ideal for families, weddings, and corporate festive hampers",
+      "QUALITY: Handpicked, hygienically packed items ensuring authenticity"
+    ]
+  },
   {
-  "id": "50",
-  "name": "Decorative Elephant Gift Box (Set of 2)",
-  "price": 2850,
-  "image": "/images/products/50.png",
-  "category": "Giftings",
-  "subcategory": "Festive Gifting",
-  "specification": [
-    "MATERIAL: Handcrafted premium metal with antique silver and golden finish",
-    "DESIGN: Pair of intricately carved decorative elephants",
-    "DIMENSIONS: Medium-sized figurines (customizable on request)",
-    "PACKAGING: Luxury velvet-lined gift box with red satin interior",
-    "USAGE: Ideal for auspicious gifting, wedding souvenirs, home decor & corporate festive hampers"
-  ],
-  "features": [
-    "PREMIUM QUALITY: Durable handcrafted metal with fine detailing",
-    "AUSPICIOUS SYMBOLISM: Elephants represent wisdom, strength, and prosperity",
-    "READY-TO-GIFT: Comes in an elegant velvet gift box",
-    "MULTI-PURPOSE: Perfect for weddings, festive gifts, and corporate hampers",
-    "DECORATIVE: Enhances home, temple, and office décor with a royal touch"
-  ]
-},
+    "id": "48",
+    "name": "Big Sankh Gift Box",
+    "price": 3250,
+    "image": "/images/products/48.png",
+    "category": "Giftings",
+    "subcategory": "Festive Gifting",
+    "specification": [
+      "MATERIAL: Premium metal-plated decorative Sankh with intricate hand-carved detailing",
+      "DESIGN: Golden and silver finish with embossed religious motifs",
+      "DIMENSIONS: Large size Sankh (custom sizes available on request)",
+      "PACKAGING: Comes in a luxury velvet-lined red gift box with golden clasp",
+      "USAGE: Ideal for temple decor, auspicious rituals, wedding gifts, and corporate festive gifting"
+    ],
+    "features": [
+      "PREMIUM QUALITY: Strong and durable with elegant metallic finish",
+      "AUSPICIOUS: Symbol of prosperity, purity, and good fortune",
+      "LUXURY PACKAGING: Velvet-lined hard box makes it ready for gifting",
+      "ARTISANAL: Handcrafted with intricate detailing and traditional artistry",
+      "MULTI-PURPOSE: Suitable for personal worship, home decor, weddings, and festive corporate hampers"
+    ]
+  },
   {
-  "id": "51",
-  "name": "Peacock Embossed Decorative Gift Box",
-  "price": 2950,
-  "image": "/images/products/51.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium resin and metal blend with embossed silver peacock design",
-    "DESIGN: Handcrafted green decorative box with intricate peacock artistry",
-    "DIMENSIONS: Medium-size keepsake box (custom sizes available on request)",
-    "PACKAGING: Comes in protective casing, gift-ready presentation",
-    "USAGE: Ideal for storing jewelry, dry fruits, chocolates, and wedding gifts"
-  ],
-  "features": [
-    "ARTISANAL: Handcrafted with detailed silver-tone peacock embossing",
-    "PREMIUM LOOK: Glossy green finish with luxury appeal",
-    "MULTI-PURPOSE: Perfect for weddings, festive gifting, and home décor",
-    "DURABILITY: Strong and long-lasting with fine detailing",
-    "UNIQUE: Distinctive peacock design symbolizing prosperity and elegance"
-  ]
-},
+    "id": "49",
+    "name": "Diwali Pooja Kit – Complete Festive Gift Box (Orange Edition)",
+    "price": 1450,
+    "image": "/images/products/49.png",
+    "category": "Giftings",
+    "subcategory": "Festive Gifting",
+    "specification": [
+      "PACKAGE: Premium festive orange box with traditional mandala design",
+      "CONTENT: Includes 20+ essential pooja items such as Laxmi Ganesh Frame, Metal Urli, Gold Foil Bandhanwar, 2 Pcs Rangoli Colors, Roli, Sindoor, Akshat, Rui Batti, Kheel, Kamal Gatta, Peeli Sarson, Haldi, Laung, Elaichi, Kapoor, Supari, Red Cloth, Dhoop Cones, Ittar, Ganga Jal, Mishri, Indra Jau, Dhania Seeds, Abir",
+      "USAGE: Perfect for Diwali puja rituals, festive gifting, wedding gifts & corporate hampers",
+      "PACKAGING: Reusable gift box with organized compartments",
+      "DIMENSIONS: Medium festive hamper size (customizable options available)"
+    ],
+    "features": [
+      "COMPLETE SET: Includes all essential items needed for Diwali puja",
+      "AUSPICIOUS: Enhances festive rituals with authentic samagri",
+      "READY-TO-GIFT: Elegant packaging with festive design",
+      "MULTI-PURPOSE: Suitable for homes, weddings, and corporate Diwali gifting",
+      "QUALITY: Hygienically packed with premium pooja samagri"
+    ]
+  },
   {
-  "id": "52",
-  "name": "Royal Peacock & Elephant Decorative Gift Set",
-  "price": 6250,
-  "image": "/images/products/52.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium metal with turquoise enamel finish and silver detailing",
-    "DESIGN: Set includes a royal peacock-embossed storage box and 2 decorative elephant jars",
-    "DIMENSIONS: Large gift set with luxury presence",
-    "PACKAGING: Comes in a velvet-lined hard case with gold clasp",
-    "USAGE: Ideal for wedding gifting, corporate hampers, home décor & festive occasions"
-  ],
-  "features": [
-    "LUXURIOUS: Combination of peacock and elephant motifs symbolizing prosperity & strength",
-    "HANDCRAFTED: Intricate embossed detailing with antique silver finish",
-    "READY-TO-GIFT: Premium presentation box with protective velvet lining",
-    "MULTI-PURPOSE: Perfect for weddings, festive gifting, and corporate luxury hampers",
-    "PREMIUM COLLECTION: Distinctive design that stands out as a statement piece"
-  ]
-},
+    "id": "50",
+    "name": "Decorative Elephant Gift Box (Set of 2)",
+    "price": 2850,
+    "image": "/images/products/50.png",
+    "category": "Giftings",
+    "subcategory": "Festive Gifting",
+    "specification": [
+      "MATERIAL: Handcrafted premium metal with antique silver and golden finish",
+      "DESIGN: Pair of intricately carved decorative elephants",
+      "DIMENSIONS: Medium-sized figurines (customizable on request)",
+      "PACKAGING: Luxury velvet-lined gift box with red satin interior",
+      "USAGE: Ideal for auspicious gifting, wedding souvenirs, home decor & corporate festive hampers"
+    ],
+    "features": [
+      "PREMIUM QUALITY: Durable handcrafted metal with fine detailing",
+      "AUSPICIOUS SYMBOLISM: Elephants represent wisdom, strength, and prosperity",
+      "READY-TO-GIFT: Comes in an elegant velvet gift box",
+      "MULTI-PURPOSE: Perfect for weddings, festive gifts, and corporate hampers",
+      "DECORATIVE: Enhances home, temple, and office décor with a royal touch"
+    ]
+  },
   {
-  "id": "53",
-  "name": "Silver-Plated Bowl Set with Tray (3 Pieces)",
-  "price": 2450,
-  "image": "/images/products/53.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium silver-plated brass",
-    "DESIGN: 3 intricately carved bowls with spoons placed on a tray",
-    "DIMENSIONS: Tray length 12 inches, bowl height 3 inches",
-    "USAGE: Ideal for serving dry fruits, sweets, or as festive décor",
-    "FINISH: Glossy silver polish with embossed detailing"
-  ],
-  "features": [
-    "BRAND: Heritage luxury gifting",
-    "STYLE: Traditional Indian design",
-    "DURABILITY: Long-lasting silver polish finish",
-    "USAGE: Wedding, festive occasions, and corporate gifting",
-    "UNIQUENESS: Comes with an elegant velvet storage box"
-  ]
-},
+    "id": "51",
+    "name": "Peacock Embossed Decorative Gift Box",
+    "price": 2950,
+    "image": "/images/products/51.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium resin and metal blend with embossed silver peacock design",
+      "DESIGN: Handcrafted green decorative box with intricate peacock artistry",
+      "DIMENSIONS: Medium-size keepsake box (custom sizes available on request)",
+      "PACKAGING: Comes in protective casing, gift-ready presentation",
+      "USAGE: Ideal for storing jewelry, dry fruits, chocolates, and wedding gifts"
+    ],
+    "features": [
+      "ARTISANAL: Handcrafted with detailed silver-tone peacock embossing",
+      "PREMIUM LOOK: Glossy green finish with luxury appeal",
+      "MULTI-PURPOSE: Perfect for weddings, festive gifting, and home décor",
+      "DURABILITY: Strong and long-lasting with fine detailing",
+      "UNIQUE: Distinctive peacock design symbolizing prosperity and elegance"
+    ]
+  },
   {
-  "id": "54",
-  "name": "Antique Twin Bowl Parrot Stand",
-  "price": 1850,
-  "image": "/images/products/54.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Brass with antique bronze finish",
-    "DESIGN: Two bowls supported on branches with perched parrots",
-    "DIMENSIONS: 10 inches height",
-    "USAGE: Can hold dry fruits, flowers, or tealights",
-    "FINISH: Antique hand-carved with matte polish"
-  ],
-  "features": [
-    "BRAND: Premium artistic gifting collection",
-    "STYLE: Vintage parrot design",
-    "DURABILITY: Sturdy brass construction",
-    "USAGE: Ideal for Diwali, weddings, and home décor",
-    "UNIQUENESS: Handcrafted dual-bowl design"
-  ]
-},
+    "id": "52",
+    "name": "Royal Peacock & Elephant Decorative Gift Set",
+    "price": 6250,
+    "image": "/images/products/52.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium metal with turquoise enamel finish and silver detailing",
+      "DESIGN: Set includes a royal peacock-embossed storage box and 2 decorative elephant jars",
+      "DIMENSIONS: Large gift set with luxury presence",
+      "PACKAGING: Comes in a velvet-lined hard case with gold clasp",
+      "USAGE: Ideal for wedding gifting, corporate hampers, home décor & festive occasions"
+    ],
+    "features": [
+      "LUXURIOUS: Combination of peacock and elephant motifs symbolizing prosperity & strength",
+      "HANDCRAFTED: Intricate embossed detailing with antique silver finish",
+      "READY-TO-GIFT: Premium presentation box with protective velvet lining",
+      "MULTI-PURPOSE: Perfect for weddings, festive gifting, and corporate luxury hampers",
+      "PREMIUM COLLECTION: Distinctive design that stands out as a statement piece"
+    ]
+  },
   {
-  "id": "55",
-  "name": "Silver-Plated Designer Pooja Thali Set",
-  "price": 2200,
-  "image": "/images/products/55.png",
-  "category": "Giftings",
-  "subcategory": "Festive Gifting",
-  "specification": [
-    "MATERIAL: Premium silver-plated metal",
-    "DESIGN: Intricately carved thali with Swastik symbol, includes diya and bell",
-    "DIMENSIONS: Thali diameter 12 inches",
-    "USAGE: Suitable for pooja, festive rituals, or gifting",
-    "FINISH: Glossy silver polish with traditional artistry"
-  ],
-  "features": [
-    "BRAND: Devotional luxury gifting collection",
-    "STYLE: Traditional religious pooja thali",
-    "DURABILITY: Long-lasting silver plating",
-    "USAGE: Perfect for Diwali, Navratri, or weddings",
-    "UNIQUENESS: Includes diya holders and bell"
-  ]
-},
- {
-  "id": "56",
-  "name": "Peacock Decorative Bowl with Enamel Work",
-  "price": 1990,
-  "image": "/images/products/56.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Metal with silver finish and enamel detailing",
-    "DESIGN: Peacock body holding a floral-shaped bowl",
-    "DIMENSIONS: 9 inches height",
-    "USAGE: Perfect for dry fruits, décor, or as a centerpiece",
-    "FINISH: Hand-painted enamel with antique polish"
-  ],
-  "features": [
-    "BRAND: Royal heritage gifting collection",
-    "STYLE: Artistic peacock design",
-    "DURABILITY: Strong metal with enamel work",
-    "USAGE: Ideal for weddings, Diwali, and festive décor",
-    "UNIQUENESS: Intricate hand-enamel with embedded stones"
-  ]
-},
+    "id": "53",
+    "name": "Silver-Plated Bowl Set with Tray (3 Pieces)",
+    "price": 2450,
+    "image": "/images/products/53.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium silver-plated brass",
+      "DESIGN: 3 intricately carved bowls with spoons placed on a tray",
+      "DIMENSIONS: Tray length 12 inches, bowl height 3 inches",
+      "USAGE: Ideal for serving dry fruits, sweets, or as festive décor",
+      "FINISH: Glossy silver polish with embossed detailing"
+    ],
+    "features": [
+      "BRAND: Heritage luxury gifting",
+      "STYLE: Traditional Indian design",
+      "DURABILITY: Long-lasting silver polish finish",
+      "USAGE: Wedding, festive occasions, and corporate gifting",
+      "UNIQUENESS: Comes with an elegant velvet storage box"
+    ]
+  },
   {
-  "id": "57",
-  "name": "Golden Banana Leaf Decorative Platter",
-  "price": 1350,
-  "image": "/images/products/57.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Aluminium with golden finish",
-    "DESIGN: Banana leaf shaped platter with realistic vein detailing",
-    "DIMENSIONS: 12 inches length",
-    "USAGE: Suitable for serving, décor, or gifting",
-    "FINISH: Glossy golden polish"
-  ],
-  "features": [
-    "BRAND: Designer gifting collection",
-    "STYLE: Nature-inspired platter design",
-    "DURABILITY: Lightweight yet strong aluminium",
-    "USAGE: Ideal for home décor and festive gifting",
-    "UNIQUENESS: Artistic banana leaf impression"
-  ]
-},
+    "id": "54",
+    "name": "Antique Twin Bowl Parrot Stand",
+    "price": 1850,
+    "image": "/images/products/54.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Brass with antique bronze finish",
+      "DESIGN: Two bowls supported on branches with perched parrots",
+      "DIMENSIONS: 10 inches height",
+      "USAGE: Can hold dry fruits, flowers, or tealights",
+      "FINISH: Antique hand-carved with matte polish"
+    ],
+    "features": [
+      "BRAND: Premium artistic gifting collection",
+      "STYLE: Vintage parrot design",
+      "DURABILITY: Sturdy brass construction",
+      "USAGE: Ideal for Diwali, weddings, and home décor",
+      "UNIQUENESS: Handcrafted dual-bowl design"
+    ]
+  },
   {
-  "id": "58",
-  "name": "Golden Floral Leaf Decorative Bowl",
-  "price": 1250,
-  "image": "/images/products/58.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Aluminium with gold plating",
-    "DESIGN: Large leaf-shaped bowl with embossed veins",
-    "DIMENSIONS: 10 inches diameter",
-    "USAGE: Can be used as fruit bowl, centerpiece, or décor",
-    "FINISH: Glossy golden finish"
-  ],
-  "features": [
-    "BRAND: Elegant gifting collection",
-    "STYLE: Floral leaf-inspired luxury bowl",
-    "DURABILITY: Long-lasting aluminium with polish",
-    "USAGE: Suitable for weddings, festive, or home décor gifting",
-    "UNIQUENESS: Handcrafted golden leaf artistry"
-  ]
-},
+    "id": "55",
+    "name": "Silver-Plated Designer Pooja Thali Set",
+    "price": 2200,
+    "image": "/images/products/55.png",
+    "category": "Giftings",
+    "subcategory": "Festive Gifting",
+    "specification": [
+      "MATERIAL: Premium silver-plated metal",
+      "DESIGN: Intricately carved thali with Swastik symbol, includes diya and bell",
+      "DIMENSIONS: Thali diameter 12 inches",
+      "USAGE: Suitable for pooja, festive rituals, or gifting",
+      "FINISH: Glossy silver polish with traditional artistry"
+    ],
+    "features": [
+      "BRAND: Devotional luxury gifting collection",
+      "STYLE: Traditional religious pooja thali",
+      "DURABILITY: Long-lasting silver plating",
+      "USAGE: Perfect for Diwali, Navratri, or weddings",
+      "UNIQUENESS: Includes diya holders and bell"
+    ]
+  },
   {
-  "id": "59",
-  "name": "Elephant & Tree Print Bedsheet Set",
-  "price": 1499,
-  "image": "/images/products/59.png",
-  "category": "Home Furnishing",
-  "subcategory": "Bedsheets",
-  "specification": [
-    "MATERIAL: Premium cotton blend fabric",
-    "DESIGN: Intricate elephant and tree motif print",
-    "DIMENSIONS: 108 x 108 inches (king size)",
-    "INCLUDES: 1 bedsheet with 2 matching pillow covers",
-    "FINISH: Smooth, soft-touch finish with detailed print"
-  ],
-  "features": [
-    "BRAND: Royal Supreme Collection",
-    "STYLE: Ethnic-inspired traditional elephant design",
-    "DURABILITY: Long-lasting color and fabric strength",
-    "USAGE: Perfect for daily use and festive occasions",
-    "UNIQUENESS: Classic elephant artwork for royal décor"
-  ]
-},
+    "id": "56",
+    "name": "Peacock Decorative Bowl with Enamel Work",
+    "price": 1990,
+    "image": "/images/products/56.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Metal with silver finish and enamel detailing",
+      "DESIGN: Peacock body holding a floral-shaped bowl",
+      "DIMENSIONS: 9 inches height",
+      "USAGE: Perfect for dry fruits, décor, or as a centerpiece",
+      "FINISH: Hand-painted enamel with antique polish"
+    ],
+    "features": [
+      "BRAND: Royal heritage gifting collection",
+      "STYLE: Artistic peacock design",
+      "DURABILITY: Strong metal with enamel work",
+      "USAGE: Ideal for weddings, Diwali, and festive décor",
+      "UNIQUENESS: Intricate hand-enamel with embedded stones"
+    ]
+  },
   {
-  "id": "60",
-  "name": "Tribal Art Print Bedsheet Set",
-  "price": 1599,
-  "image": "/images/products/60.png",
-  "category": "Home Furnishing",
-  "subcategory": "Bedsheets",
-  "specification": [
-    "MATERIAL: Soft cotton fabric",
-    "DESIGN: Tribal women art motif with nature theme",
-    "DIMENSIONS: 108 x 108 inches (king size)",
-    "INCLUDES: 1 bedsheet with 2 pillow covers",
-    "FINISH: Breathable, lightweight fabric with smooth finish"
-  ],
-  "features": [
-    "BRAND: Royal Supreme Collection",
-    "STYLE: Contemporary tribal art-inspired print",
-    "DURABILITY: High-quality fabric for daily use",
-    "USAGE: Ideal for modern homes and gifting",
-    "UNIQUENESS: Handcrafted artistic appeal"
-  ]
-},
+    "id": "57",
+    "name": "Golden Banana Leaf Decorative Platter",
+    "price": 1350,
+    "image": "/images/products/57.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Aluminium with golden finish",
+      "DESIGN: Banana leaf shaped platter with realistic vein detailing",
+      "DIMENSIONS: 12 inches length",
+      "USAGE: Suitable for serving, décor, or gifting",
+      "FINISH: Glossy golden polish"
+    ],
+    "features": [
+      "BRAND: Designer gifting collection",
+      "STYLE: Nature-inspired platter design",
+      "DURABILITY: Lightweight yet strong aluminium",
+      "USAGE: Ideal for home décor and festive gifting",
+      "UNIQUENESS: Artistic banana leaf impression"
+    ]
+  },
   {
-  "id": "61",
-  "name": "Tree of Life Print Bedsheet Set",
-  "price": 1399,
-  "image": "/images/products/61.png",
-  "category": "Home Furnishing",
-  "subcategory": "Bedsheets",
-  "specification": [
-    "MATERIAL: Cotton-rich fabric with premium feel",
-    "DESIGN: Tree of Life print with detailed roots",
-    "DIMENSIONS: 108 x 108 inches (king size)",
-    "INCLUDES: 1 bedsheet and 2 matching pillow covers",
-    "FINISH: Elegant matte finish with subtle tones"
-  ],
-  "features": [
-    "BRAND: Tree House Collection",
-    "STYLE: Nature-inspired design",
-    "DURABILITY: Strong weave with colorfast prints",
-    "USAGE: Suitable for all-season use",
-    "UNIQUENESS: Spiritual and calming tree motif"
-  ]
-},
+    "id": "58",
+    "name": "Golden Floral Leaf Decorative Bowl",
+    "price": 1250,
+    "image": "/images/products/58.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Aluminium with gold plating",
+      "DESIGN: Large leaf-shaped bowl with embossed veins",
+      "DIMENSIONS: 10 inches diameter",
+      "USAGE: Can be used as fruit bowl, centerpiece, or décor",
+      "FINISH: Glossy golden finish"
+    ],
+    "features": [
+      "BRAND: Elegant gifting collection",
+      "STYLE: Floral leaf-inspired luxury bowl",
+      "DURABILITY: Long-lasting aluminium with polish",
+      "USAGE: Suitable for weddings, festive, or home décor gifting",
+      "UNIQUENESS: Handcrafted golden leaf artistry"
+    ]
+  },
   {
-  "id": "62",
-  "name": "Blue Floral Embroidered Bedsheet Set",
-  "price": 1699,
-  "image": "/images/products/62.png",
-  "category": "Home Furnishing",
-  "subcategory": "Bedsheets",
-  "specification": [
-    "MATERIAL: Soft cotton blend fabric",
-    "DESIGN: Floral embroidered-style print in white",
-    "DIMENSIONS: 108 x 108 inches (king size)",
-    "INCLUDES: 1 bedsheet with 2 pillow covers",
-    "FINISH: Smooth and premium look"
-  ],
-  "features": [
-    "BRAND: Royal Supreme Collection",
-    "STYLE: Elegant floral pattern on solid blue base",
-    "DURABILITY: High-quality stitching and fabric",
-    "USAGE: Perfect for home décor and gifting",
-    "UNIQUENESS: Rich blue tone with intricate floral motifs"
-  ]
-},
-{ 
-  "id": "63",
-  "name": "Luxury Wedding Bedsheet Hamper Gift Box",
-  "price": 2850,
-  "image": "/images/products/59.png",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium rigid gift box with fabric bedsheet set",
-    "DESIGN: Elegant green floral textured hamper with golden handle and lock",
-    "DIMENSIONS: Approx. 14 x 10 x 6 inches box",
-    "USAGE: Ideal for wedding return gifts, trousseau packing, and premium gifting",
-    "FINISH: Luxury matte textured finish with gold hardware"
-  ],
-  "features": [
-    "BRAND: Premium wedding gifting collection",
-    "STYLE: Royal luxury hamper presentation box",
-    "DURABILITY: Strong rigid structure with metal handle and clasp lock",
-    "USAGE: Perfect for weddings, engagements, festive gifting, and trousseau",
-    "UNIQUENESS: Elegant packaging with folded bedsheet tied with ribbon inside"
-  ]
-},
-{ 
-  "id": "64",
-  "name": "100% Cotton Geometric Print Double Bedsheet with 2 Pillow Covers",
-  "price": 2850,
-  "image": "/images/products/64.jpeg",
-  "category": "Giftings",
-  "subcategory": "Wedding Gifting",
-  "specification": [
-    "MATERIAL: Premium rigid gift box with fabric bedsheet set",
-    "DESIGN: Elegant green floral textured hamper with golden handle and lock",
-    "DIMENSIONS: Approx. 14 x 10 x 6 inches box",
-    "USAGE: Ideal for wedding return gifts, trousseau packing, and premium gifting",
-    "FINISH: Luxury matte textured finish with gold hardware"
-  ],
-  "features": [
-    "BRAND: Premium wedding gifting collection",
-    "STYLE: Royal luxury hamper presentation box",
-    "DURABILITY: Strong rigid structure with metal handle and clasp lock",
-    "USAGE: Perfect for weddings, engagements, festive gifting, and trousseau",
-    "UNIQUENESS: Elegant packaging with folded bedsheet tied with ribbon inside"
-  ],
-  "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
-}
+    "id": "59",
+    "name": "Elephant & Tree Print Bedsheet Set",
+    "price": 1499,
+    "image": "/images/products/59.png",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: Premium cotton blend fabric",
+      "DESIGN: Intricate elephant and tree motif print",
+      "DIMENSIONS: 108 x 108 inches (king size)",
+      "INCLUDES: 1 bedsheet with 2 matching pillow covers",
+      "FINISH: Smooth, soft-touch finish with detailed print"
+    ],
+    "features": [
+      "BRAND: Royal Supreme Collection",
+      "STYLE: Ethnic-inspired traditional elephant design",
+      "DURABILITY: Long-lasting color and fabric strength",
+      "USAGE: Perfect for daily use and festive occasions",
+      "UNIQUENESS: Classic elephant artwork for royal décor"
+    ]
+  },
+  {
+    "id": "60",
+    "name": "Tribal Art Print Bedsheet Set",
+    "price": 1599,
+    "image": "/images/products/60.png",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: Soft cotton fabric",
+      "DESIGN: Tribal women art motif with nature theme",
+      "DIMENSIONS: 108 x 108 inches (king size)",
+      "INCLUDES: 1 bedsheet with 2 pillow covers",
+      "FINISH: Breathable, lightweight fabric with smooth finish"
+    ],
+    "features": [
+      "BRAND: Royal Supreme Collection",
+      "STYLE: Contemporary tribal art-inspired print",
+      "DURABILITY: High-quality fabric for daily use",
+      "USAGE: Ideal for modern homes and gifting",
+      "UNIQUENESS: Handcrafted artistic appeal"
+    ]
+  },
+  {
+    "id": "61",
+    "name": "Tree of Life Print Bedsheet Set",
+    "price": 1399,
+    "image": "/images/products/61.png",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: Cotton-rich fabric with premium feel",
+      "DESIGN: Tree of Life print with detailed roots",
+      "DIMENSIONS: 108 x 108 inches (king size)",
+      "INCLUDES: 1 bedsheet and 2 matching pillow covers",
+      "FINISH: Elegant matte finish with subtle tones"
+    ],
+    "features": [
+      "BRAND: Tree House Collection",
+      "STYLE: Nature-inspired design",
+      "DURABILITY: Strong weave with colorfast prints",
+      "USAGE: Suitable for all-season use",
+      "UNIQUENESS: Spiritual and calming tree motif"
+    ]
+  },
+  {
+    "id": "62",
+    "name": "Blue Floral Embroidered Bedsheet Set",
+    "price": 1699,
+    "image": "/images/products/62.png",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: Soft cotton blend fabric",
+      "DESIGN: Floral embroidered-style print in white",
+      "DIMENSIONS: 108 x 108 inches (king size)",
+      "INCLUDES: 1 bedsheet with 2 pillow covers",
+      "FINISH: Smooth and premium look"
+    ],
+    "features": [
+      "BRAND: Royal Supreme Collection",
+      "STYLE: Elegant floral pattern on solid blue base",
+      "DURABILITY: High-quality stitching and fabric",
+      "USAGE: Perfect for home décor and gifting",
+      "UNIQUENESS: Rich blue tone with intricate floral motifs"
+    ]
+  },
+  {
+    "id": "63",
+    "name": "Luxury Wedding Bedsheet Hamper Gift Box",
+    "price": 2850,
+    "image": "/images/products/59.png",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium rigid gift box with fabric bedsheet set",
+      "DESIGN: Elegant green floral textured hamper with golden handle and lock",
+      "DIMENSIONS: Approx. 14 x 10 x 6 inches box",
+      "USAGE: Ideal for wedding return gifts, trousseau packing, and premium gifting",
+      "FINISH: Luxury matte textured finish with gold hardware"
+    ],
+    "features": [
+      "BRAND: Premium wedding gifting collection",
+      "STYLE: Royal luxury hamper presentation box",
+      "DURABILITY: Strong rigid structure with metal handle and clasp lock",
+      "USAGE: Perfect for weddings, engagements, festive gifting, and trousseau",
+      "UNIQUENESS: Elegant packaging with folded bedsheet tied with ribbon inside"
+    ]
+  },
+  {
+    "id": "64",
+    "name": "100% Cotton Geometric Print Double Bedsheet with 2 Pillow Covers",
+    "price": 2850,
+    "image": "/images/products/64.jpeg",
+    "category": "Giftings",
+    "subcategory": "Wedding Gifting",
+    "specification": [
+      "MATERIAL: Premium rigid gift box with fabric bedsheet set",
+      "DESIGN: Elegant green floral textured hamper with golden handle and lock",
+      "DIMENSIONS: Approx. 14 x 10 x 6 inches box",
+      "USAGE: Ideal for wedding return gifts, trousseau packing, and premium gifting",
+      "FINISH: Luxury matte textured finish with gold hardware"
+    ],
+    "features": [
+      "BRAND: Premium wedding gifting collection",
+      "STYLE: Royal luxury hamper presentation box",
+      "DURABILITY: Strong rigid structure with metal handle and clasp lock",
+      "USAGE: Perfect for weddings, engagements, festive gifting, and trousseau",
+      "UNIQUENESS: Elegant packaging with folded bedsheet tied with ribbon inside"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "65",
+    "name": "100% Cotton Geometric Print Double Bedsheet with 2 Pillow Covers",
+    "price": 1499,
+    "image": "/images/products/65.png",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Cotton",
+      "SIZE: Double Bed (Bedsheet: 90 x 100 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 144 TC",
+      "SET INCLUDES: 3 Pieces, 1 Bedsheet + 2 Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Geometric Print",
+      "COLOR: Blue and Beige",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft and breathable cotton fabric",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "66",
+    "name": "100% Cotton Check with Polka Dot Print Double Bedsheet Set with 2 Pillow Covers",
+    "price": 1499,
+    "image": "/images/products/66.jpeg",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Cotton",
+      "SIZE: Double Bed (Bedsheet: 90 x 100 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 144 TC",
+      "SET INCLUDES: 3 Pieces"
+    ],
+    "features": [
+      "PATTERN: Check with Polka Dot Print",
+      "COLOR: Taupe / Beige",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft and breathable cotton fabric",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "67",
+    "name": "100% Cotton Check Print Double Bedsheet Set with 2 Pillow Covers",
+    "price": 1499,
+    "image": "/images/products/67.png",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Cotton",
+      "SIZE: Double Bed (90 x 100 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 144 TC",
+      "SET INCLUDES: 1 Double Bedsheet, 2 Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Check Print",
+      "COLOR: Maroon, Brown and Beige",
+      "CARE: Machine wash below 40°C, Do not bleach, Dry in shade",
+      "COMFORT: Soft and breathable cotton fabric",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "68",
+    "name": "100% Cotton Floral Print Double Bedsheet Set with 2 Pillow Covers",
+    "price": 1499,
+    "image": "/images/products/68.jpeg",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Cotton",
+      "SIZE: Double Bed (90 x 100 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 144 TC",
+      "SET INCLUDES: 1 Double Bedsheet, 2 Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Floral Print",
+      "COLOR: White and Purple",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft and breathable cotton fabric",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "69",
+    "name": "100% Cotton Floral Checkered Print Double Bedsheet Set with 2 Pillow Covers",
+    "price": 1499,
+    "image": "/images/products/69.png",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Cotton",
+      "SIZE: Double Bed (90 x 100 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 144 TC",
+      "SET INCLUDES: 1 Double Bedsheet, 2 Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Floral Checkered Print",
+      "COLOR: Purple with White and Blue Accents",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft and breathable cotton fabric",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "70",
+    "name": "100% Cotton Geometric Print Double Bedsheet with 2 Pillow Covers",
+    "price": 1499,
+    "image": "/images/products/70.jpeg",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Cotton",
+      "SIZE: Double Bed (Bedsheet: 90 x 100 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 144 TC",
+      "SET INCLUDES: 3 Pieces, 1 Bedsheet + 2 Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Geometric Print",
+      "COLOR: Pink and White",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft and breathable cotton fabric",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "71",
+    "name": "100% Cotton Printed Double Bedsheet with 2 Pillow Covers",
+    "price": 1499,
+    "image": "/images/products/71.jpeg",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Cotton",
+      "SIZE: Double Bed (Bedsheet: 90 x 100 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 400 TC",
+      "SET INCLUDES: 3 Pieces, 1 Bedsheet + 2 Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Print",
+      "COLOR: Pink and White",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft and breathable cotton fabric",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "72",
+    "name": "100% Cotton Printed Double Bedsheet Set with 2 Pillow Covers",
+    "price": 1499,
+    "image": "/images/products/72.jpeg",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Cotton",
+      "SIZE: Double Bed (90 x 100 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 144 TC",
+      "SET INCLUDES: 1 Double Bedsheet + 2 Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Printed design",
+      "COLOR: Multi-color",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft and breathable cotton fabric",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "73",
+    "name": "100% Cotton Printed Grey Double Bedsheet with 2 Pillow Covers",
+    "price": 1499,
+    "image": "/images/products/73.jpeg",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Cotton",
+      "SIZE: Double Bed (Bedsheet: 90 x 100 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 400 TC",
+      "SET INCLUDES: 3 Pieces, 1 Bedsheet + 2 Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Print",
+      "COLOR: Grey",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft and breathable cotton fabric",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "74",
+    "name": "100% Pure Cotton Tree Floral Print Double Bedsheet Set with 2 Pillow Covers",
+    "price": 1499,
+    "image": "/images/products/74.jpeg",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Pure Cotton",
+      "SIZE: Double Bed (108 x 108 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 300 TC",
+      "SET INCLUDES: 1 Double Bedsheet, 2 Matching Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Tree Floral Print",
+      "COLOR: White base with Blue and Green Floral Motif",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft, breathable, and comfortable for everyday use",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "75",
+    "name": "100% Pure Cotton Geometric Print Double Bedsheet Set with 2 Pillow Covers",
+    "price": 1500,
+    "image": "/images/products/75.png",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Pure Cotton",
+      "SIZE: Double Bed (108 x 108 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 400 TC",
+      "SET INCLUDES: 1 Double Bedsheet, 2 Matching Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Geometric Print",
+      "COLOR: White base with Blue and Green Floral Motif",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft, breathable, and comfortable for everyday use",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "76",
+    "name": "100% Pure Cotton Paisley Print Double Bedsheet Set with 2 Pillow Covers",
+    "price": 1500,
+    "image": "/images/products/76.jpeg",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Pure Cotton",
+      "SIZE: Double Bed (108 x 108 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 400 TC",
+      "SET INCLUDES: 1 Double Bedsheet, 2 Matching Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Paisley Print",
+      "COLOR: Ivory with Warm taupe paisley print",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft, breathable, and comfortable for everyday use",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "77",
+    "name": "100% Pure Cotton Floral Botanical Print Double Bedsheet Set with 2 Pillow Covers",
+    "price": 1500,
+    "image": "/images/products/77.jpeg",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Pure Cotton",
+      "SIZE: Double Bed (108 x 108 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 400 TC",
+      "SET INCLUDES: 1 Double Bedsheet, 2 Matching Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Floral botanical Print",
+      "COLOR: Soft white with Aqua Floral print",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft, breathable, and comfortable for everyday use",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  },
+  {
+    "id": "78",
+    "name": "100% Pure Cotton Elegant Floral Geometric Print Double Bedsheet Set with 2 Pillow Covers",
+    "price": 1500,
+    "image": "/images/products/78.jpeg",
+    "category": "Home Furnishing",
+    "subcategory": "Bedsheets",
+    "specification": [
+      "MATERIAL: 100% Pure Cotton",
+      "SIZE: Double Bed (108 x 108 inches)",
+      "PILLOW COVERS: 18 x 27 inches",
+      "THREAD COUNT: 400 TC",
+      "SET INCLUDES: 1 Double Bedsheet, 2 Matching Pillow Covers"
+    ],
+    "features": [
+      "PATTERN: Elegant Floral Geometric Print",
+      "COLOR: Ivory White with Soft Grey",
+      "CARE: Machine wash cold, Do not bleach, Dry in shade",
+      "COMFORT: Soft, breathable, and comfortable for everyday use",
+      "ORIGIN: Made in India"
+    ],
+    "amazonLink": "https://www.amazon.in/s?k=AvailGlobal&ref=bl_dp_s_web_0"
+  }
 ]
